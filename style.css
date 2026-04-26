@@ -220,6 +220,168 @@ body {
   color: #017f1d;
 }
 
+/* ===== Voice Section ===== */
+.voice {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.voice__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.voice__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49px 241px;
+}
+
+.voice__header {
+  width: 724px;
+  height: 204px;
+  flex-shrink: 0;
+}
+
+.voice__header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.voice__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 804px;
+}
+
+.voice__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 2.529px solid #f66f00;
+  border-radius: 19px;
+  box-shadow: 5.058px 5.058px 9.484px rgba(133, 133, 133, 0.6);
+  padding: 23px 26px 23px 29px;
+  min-height: 295px;
+}
+
+.voice__card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 399px;
+  flex-shrink: 0;
+}
+
+.voice__card-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.voice__case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f66f00;
+  padding: 0 5px;
+  width: 59px;
+  height: 75px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.voice__case-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.26px;
+}
+
+.voice__case-num {
+  display: block;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.26px;
+}
+
+.voice__card-title {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: #f66f00;
+  letter-spacing: 2.5px;
+  line-height: 33px;
+  text-shadow: 2.529px 2.529px 5.058px rgba(0, 0, 0, 0.25);
+}
+
+.voice__card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-left: 10px;
+}
+
+.voice__card-name {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 700;
+  color: #4e2300;
+  letter-spacing: 1.26px;
+  line-height: 33px;
+}
+
+.voice__divider {
+  border: none;
+  border-top: 1.9px solid #f66f00;
+  margin: 3px 0;
+}
+
+.voice__card-text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4e2300;
+  letter-spacing: 1.9px;
+  line-height: 25px;
+}
+
+.voice__mark {
+  background: #ffff80;
+  color: #ff530c;
+  font-weight: 700;
+}
+
+.voice__card-photo {
+  width: 343px;
+  height: 247px;
+  border: 1.265px solid #fff;
+  border-radius: 19px;
+  overflow: hidden;
+  box-shadow: 0px 5.058px 5.058px 0px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
+.voice__card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* ===== Reassure Section ===== */
 .reassure {
   position: relative;
