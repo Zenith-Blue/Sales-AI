@@ -40,8 +40,8 @@ body {
 /* Right person image */
 .fv__person {
   position: absolute;
-  right: -54px;
-  top: 0;
+  right: -24px;
+  top: 20px;
   width: 577px;
   height: 775px;
   overflow: hidden;
