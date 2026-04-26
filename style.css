@@ -334,10 +334,13 @@ body {
 .reassure__caption-em {
   font-size: 38px;
   color: #ff530c;
-  text-emphasis: '・' #ff530c;
-  text-emphasis-position: over right;
-  -webkit-text-emphasis: '・' #ff530c;
-  -webkit-text-emphasis-position: over right;
+}
+
+.reassure__caption-em rt {
+  position: relative;
+  top: 2px;
+  color: #ff530c;
+  font-size: 0.6em;
 }
 
 .reassure__cta-wrap {
