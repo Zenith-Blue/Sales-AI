@@ -253,6 +253,8 @@ body {
   margin: 0;
   text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
   line-height: 1.1;
+  -webkit-text-stroke: 2px #515152;
+  paint-order: stroke fill;
 }
 
 .worries__hl-bold {
