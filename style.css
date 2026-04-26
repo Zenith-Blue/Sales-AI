@@ -1957,7 +1957,7 @@ body {
 .curriculum__stat-nums--min {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
   width: 100.368px;
   align-items: center;
 }
