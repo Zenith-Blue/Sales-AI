@@ -998,11 +998,11 @@ body {
   color: #4e1a05;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
 }
 
 .tokuten__badge--sm .tokuten__badge-text {
-  padding-bottom: 15px;
+  padding-bottom: 11px;
 }
 
 .tokuten__badge-label {
