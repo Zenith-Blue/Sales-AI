@@ -1933,6 +1933,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5px;
   font-weight: 700;
   color: #fe692c;
   width: 105.94px;
@@ -1956,7 +1957,7 @@ body {
 .curriculum__stat-nums--min {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 5px;
   width: 100.368px;
   align-items: center;
 }
@@ -1971,6 +1972,12 @@ body {
 .curriculum__stat-month {
   display: flex;
   align-items: flex-end;
+  gap: 0;
+}
+
+.curriculum__stat-month .curriculum__stat-unit--month {
+  line-height: 1;
+  padding-bottom: 4px;
 }
 
 .curriculum__stat-month .curriculum__stat-num {
