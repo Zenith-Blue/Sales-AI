@@ -2074,13 +2074,13 @@ body {
 .curriculum__circle-label {
   font-size: 12.13px;
   font-weight: 700;
-  line-height: 27.501px;
+  line-height: 1;
   display: block;
 }
 
 .curriculum__circle-num {
   font-size: 32.348px;
-  line-height: 27.501px;
+  line-height: 1;
   display: block;
 }
 
