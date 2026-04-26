@@ -1531,7 +1531,7 @@ body {
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .reason__robot-wrap img {
@@ -1546,7 +1546,7 @@ body {
   display: flex;
   justify-content: center;
   transform: scaleY(-1);
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .reason__dark-sep img {
