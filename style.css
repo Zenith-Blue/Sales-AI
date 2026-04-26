@@ -2062,9 +2062,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px 7px;
-  border-radius: 100px;
+  justify-content: center;
   width: 80px;
+  height: 80px;
+  border-radius: 50%;
   flex-shrink: 0;
   text-align: center;
   color: #fff;
