@@ -498,23 +498,24 @@ body {
 
 .reassure__caption-em {
   display: inline-block;
-  position: relative;
   font-size: 38px;
   color: #ff530c;
 }
 
-.reassure__caption-em::before {
-  content: '・ ・ ・ ・ ・';
-  display: block;
+.reassure__caption-ch {
+  position: relative;
+  display: inline-block;
+}
+
+.reassure__caption-ch::before {
+  content: '・';
   position: absolute;
   bottom: calc(100% - 4px);
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 17px;
   color: #ff530c;
   line-height: 1;
-  text-align: justify;
-  text-align-last: justify;
   pointer-events: none;
 }
 
