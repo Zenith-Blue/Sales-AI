@@ -1932,10 +1932,11 @@ body {
 .curriculum__stat-nums {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   font-weight: 700;
   color: #fe692c;
   width: 105.94px;
+  text-align: center;
 }
 
 .curriculum__stat-num {
@@ -1965,13 +1966,11 @@ body {
   font-weight: 700;
   line-height: 58.283px;
   color: #fe692c;
-  align-self: flex-start;
 }
 
 .curriculum__stat-month {
   display: flex;
   align-items: flex-end;
-  align-self: flex-start;
 }
 
 .curriculum__stat-month .curriculum__stat-num {
