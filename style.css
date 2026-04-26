@@ -1086,7 +1086,7 @@ body {
 
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { font-size: 14px; }
 .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 13px; }
-.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 9px; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 12px; }
 
 .tokuten__card-main {
   position: relative;
