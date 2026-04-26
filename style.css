@@ -121,6 +121,7 @@ body {
 .fv__headline--full {
   padding: 10px 25px 10px 25px;
   overflow: hidden;
+  align-self: flex-start;
 }
 
 .fv__headline--inline {
