@@ -57,30 +57,6 @@ body {
   pointer-events: none;
 }
 
-/* Person overlay caption */
-.fv__person-caption {
-  position: absolute;
-  right: 84px;
-  bottom: 106px;
-  text-align: center;
-  font-weight: 700;
-}
-
-.fv__person-caption p {
-  margin: 0;
-  background: linear-gradient(to right, #e7ff34, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.fv__person-caption p:first-child {
-  font-size: 38px;
-}
-
-.fv__person-caption p:last-child {
-  font-size: 42px;
-}
 
 /* Left content column */
 .fv__content {
