@@ -97,32 +97,27 @@ body {
 /* ===== Worry List ===== */
 .fv__worries {
   background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(255,255,255,0));
-  padding: 10px 166px 10px 60px;
+  padding: 6px 40px 6px 40px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0;
 }
 
 .fv__worry-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  padding: 8px 0;
 }
 
-.fv__check {
-  width: 55px;
-  height: 55px;
-  flex-shrink: 0;
-  filter: drop-shadow(0px 0px 1.664px white);
+.fv__worry-item:last-child {
+  border-bottom: none;
 }
 
 .fv__worry-text {
   margin: 0;
-  font-size: 23px;
+  font-size: 29px;
   font-weight: 700;
   color: #111;
-  letter-spacing: 1px;
-  text-decoration: line-through;
+  letter-spacing: 0.5px;
   text-shadow: 0px 0px 2.853px white, 0px 2.1px 2.1px #fff8f8;
 }
 
