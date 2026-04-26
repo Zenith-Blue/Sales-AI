@@ -344,7 +344,7 @@ body {
   content: '・ ・ ・ ・ ・';
   display: block;
   position: absolute;
-  bottom: 100%;
+  bottom: calc(100% + 6px);
   left: 0;
   width: 100%;
   font-size: 17px;
