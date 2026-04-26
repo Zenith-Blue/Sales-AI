@@ -326,7 +326,9 @@ body {
   color: #f66f00;
   letter-spacing: 2.5px;
   line-height: 33px;
-  text-shadow: 2.529px 2.529px 5.058px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 5px #ffffff;
+  paint-order: stroke fill;
+  filter: drop-shadow(2.529px 2.529px 5.058px rgba(0, 0, 0, 0.25));
 }
 
 .voice__card-body {
