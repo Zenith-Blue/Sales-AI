@@ -1532,6 +1532,7 @@ body {
   position: relative;
   flex-shrink: 0;
   margin-right: 10px;
+  top: -5px;
 }
 
 .reason__robot-wrap img {
