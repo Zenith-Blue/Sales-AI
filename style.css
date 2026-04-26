@@ -1330,3 +1330,58 @@ body {
   height: 107.38%;
   object-fit: cover;
 }
+
+/* ===== Eigyoryoku Section ===== */
+.eigyoryoku {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 41px 286px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eigyoryoku__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.eigyoryoku__inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.eigyoryoku__text {
+  font-size: 53.242px;
+  font-weight: 700;
+  letter-spacing: 2.6173px;
+  color: #fff;
+  text-shadow: 0px 9.116px 9.116px rgba(0, 0, 0, 0.25);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.eigyoryoku__text--yellow {
+  color: yellow;
+}
+
+.eigyoryoku__yellow-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eigyoryoku__underline {
+  width: 223.617px;
+  height: 4.259px;
+  background: yellow;
+  flex-shrink: 0;
+}
