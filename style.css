@@ -323,6 +323,7 @@ body {
 
 .reassure__caption {
   margin: 0;
+  padding-top: 26px;
   font-size: 31px;
   font-weight: 700;
   color: #fe692c;
