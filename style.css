@@ -266,9 +266,9 @@ body {
   color: #fe692c;
   text-align: center;
   letter-spacing: 1px;
-  text-shadow: 3.836px 3.836px 3.836px #c8c8c8;
   -webkit-text-stroke: 5px #ffffff;
   paint-order: stroke fill;
+  filter: drop-shadow(3.84px 3.84px 3.84px #c8c8c8);
 }
 
 .reassure__title-wrap {
@@ -295,9 +295,9 @@ body {
   color: #ff530c;
   text-align: center;
   letter-spacing: 1px;
-  text-shadow: 3.836px 3.836px 3.836px #c8c8c8;
   -webkit-text-stroke: 5px #ffffff;
   paint-order: stroke fill;
+  filter: drop-shadow(3.84px 3.84px 3.84px #c8c8c8);
   z-index: 1;
 }
 
