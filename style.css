@@ -1452,7 +1452,7 @@ body {
 .reason__dark-main .reason__yellow {
   text-decoration: underline;
   text-decoration-color: yellow;
-  text-underline-offset: 5px;
+  text-underline-offset: 10px;
 }
 
 .reason__sub {
