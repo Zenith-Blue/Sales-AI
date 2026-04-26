@@ -1462,7 +1462,7 @@ body {
   letter-spacing: 2.86px;
   text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
   line-height: 46.572px;
   margin: 0;
   padding-left: 100px;
@@ -1532,7 +1532,7 @@ body {
   position: relative;
   flex-shrink: 0;
   margin-right: 10px;
-  top: -5px;
+  top: -10px;
 }
 
 .reason__robot-wrap img {
