@@ -1547,8 +1547,8 @@ body {
   display: flex;
   justify-content: center;
   transform: scaleY(-1);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .reason__dark-sep img {
@@ -1691,4 +1691,157 @@ body {
   line-height: 30.294px;
   margin: 0;
   max-width: 429px;
+}
+
+/* ===== Moshianata Section ===== */
+.moshianata {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.moshianata__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.moshianata__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 692px;
+  margin: 0 auto;
+  padding: 94px 0 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: center;
+}
+
+.moshianata__headline {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.moshianata__h1,
+.moshianata__h3 {
+  font-size: 52.01px;
+  font-weight: 700;
+  color: #570000;
+  text-shadow: 0px 0px 63.393px #fffdf1;
+  margin: 0;
+  line-height: 1;
+}
+
+.moshianata__h2 {
+  font-weight: 700;
+  color: #fe692c;
+  text-shadow: 4.869px 4.869px 4.869px #c8c8c8;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 1.4617px;
+}
+
+.moshianata__h2-lg {
+  font-size: 73.087px;
+}
+
+.moshianata__h2-sm {
+  font-size: 56.344px;
+  letter-spacing: 1.1269px;
+}
+
+.moshianata__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 18.835px;
+  width: 100%;
+}
+
+.moshianata__card {
+  background: #fff;
+  border: 3.425px solid #fe692c;
+  border-radius: 17.123px;
+  box-shadow: 0px 6.849px 3.425px rgba(0,0,0,0.25);
+  min-height: 157.531px;
+  padding: 22px 12px 23px 26px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.moshianata__icon {
+  width: 113.011px;
+  height: 113.011px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.moshianata__card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.moshianata__title-wrap {
+  position: relative;
+}
+
+.moshianata__title-ul {
+  position: absolute;
+  height: 13.906px;
+  background: #edff65;
+  bottom: 0;
+  left: 2.85px;
+  z-index: 0;
+}
+
+.moshianata__title {
+  position: relative;
+  z-index: 1;
+  font-size: 27.397px;
+  font-weight: 700;
+  color: #fe692c;
+  text-shadow: 1.738px 1.738px 1.738px rgba(0,0,0,0.25);
+  letter-spacing: 2.2382px;
+  line-height: 1;
+  margin: 0;
+  white-space: nowrap;
+  padding-bottom: 2px;
+}
+
+.moshianata__desc {
+  font-size: 20.547px;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 2.1044px;
+  line-height: 29.109px;
+  margin: 0;
+  max-width: 412.662px;
+}
+
+.moshianata__cta {
+  background: #ff6400;
+  border-radius: 16.584px;
+  padding: 28px 33px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.moshianata__cta-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  line-height: 37.041px;
+  margin: 0;
 }
