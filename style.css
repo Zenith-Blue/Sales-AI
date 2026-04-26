@@ -145,7 +145,7 @@ body {
 }
 
 .fv__text-gradient {
-  background: linear-gradient(to right, #ff6600, #ffd000);
+  background: linear-gradient(to right, #fe3e3f, #ffd000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
