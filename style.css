@@ -184,7 +184,6 @@ body {
   width: 552px;
   height: 178px;
   overflow: hidden;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .fv__badges-frame img {
@@ -194,6 +193,7 @@ body {
   width: 154.9%;
   height: 108.57%;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 
 /* ===== CTA ===== */
