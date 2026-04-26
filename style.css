@@ -267,6 +267,8 @@ body {
   text-align: center;
   letter-spacing: 1px;
   text-shadow: 3.836px 3.836px 3.836px #c8c8c8;
+  -webkit-text-stroke: 5px #ffffff;
+  paint-order: stroke fill;
 }
 
 .reassure__title-wrap {
@@ -294,6 +296,8 @@ body {
   text-align: center;
   letter-spacing: 1px;
   text-shadow: 3.836px 3.836px 3.836px #c8c8c8;
+  -webkit-text-stroke: 5px #ffffff;
+  paint-order: stroke fill;
   z-index: 1;
 }
 
