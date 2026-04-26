@@ -1097,7 +1097,7 @@ body {
   color: #fe692c;
   margin: 0;
   letter-spacing: 0.54px;
-  line-height: 1.3;
+  line-height: 1.0;
   white-space: nowrap;
   -webkit-text-stroke: 7px #ffffff;
   paint-order: stroke fill;
