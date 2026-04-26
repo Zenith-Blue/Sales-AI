@@ -1,0 +1,212 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* ===== Layout Wrapper ===== */
+.lp-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* ===== FV Section ===== */
+.fv {
+  position: relative;
+  width: 100%;
+  height: 775px;
+  overflow: hidden;
+  background-color: #e8e8e8;
+}
+
+/* Background image */
+.fv__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Right person image */
+.fv__person {
+  position: absolute;
+  right: -74px;
+  top: 0;
+  width: 577px;
+  height: 775px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.fv__person img {
+  position: absolute;
+  top: -3.3%;
+  left: 0;
+  width: 111.11%;
+  height: 106.6%;
+  object-fit: cover;
+}
+
+/* Left content column */
+.fv__content {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 782px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ===== Worry List ===== */
+.fv__worries {
+  background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(255,255,255,0));
+  padding: 10px 166px 10px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fv__worry-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fv__check {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 1.664px white);
+}
+
+.fv__worry-text {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 1px;
+  text-decoration: line-through;
+  text-shadow: 0px 0px 2.853px white, 0px 2.1px 2.1px #fff8f8;
+}
+
+/* ===== Headlines ===== */
+.fv__headlines {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.fv__headline {
+  background-color: #151515;
+}
+
+.fv__headline--full {
+  padding: 10px 12px 10px 25px;
+  overflow: hidden;
+}
+
+.fv__headline--inline {
+  padding: 8px 15px 8px 25px;
+  align-self: flex-start;
+}
+
+.fv__headline-text {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.fv__headline-text--wide {
+  letter-spacing: 2px;
+}
+
+.fv__text-white {
+  color: #fff;
+}
+
+.fv__text-gradient {
+  background: linear-gradient(to right, #fe3e3f, #ffd000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.fv__text-lg {
+  font-size: 50px;
+}
+
+.fv__text-sm {
+  font-size: 42px;
+}
+
+/* ===== Badge Image ===== */
+.fv__badges {
+  padding-left: 43px;
+}
+
+.fv__badges-frame {
+  position: relative;
+  width: 552px;
+  height: 178px;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fv__badges-frame img {
+  position: absolute;
+  top: -3.42%;
+  left: -5.58%;
+  width: 154.9%;
+  height: 108.57%;
+  object-fit: cover;
+}
+
+/* ===== CTA ===== */
+.fv__cta-wrap {
+  padding-left: 124px;
+  padding-right: 124px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.fv__cta-link {
+  display: block;
+  width: 508px;
+}
+
+.fv__cta-img {
+  width: 100%;
+  display: block;
+}
+
+.fv__cta-note {
+  margin: 0;
+  width: 508px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #11ad34;
+  text-align: center;
+  letter-spacing: 0.8px;
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.fv__cta-note--dark {
+  color: #017f1d;
+}
