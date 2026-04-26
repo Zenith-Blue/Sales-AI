@@ -266,7 +266,7 @@ body {
   color: #fe692c;
   text-align: center;
   letter-spacing: 1px;
-  -webkit-text-stroke: 5px #ffffff;
+  -webkit-text-stroke: 7px #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(3.84px 3.84px 3.84px #c8c8c8);
 }
@@ -295,7 +295,7 @@ body {
   color: #ff530c;
   text-align: center;
   letter-spacing: 1px;
-  -webkit-text-stroke: 5px #ffffff;
+  -webkit-text-stroke: 7px #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(3.84px 3.84px 3.84px #c8c8c8);
   z-index: 1;
