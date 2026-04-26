@@ -973,14 +973,14 @@ body {
 
 .tokuten__badge--lg {
   left: -18px;
-  top: -26px;
+  top: -16px;
   width: 101px;
   height: 100px;
 }
 
 .tokuten__badge--sm {
   left: -10px;
-  top: -13px;
+  top: -3px;
   width: 52px;
   height: 51px;
 }
