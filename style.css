@@ -220,6 +220,142 @@ body {
   color: #017f1d;
 }
 
+/* ===== Feature Section ===== */
+.feature {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.feature__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.feature__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 75px 331px 45px;
+}
+
+.feature__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+  width: 100%;
+}
+
+.feature__line1,
+.feature__line3 {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.feature__white { color: #fff; }
+.feature__yellow { color: #ffff80; }
+
+.feature__fs-lg  { font-size: 50px; }
+.feature__fs-xl  { font-size: 49px; }
+.feature__fs-sm  { font-size: 35px; }
+.feature__fs-md  { font-size: 36px; }
+.feature__fs-sm2 { font-size: 29px; }
+
+.feature__u-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.feature__ul {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+
+.feature__headline-box {
+  background: #fff;
+  width: 510px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.feature__headline-text {
+  margin: 0;
+  color: #fe692c;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.98px;
+}
+
+.feature__fs-hl   { font-size: 47px; }
+.feature__fs-hl-sm { font-size: 40px; }
+
+.feature__card {
+  background: #fff7e8;
+  border: 3px solid #fe692c;
+  border-radius: 15px;
+  padding: 28px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  width: 100%;
+}
+
+.feature__card-badge {
+  background: #fe692c;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 6px 8px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.feature__card-photo {
+  width: 422px;
+  height: 280px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.feature__card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature__card-text {
+  text-align: center;
+  color: #4e2300;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.feature__card-text p {
+  margin: 0;
+}
+
 /* ===== Voice Section ===== */
 .voice {
   position: relative;
