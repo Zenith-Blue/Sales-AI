@@ -334,13 +334,25 @@ body {
 }
 
 .reassure__caption-em {
+  display: inline-block;
+  position: relative;
   font-size: 38px;
   color: #ff530c;
+}
+
+.reassure__caption-em::before {
+  content: '・ ・ ・ ・ ・';
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  font-size: 17px;
+  color: #ff530c;
   line-height: 1;
-  -webkit-text-emphasis: '・' #ff530c;
-  -webkit-text-emphasis-position: over right;
-  text-emphasis: '・' #ff530c;
-  text-emphasis-position: over right;
+  text-align: justify;
+  text-align-last: justify;
+  pointer-events: none;
 }
 
 .reassure__cta-wrap {
