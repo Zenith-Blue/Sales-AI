@@ -294,11 +294,10 @@ body {
 .feature__headline-box {
   background: #fff;
   width: 510px;
-  height: 59px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  padding: 10px 0;
 }
 
 .feature__headline-text {
