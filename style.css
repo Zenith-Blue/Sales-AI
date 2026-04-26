@@ -336,6 +336,7 @@ body {
 .reassure__caption-em {
   font-size: 38px;
   color: #ff530c;
+  line-height: 1;
   -webkit-text-emphasis: '・' #ff530c;
   -webkit-text-emphasis-position: over right;
   text-emphasis: '・' #ff530c;
