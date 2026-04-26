@@ -312,20 +312,12 @@ body {
   line-height: 32px;
 }
 
-.gifts__headline-row {
-  display: flex;
-  align-items: center;
-  width: 752px;
-  height: 57px;
-}
-
-.gifts__hl-white {
+.gifts__headline {
   margin: 0;
   font-weight: 700;
   color: #fff;
-  letter-spacing: 0.953px;
+  letter-spacing: 0.7px;
   white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .gifts__hl-sm {
@@ -336,54 +328,36 @@ body {
   font-size: 40px;
 }
 
-.gifts__hl-7daiten {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 4px;
-  flex-shrink: 0;
-  margin: 0 2px;
-}
-
-.gifts__hl-7daiten-inner {
-  display: flex;
-  align-items: baseline;
-  font-weight: 700;
-  letter-spacing: 0.705px;
+.gifts__hl-7daiten-wrap {
+  position: relative;
+  display: inline-block;
 }
 
 .gifts__hl-7 {
   font-size: 48px;
+  font-weight: 700;
   background: linear-gradient(to bottom, #ffff00, #ea8601);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1;
 }
 
 .gifts__hl-daiten {
   font-size: 34px;
+  font-weight: 700;
   background: linear-gradient(to bottom, #ffff00, #e77400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1;
 }
 
 .gifts__underline {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
   width: 100%;
-  display: block;
   height: auto;
-}
-
-.gifts__hl-present {
-  margin: 0;
-  font-size: 34px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.705px;
-  white-space: nowrap;
-  flex-shrink: 0;
+  display: block;
 }
 
 /* Books image */
