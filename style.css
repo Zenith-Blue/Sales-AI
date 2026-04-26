@@ -120,8 +120,8 @@ body {
 
 .fv__headline--full {
   padding: 10px 25px 10px 25px;
-  overflow: hidden;
-  align-self: flex-start;
+  width: max-content;
+  white-space: nowrap;
 }
 
 .fv__headline--inline {
