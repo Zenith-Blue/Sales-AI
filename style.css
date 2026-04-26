@@ -361,7 +361,7 @@ body {
 }
 
 .voice__mark {
-  background: #ffff80;
+  background: linear-gradient(to bottom, transparent 50%, #ffff80 50%);
   color: #ff530c;
   font-weight: 700;
 }
