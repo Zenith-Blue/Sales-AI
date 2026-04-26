@@ -2087,7 +2087,7 @@ body {
 .curriculum__card {
   position: relative;
   width: 348.5px;
-  height: 86.5px;
+  min-height: 86.5px;
   padding: 12px 12px 13px 28px;
   box-sizing: border-box;
   display: flex;
@@ -2135,7 +2135,7 @@ body {
   font-weight: 700;
   color: #2a2827;
   letter-spacing: 1.7355px;
-  line-height: 42.364px;
+  line-height: 1.2;
   margin: 0;
   white-space: nowrap;
 }
@@ -2147,5 +2147,5 @@ body {
   letter-spacing: 1.6316px;
   line-height: 17.522px;
   margin: 0;
-  white-space: nowrap;
+  white-space: normal;
 }
