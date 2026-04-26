@@ -2123,7 +2123,7 @@ body {
   position: absolute;
   height: 12px;
   background: rgba(255, 255, 0, 0.4);
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   z-index: 0;
 }
