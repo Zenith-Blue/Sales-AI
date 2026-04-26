@@ -24,7 +24,6 @@
       position: relative;
       height: 775px;
       overflow: hidden;
-      background: #d0d0d0;
     }
     .fv__bg {
       position: absolute;
@@ -32,99 +31,157 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      pointer-events: none;
     }
-    .fv__person {
-      position: absolute;
-      left: 692px;
-      top: -42px;
-      width: 715px;
-      height: 923px;
-      object-fit: cover;
-    }
-    .fv__person-text {
-      position: absolute;
-      left: 759px;
-      top: 350px;
-      text-align: left;
-      font-weight: 700;
-      color: #fff;
-      font-size: 41px;
-      line-height: 1.45;
-      text-shadow: 0px 0px 9.5px #d02d22, 0px 7.6px 7.6px #d5534a;
-      letter-spacing: 2.2px;
-      width: 470px;
-    }
-    .fv__person-text p {
-      margin: 0;
-    }
-    .fv__person-text .grad {
-      background: linear-gradient(to right, #e7ff34, #fff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+    /* Left content column */
     .fv__content {
       position: absolute;
       left: 0;
-      right: 433px;
-      top: 29px;
+      top: 0;
+      width: 847px;
+      padding-top: 29px;
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
       gap: 8px;
     }
-    .fv__worries {
-      background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(255,255,255,0));
-      padding: 10px 60px 10px 60px;
-    }
-    .fv__worry-item {
+    /* Upper block (worries + headline = 373px) */
+    .fv__upper {
+      width: 100%;
+      flex-shrink: 0;
       display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 4px;
+      flex-direction: column;
+      gap: 35px;
+      align-items: flex-start;
     }
-    .fv__worry-item img {
-      width: 55px;
-      height: 55px;
+    /* Worry items */
+    .fv__worries-wrap {
+      position: relative;
+      height: 161px;
+      width: 100%;
       flex-shrink: 0;
     }
-    .fv__worry-item p {
+    .fv__worries {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 782px;
+      height: 161px;
+      background: linear-gradient(to right, rgba(255,255,255,1) 19.231%, rgba(255,255,255,0));
+      padding: 10px 166px 10px 60px;
+    }
+    .fv__worries-inner {
+      width: 556px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .fv__worry-row {
+      position: relative;
+      height: 54.921px;
+      width: 100%;
+      flex-shrink: 0;
+      margin-bottom: -10.368px;
+    }
+    .fv__worry-row--1 { width: 515.924px; }
+    .fv__worry-icon {
+      position: absolute;
+      left: -5px;
+      top: 0;
+      width: 54.921px;
+      height: 54.921px;
+      object-fit: cover;
+      box-shadow: 0px 0px 1.664px 0px white;
+    }
+    .fv__worry-text {
+      position: absolute;
+      left: 51px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
       font-size: 23.3px;
       font-weight: 700;
-      color: #111;
+      color: #000;
       text-shadow: 0px 0px 2.853px white, 0px 2.1px 2.1px #fff8f8;
-      text-decoration: line-through;
       letter-spacing: 1px;
+      line-height: 30.744px;
+      margin: 0;
+      white-space: nowrap;
     }
+    .fv__strike {
+      position: absolute;
+      height: 0;
+      top: 47px;
+    }
+    .fv__strike > div {
+      position: absolute;
+      top: -1.25px;
+      bottom: -1.25px;
+      left: 0;
+      right: 0;
+    }
+    .fv__strike > div > img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    /* Headline */
     .fv__headline {
       display: flex;
       flex-direction: column;
       gap: 9px;
+      width: 780.982px;
+      flex-shrink: 0;
+      align-items: flex-start;
     }
-    .fv__headline-row {
+    .fv__hl-row {
       background: #151515;
-      padding: 10px 25px;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      flex-shrink: 0;
     }
-    .fv__headline-row p {
+    .fv__hl-row p {
       font-size: 50px;
       font-weight: 700;
       color: #fff;
-      letter-spacing: 1px;
       white-space: nowrap;
+      margin: 0;
     }
-    .fv__headline-row span {
+    .fv__hl-row--wide {
+      width: 100%;
+      padding: 10px 12px 10px 25px;
+    }
+    .fv__hl-row--wide p { letter-spacing: 1.05px; line-height: 63.176px; }
+    .fv__hl-row--narrow {
+      width: 631.756px;
+      padding: 8px 15px 8px 25px;
+    }
+    .fv__hl-row--narrow p { letter-spacing: 2.1px; line-height: 67.533px; }
+    .fv__grad {
       background: linear-gradient(to right, #fe3e3f, #ffd000);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+    /* Badges */
     .fv__badges {
-      padding-left: 30px;
+      padding: 10px 10px 10px 43px;
+      flex-shrink: 0;
     }
     .fv__badges img {
-      height: 172px;
+      width: 552px;
+      height: 178px;
       object-fit: contain;
+      box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.25);
+      display: block;
     }
+    /* CTA */
     .fv__cta {
-      padding-left: 124px;
+      padding: 0 124px;
+      flex-shrink: 0;
     }
     .fv__cta a {
       display: inline-flex;
@@ -133,10 +190,7 @@
       text-decoration: none;
       gap: 3px;
     }
-    .fv__cta img {
-      width: 508px;
-      display: block;
-    }
+    .fv__cta img { width: 508px; display: block; }
     .fv__cta-sub {
       text-align: center;
       font-size: 19.7px;
@@ -157,6 +211,21 @@
       margin: 0;
     }
     .fv__cta-sub span { color: #017f1d; }
+    /* Right: person */
+    .fv__person-wrap {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 640px;
+      height: 775px;
+    }
+    .fv__person-wrap > img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
     /* ===================== WORRIES ===================== */
     .worries {
@@ -996,44 +1065,62 @@
 
   <!-- ===== FV ===== -->
   <section class="fv">
-    <img class="fv__bg" src="https://www.figma.com/api/mcp/asset/a5b64760-e34d-4e55-af59-9547420b91a6" alt="" />
-    <img class="fv__person" src="https://www.figma.com/api/mcp/asset/56830f82-35dd-4e29-b18a-c99e9db90ca4" alt="" />
-    <div class="fv__person-text">
-      <p><span class="grad">卒業後の案件保証</span>で</p>
-      <p>確実に<span class="grad">収入直結させる</span></p>
-    </div>
+    <img class="fv__bg" src="https://www.figma.com/api/mcp/asset/b870df7e-3384-40d6-8e18-7e7d3355287a" alt="" />
+
+    <!-- Left content -->
     <div class="fv__content">
-      <div class="fv__worries">
-        <div class="fv__worry-item">
-          <img src="https://www.figma.com/api/mcp/asset/b24fc464-de5d-4781-b4c5-3465aff5ca45" alt="" />
-          <p>営業なんて一度もやったことない…</p>
+      <div class="fv__upper">
+        <!-- Worry items -->
+        <div class="fv__worries-wrap">
+          <div class="fv__worries">
+            <div class="fv__worries-inner">
+              <div class="fv__worry-row fv__worry-row--1">
+                <img class="fv__worry-icon" src="https://www.figma.com/api/mcp/asset/83963a19-6740-4ecb-b143-e32077789672" alt="" />
+                <p class="fv__worry-text">営業なんて一度もやったことない…</p>
+                <div class="fv__strike" style="left:245px;width:196px"><div><img src="https://www.figma.com/api/mcp/asset/b97dd2c4-29f5-4916-8c32-2dad139fc438" alt="" /></div></div>
+              </div>
+              <div class="fv__worry-row">
+                <img class="fv__worry-icon" src="https://www.figma.com/api/mcp/asset/83963a19-6740-4ecb-b143-e32077789672" alt="" />
+                <p class="fv__worry-text">スクールで学んでも、案件が取れるか不安</p>
+                <div class="fv__strike" style="left:295px;width:223px"><div><img src="https://www.figma.com/api/mcp/asset/db6c663b-09eb-4f9a-886a-fb8e22f66d27" alt="" /></div></div>
+              </div>
+              <div class="fv__worry-row">
+                <img class="fv__worry-icon" src="https://www.figma.com/api/mcp/asset/83963a19-6740-4ecb-b143-e32077789672" alt="" />
+                <p class="fv__worry-text">稼げるようになりたい、失敗したくない</p>
+                <div class="fv__strike" style="left:55px;width:148px"><div><img src="https://www.figma.com/api/mcp/asset/69e4d0cd-c721-40e4-a658-ad595bde08e9" alt="" /></div></div>
+                <div class="fv__strike" style="left:318px;width:181px"><div><img src="https://www.figma.com/api/mcp/asset/98d392d2-bf80-4db1-b327-3ace0b037d06" alt="" /></div></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="fv__worry-item">
-          <img src="https://www.figma.com/api/mcp/asset/b24fc464-de5d-4781-b4c5-3465aff5ca45" alt="" />
-          <p>スクールで学んでも、案件が取れるか不安</p>
-        </div>
-        <div class="fv__worry-item">
-          <img src="https://www.figma.com/api/mcp/asset/b24fc464-de5d-4781-b4c5-3465aff5ca45" alt="" />
-          <p>稼げるようになりたい、失敗したくない</p>
+        <!-- Headline -->
+        <div class="fv__headline">
+          <div class="fv__hl-row fv__hl-row--wide">
+            <p>未経験から<span class="fv__grad">自由に稼げる営業力</span>を</p>
+          </div>
+          <div class="fv__hl-row fv__hl-row--narrow">
+            <p>身につける唯一のスクール</p>
+          </div>
         </div>
       </div>
-      <div class="fv__headline">
-        <div class="fv__headline-row">
-          <p>未経験から<span>自由に稼げる営業力</span>を</p>
-        </div>
-        <div class="fv__headline-row">
-          <p>身につける唯一のスクール</p>
-        </div>
-      </div>
+
+      <!-- Badges -->
       <div class="fv__badges">
-        <img src="https://www.figma.com/api/mcp/asset/915caeb2-80ce-43bd-a6d8-b94ee85b4337" alt="最短2ヶ月で卒業可能・18項目充実カリキュラム・200P超専用教科書" />
+        <img src="https://www.figma.com/api/mcp/asset/9cd25c4f-6745-473f-a39b-9d05ef7ce649" alt="最短2ヶ月で卒業可能・18項目充実カリキュラム・200P超専用教科書" />
       </div>
+
+      <!-- CTA -->
       <div class="fv__cta">
         <a href="#line">
-          <img src="https://www.figma.com/api/mcp/asset/c9dfffd8-d7f5-41d2-9dcb-170ad5b79164" alt="無料で豪華特典を受け取る" />
+          <img src="https://www.figma.com/api/mcp/asset/6bd3bd68-9a80-4ccc-9e65-9f9e42f4cebf" alt="無料で豪華特典を受け取る" />
           <p class="fv__cta-sub">先着5名限定 <span>メンターとの60分間 無料面談</span>プレゼント</p>
         </a>
       </div>
+    </div>
+
+    <!-- Right: person image -->
+    <div class="fv__person-wrap">
+      <img src="https://www.figma.com/api/mcp/asset/d3fe6318-a326-4106-b533-b5c17b8eeb8a" alt="" />
     </div>
   </section>
 
