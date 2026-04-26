@@ -1071,6 +1071,7 @@ body {
 
 .tokuten__card-title-wrap {
   position: relative;
+  margin-top: 10px;
 }
 
 .tokuten__card-title-wrap::before {
