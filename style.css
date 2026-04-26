@@ -22,7 +22,7 @@ body {
 .fv {
   position: relative;
   width: 100%;
-  height: 775px;
+  height: 765px;
   overflow: hidden;
   background-color: #e8e8e8;
 }
@@ -328,36 +328,16 @@ body {
   font-size: 40px;
 }
 
-.gifts__hl-7daiten-wrap {
-  position: relative;
+.gifts__hl-golden {
   display: inline-block;
-}
-
-.gifts__hl-7 {
-  font-size: 48px;
-  font-weight: 700;
-  background: linear-gradient(to bottom, #ffff00, #ea8601);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.gifts__hl-daiten {
-  font-size: 34px;
+  font-size: 44px;
   font-weight: 700;
   background: linear-gradient(to bottom, #ffff00, #e77400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.gifts__underline {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  display: block;
+  border-bottom: 3px solid #f0a000;
+  padding-bottom: 2px;
 }
 
 /* Books image */
