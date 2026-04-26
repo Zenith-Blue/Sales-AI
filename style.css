@@ -1547,7 +1547,8 @@ body {
   display: flex;
   justify-content: center;
   transform: scaleY(-1);
-  margin-top: -20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .reason__dark-sep img {
