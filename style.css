@@ -1941,14 +1941,14 @@ body {
 
 .curriculum__stat-num {
   font-size: 54.797px;
-  line-height: 58.283px;
+  line-height: 1;
   font-weight: 700;
   color: #fe692c;
 }
 
 .curriculum__stat-unit {
   font-size: 25.572px;
-  line-height: 58.283px;
+  line-height: 1;
   font-weight: 700;
   color: #fe692c;
 }
@@ -1956,7 +1956,7 @@ body {
 .curriculum__stat-nums--min {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0;
   width: 100.368px;
   align-items: center;
 }
@@ -1964,7 +1964,7 @@ body {
 .curriculum__stat-min {
   font-size: 36.531px;
   font-weight: 700;
-  line-height: 58.283px;
+  line-height: 1;
   color: #fe692c;
 }
 
@@ -1983,7 +1983,7 @@ body {
   font-size: 36.531px;
   letter-spacing: -3.6531px;
   width: 80.368px;
-  line-height: 58.283px;
+  line-height: 1;
 }
 
 .curriculum__stat-label {
