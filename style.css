@@ -2110,7 +2110,7 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0;
 }
 
 .curriculum__card-title-wrap {
