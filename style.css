@@ -1449,6 +1449,11 @@ body {
 
 .reason__red { color: #e60012; }
 .reason__yellow { color: yellow; }
+.reason__dark-main .reason__yellow {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-underline-offset: 5px;
+}
 
 .reason__sub {
   font-size: 27.943px;
