@@ -1384,7 +1384,7 @@ body {
   width: 223.617px;
   height: 4.259px;
   background: yellow;
-  margin-top: 5px;
+  margin-top: 8px;
   flex-shrink: 0;
 }
 
@@ -1547,8 +1547,8 @@ body {
   display: flex;
   justify-content: center;
   transform: scaleY(-1);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .reason__dark-sep img {
