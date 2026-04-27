@@ -1810,11 +1810,11 @@ body {
   font-size: 27.397px;
   font-weight: 700;
   color: #fe692c;
-  text-shadow: 1.738px 1.738px 1.738px rgba(0,0,0,0.25);
   letter-spacing: 2.2382px;
   line-height: 1;
   -webkit-text-stroke: 6px #ffffff;
   paint-order: stroke fill;
+  filter: drop-shadow(1.74px 1.74px 1.74px rgba(0,0,0,0.25));
   margin: 0;
   white-space: nowrap;
   padding-bottom: 2px;
