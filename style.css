@@ -2152,3 +2152,173 @@ body {
   margin: 0;
   white-space: normal;
 }
+
+/* ===== Anshin Section ===== */
+.anshin {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+.anshin__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.anshin__inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1282px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  align-items: center;
+}
+
+.anshin__header {
+  position: relative;
+  width: 100%;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.anshin__header-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.anshin__header-text {
+  position: relative;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1.5715px;
+  text-shadow: 0px 5.473px 5.473px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.anshin__table {
+  width: 855px;
+  height: 789px;
+  flex-shrink: 0;
+}
+
+.anshin__table img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.anshin__points {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 957px;
+}
+
+.anshin__points-title {
+  font-size: 56.382px;
+  font-weight: 700;
+  color: #fe692c;
+  text-align: center;
+  text-shadow: 3.756px 3.756px 3.756px #c8c8c8;
+  margin: 0;
+  line-height: 65.81px;
+}
+
+.anshin__cards {
+  display: flex;
+  gap: 21px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.anshin__card {
+  border: 1.892px solid #fe413e;
+  border-radius: 9.461px;
+  box-shadow: 0px 3.784px 3.784px rgba(0, 0, 0, 0.25);
+  width: 305px;
+  flex-shrink: 0;
+  padding: 23px 0 23px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.anshin__card--1 { background: #fe982c; }
+.anshin__card--2 { background: #fe692c; }
+.anshin__card--3 { background: #e60012; }
+
+.anshin__card-top {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.anshin__card-head {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.anshin__card-icon {
+  width: 53px;
+  height: 53px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.anshin__card-title {
+  font-size: 24.598px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1.2367px;
+  line-height: 26.49px;
+  margin: 0;
+  width: 230px;
+}
+
+.anshin__card-title--sm {
+  font-size: 22px;
+  width: 220px;
+}
+
+.anshin__card-line {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.anshin__card-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.9461px;
+  line-height: 24.598px;
+  margin: 0;
+  width: 275px;
+}
