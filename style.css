@@ -2376,6 +2376,15 @@ body {
   width: 17px;
   height: 16px;
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.faq__item--open .faq__arrow {
+  transform: rotate(180deg);
+}
+
+.faq__answer {
+  overflow: hidden;
 }
 
 .faq__q-row {
