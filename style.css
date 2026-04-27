@@ -2418,6 +2418,7 @@ body {
   height: 1px;
   background: #f57f00;
   flex-shrink: 0;
+  margin: 5px 0;
 }
 
 .faq__a-row {
