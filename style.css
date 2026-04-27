@@ -2250,8 +2250,9 @@ body {
 
 .anshin__card-line {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  flex-shrink: 0;
 }
 
 .anshin__card-desc {
