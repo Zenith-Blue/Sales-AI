@@ -2183,9 +2183,11 @@ body {
   font-weight: 700;
   color: #fe692c;
   text-align: center;
-  text-shadow: 3.756px 3.756px 3.756px #c8c8c8;
   margin: 0;
   line-height: 65.81px;
+  -webkit-text-stroke: 5px #ffffff;
+  paint-order: stroke fill;
+  filter: drop-shadow(3.76px 3.76px 3.76px #c8c8c8);
 }
 
 .anshin__cards {
