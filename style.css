@@ -214,6 +214,7 @@ body {
   letter-spacing: 0.8px;
   -webkit-text-stroke: 5.06px #ffffff;
   paint-order: stroke fill;
+  white-space: nowrap;
 }
 
 .fv__cta-note--dark {
@@ -796,23 +797,15 @@ body {
   letter-spacing: 0.8px;
   -webkit-text-stroke: 5.06px #ffffff;
   paint-order: stroke fill;
+  white-space: nowrap;
 }
 
 .reassure__cta-note--dark {
   color: #017f1d;
-  position: relative;
-  display: inline-block;
 }
 
 .reassure__cta-note--dark::before {
-  content: '';
-  position: absolute;
-  height: 10px;
-  background: rgba(255, 255, 0, 0.4);
-  bottom: -3px;
-  left: 0;
-  right: 0;
-  z-index: -1;
+  display: none;
 }
 
 /* ===== Gifts Section ===== */
@@ -1266,6 +1259,7 @@ body {
   letter-spacing: 0.8px;
   -webkit-text-stroke: 5.06px #ffffff;
   paint-order: stroke fill;
+  white-space: nowrap;
 }
 
 .tokuten__cta-note--dark {
@@ -2521,6 +2515,7 @@ body {
   letter-spacing: 0.8px;
   -webkit-text-stroke: 5.06px #ffffff;
   paint-order: stroke fill;
+  white-space: nowrap;
 }
 
 .faq__cta-note--dark {
