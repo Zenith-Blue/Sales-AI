@@ -1264,19 +1264,10 @@ body {
 
 .tokuten__cta-note--dark {
   color: #017f1d;
-  position: relative;
-  display: inline-block;
 }
 
 .tokuten__cta-note--dark::before {
-  content: '';
-  position: absolute;
-  height: 10px;
-  background: rgba(255, 255, 0, 0.4);
-  bottom: -3px;
-  left: 0;
-  right: 0;
-  z-index: -1;
+  display: none;
 }
 
 .gifts__pill-arrow {
