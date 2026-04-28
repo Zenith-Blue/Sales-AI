@@ -995,8 +995,8 @@ body {
 .tokuten__badge--sm {
   left: -10px;
   top: -8px;
-  width: 55px;
-  height: 55px;
+  width: 66px;
+  height: 66px;
 }
 
 .tokuten__badge > img {
@@ -1030,8 +1030,8 @@ body {
 }
 
 .tokuten__badge--sm .tokuten__badge-label {
-  font-size: 6.9px;
-  letter-spacing: 1px;
+  font-size: 8.3px;
+  letter-spacing: 1.2px;
 }
 
 .tokuten__badge-num {
@@ -1040,7 +1040,7 @@ body {
 }
 
 .tokuten__badge--sm .tokuten__badge-num {
-  font-size: 13.8px;
+  font-size: 16.6px;
 }
 
 /* ---- Grid of sub-cards (特典02-07) ---- */
