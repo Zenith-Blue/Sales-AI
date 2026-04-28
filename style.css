@@ -2371,16 +2371,38 @@ body {
 
 .faq__arrow {
   position: absolute;
-  top: 21px;
-  right: 12px;
-  width: 17px;
-  height: 16px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
-.faq__item--open .faq__arrow {
-  transform: rotate(180deg);
+.faq__arrow span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fe692c;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.faq__arrow span:first-child {
+  width: 24px;
+  height: 3px;
+  transform: translate(-50%, -50%);
+}
+
+.faq__arrow span:last-child {
+  width: 3px;
+  height: 24px;
+  transform: translate(-50%, -50%);
+}
+
+.faq__item--open .faq__arrow span:last-child {
+  opacity: 0;
 }
 
 .faq__answer {
