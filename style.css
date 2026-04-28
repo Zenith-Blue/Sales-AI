@@ -1106,7 +1106,7 @@ body {
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { position: relative; top: -10px; }
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book { height: 88px; width: auto; }
 .tokuten__grid .tokuten__card { zoom: 1.44; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 23px; }
+.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 23px; position: relative; left: -5px; }
 .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 13px; }
 .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px; }
 
