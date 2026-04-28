@@ -218,6 +218,19 @@ body {
 
 .fv__cta-note--dark {
   color: #017f1d;
+  position: relative;
+  display: inline-block;
+}
+
+.fv__cta-note--dark::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  background: rgba(255, 255, 0, 0.4);
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /* ===== Worries Section ===== */
@@ -759,7 +772,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   width: 449px;
   margin-top: 19px;
 }
@@ -787,6 +800,19 @@ body {
 
 .reassure__cta-note--dark {
   color: #017f1d;
+  position: relative;
+  display: inline-block;
+}
+
+.reassure__cta-note--dark::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  background: rgba(255, 255, 0, 0.4);
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /* ===== Gifts Section ===== */
@@ -1218,7 +1244,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0;
+  gap: 10px;
 }
 
 .tokuten__cta-link {
@@ -1244,6 +1270,19 @@ body {
 
 .tokuten__cta-note--dark {
   color: #017f1d;
+  position: relative;
+  display: inline-block;
+}
+
+.tokuten__cta-note--dark::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  background: rgba(255, 255, 0, 0.4);
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .gifts__pill-arrow {
@@ -2463,7 +2502,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .faq__cta-img {
@@ -2486,6 +2525,19 @@ body {
 
 .faq__cta-note--dark {
   color: #017f1d;
+  position: relative;
+  display: inline-block;
+}
+
+.faq__cta-note--dark::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  background: rgba(255, 255, 0, 0.4);
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /* ===== Footer ===== */
