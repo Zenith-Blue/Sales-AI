@@ -1086,9 +1086,7 @@ body {
 }
 
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { font-size: 14px; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap::before { left: -15px; }
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap { padding: 10px 0; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap::before { bottom: 20px; } /* 文字底辺固定・変更禁止 */
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { position: relative; top: -10px; }
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book { height: 88px; width: auto; }
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 23px; position: relative; left: -5px; }
@@ -1183,15 +1181,7 @@ body {
 }
 
 .tokuten__special-title-wrap::before {
-  content: '';
-  position: absolute;
-  bottom: 1px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 424px;
-  height: 14px;
-  background: yellow;
-  z-index: 0;
+  display: none;
 }
 
 .tokuten__special-title {
