@@ -2649,10 +2649,10 @@ body {
 
   /* Badge: Figma left:12px, top:92px, 207.06×131.4 */
   .fv__elbow-badge {
-    left: 12px;
+    left: 10px;
     top: 102px;
-    width: 248.47px;
-    height: 157.68px;
+    width: 310.59px;
+    height: 197.1px;
     object-fit: contain;
     z-index: 2;
   }
@@ -2796,7 +2796,7 @@ body {
     padding: 0 0 0 8px;
     margin-top: 0;
     align-items: flex-start;
-    gap: 0;
+    gap: 10px;
   }
 
   .fv__cta-link {
