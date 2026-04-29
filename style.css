@@ -3100,15 +3100,15 @@ body {
 
   .voice__card {
     flex-direction: column;
-    border: none;
-    border-radius: 0;
+    border: 2px solid #f66f00;
+    border-radius: 15px;
     padding: 0;
     min-height: auto;
     width: 322px;
     max-width: 100%;
     overflow: hidden;
-    box-shadow: none;
-    background: transparent;
+    box-shadow: 4px 4px 7.5px rgba(133,133,133,0.6);
+    background: #fff;
   }
 
   .voice__card-left {
