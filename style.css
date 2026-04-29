@@ -3087,6 +3087,7 @@ body {
     flex-shrink: 0;
     background: transparent;
     border-right: 2px solid #f66f00;
+    color: #f66f00;
   }
 
   .voice__case-label {
@@ -3112,13 +3113,21 @@ body {
   }
 
   .voice__card-photo {
-    width: 318px;
-    max-width: 100%;
+    width: 100%;
     height: 161px;
     border: none;
     border-radius: 0;
     box-shadow: none;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .voice__card-photo img {
+    width: 318px;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .voice__card-body {
