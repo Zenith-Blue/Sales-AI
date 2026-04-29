@@ -3367,9 +3367,7 @@ body {
   }
 
   .reason__bg {
-    top: calc(-11.11% - 10px);
-    height: 111.12%;
-    opacity: 1;
+    display: none;
   }
 
   /* SP person image */
