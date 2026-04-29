@@ -3934,12 +3934,30 @@ body {
     width: 100%;
     height: auto;
     min-height: 100px;
-    padding: 14px 14px 14px 55px;
+    padding: 10px 90px 10px 56px;
   }
 
   .tokuten__main-card {
     height: auto;
     min-height: 100px;
+    padding: 10px 90px 10px 56px;
+  }
+
+  .tokuten__card-sub {
+    font-size: 10px;
+    white-space: normal;
+  }
+
+  .tokuten__main-sub-wrap {
+    padding: 10px 0 0 0;
+  }
+
+  .tokuten__main-sub {
+    font-size: 10px;
+  }
+
+  .tokuten__main-sub--lg {
+    font-size: 11px;
   }
 
   .tokuten__badge--sm {
