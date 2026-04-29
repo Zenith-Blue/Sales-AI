@@ -1476,6 +1476,10 @@ body {
   pointer-events: none;
 }
 
+.reason__bg--sp {
+  display: none;
+}
+
 .reason__headlines {
   position: absolute;
   top: 87px;
@@ -3365,12 +3369,14 @@ body {
     overflow: hidden;
   }
 
-  .reason {
-    background: #c8c8c8;
+  .reason__bg--pc {
+    display: none;
   }
 
-  .reason__bg {
-    display: none;
+  .reason__bg--sp {
+    display: block;
+    top: 0;
+    height: 100%;
   }
 
   /* SP person image */
