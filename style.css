@@ -3106,7 +3106,8 @@ body {
     letter-spacing: 2px;
     line-height: 26px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
-    -webkit-text-stroke: 0;
+    -webkit-text-stroke: 5px #fff;
+    paint-order: stroke fill;
     filter: none;
     text-align: center;
     flex: 1;
