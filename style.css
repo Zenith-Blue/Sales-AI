@@ -114,6 +114,8 @@ body {
   font-weight: 700;
   color: #000;
   letter-spacing: 0.5px;
+  -webkit-text-stroke: 1.5px #ffffff;
+  paint-order: stroke fill;
 }
 
 .fv__ul {
@@ -2789,6 +2791,8 @@ body {
     letter-spacing: -0.567px;
     text-shadow: 0px 0px 1.943px white, 0px 1.43px 1.43px #fff8f8;
     line-height: 20.933px;
+    -webkit-text-stroke: 0;
+    paint-order: fill;
   }
 
   .fv__ul {
