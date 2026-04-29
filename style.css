@@ -1602,8 +1602,8 @@ body {
 .reason__main {
   position: absolute;
   top: 486px;
-  left: 22.3%;
-  right: 27.4%;
+  left: 5vw;
+  right: 5vw;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -1719,9 +1719,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 17px;
-  width: min(639.958px, 100%);
+  width: 639.958px;
+  max-width: 100%;
   align-self: center;
-  margin-left: 0;
+  margin: 0 auto;
 }
 
 .reason__feature {
