@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 
 test.describe('Responsive layout audit', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
+    await page.goto('');
     await page.waitForLoadState('networkidle');
   });
 
