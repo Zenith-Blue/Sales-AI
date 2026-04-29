@@ -1325,11 +1325,14 @@ body {
 
 .gifts__pill-arrow {
   position: absolute;
-  bottom: -8px;
+  bottom: -12px;
   left: 50%;
-  transform: translateX(-50%) rotate(180deg);
-  width: 23px;
-  height: 13px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 13px solid #fff;
   pointer-events: none;
 }
 
