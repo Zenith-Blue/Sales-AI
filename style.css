@@ -4010,12 +4010,12 @@ body {
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
 
   /* 特典06: 営業って何を〜 */
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 12px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
 
   /* 特典07: 聞くだけで〜 */
-  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 12px !important; }
-  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 11px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
 
   .tokuten__card-book {
     width: 90px !important;
