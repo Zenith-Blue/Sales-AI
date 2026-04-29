@@ -567,7 +567,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 0;
   background: #fff;
   border: 2.529px solid #f66f00;
   border-radius: 19px;
