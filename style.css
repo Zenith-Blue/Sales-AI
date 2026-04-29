@@ -540,7 +540,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 49px 241px;
+  padding: 49px 241px 70px;
 }
 
 .voice__header {
