@@ -3916,6 +3916,7 @@ body {
     font-size: 22px;
     top: 23px;
     left: -40px;
+    white-space: nowrap;
   }
 
   .tokuten__main-book {
@@ -4022,15 +4023,18 @@ body {
     right: 5px;
   }
 
-  /* 02, 04, 07の画像を30px下に */
+  /* 02, 04, 07の画像を30px下に、1.2倍 */
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book {
     top: 20px !important;
+    width: 108px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
     top: 20px !important;
+    width: 108px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
     top: 20px !important;
+    width: 108px !important;
   }
 
   .tokuten__card-main {
