@@ -4030,7 +4030,9 @@ body {
   }
 
   .tokuten__inner {
+    width: 358px;
     max-width: 100%;
+    margin: 0 auto;
     padding: 90px 16px 40px;
     align-items: center;
   }
