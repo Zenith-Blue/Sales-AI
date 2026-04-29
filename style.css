@@ -2710,7 +2710,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4.633px;
-    padding: 150px 0 0 0;
+    padding: 140px 0 0 0;
     margin-left: -9px;
   }
 
@@ -2765,10 +2765,13 @@ body {
   .fv__badges-frame {
     width: 382px;
     max-width: 97.9%;
-    height: 148px;
+    height: 128px;
     box-shadow: none;
-    overflow: visible;
+    overflow: hidden;
     background: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .fv__badges-frame img {
@@ -2778,12 +2781,6 @@ body {
     top: auto;
     left: 70px;
     mix-blend-mode: multiply;
-  }
-
-  .fv__badges-frame {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   /* CTA: Figma left:8px, width:369px */
