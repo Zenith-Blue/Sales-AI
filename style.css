@@ -3846,6 +3846,11 @@ body {
   }
 
   /* Tokuten */
+  .tokuten {
+    margin: 0;
+    border: none;
+  }
+
   .tokuten__inner {
     max-width: 100%;
     padding: 90px 16px 40px;
@@ -4049,6 +4054,11 @@ body {
   }
 
   /* ===== Gifts SP ===== */
+  .gifts {
+    margin: 0;
+    border: none;
+  }
+
   .gifts__inner {
     padding: 17px 0;
     align-items: center;
