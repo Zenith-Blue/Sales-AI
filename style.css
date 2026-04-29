@@ -3744,7 +3744,13 @@ body {
 
   .curriculum__card-title-ul {
     height: 9px;
-    bottom: 5px;
+    bottom: 0;
+    width: auto !important;
+    right: auto;
+  }
+
+  .curriculum__card-title-wrap {
+    width: fit-content;
   }
 
   .curriculum__card-title--sm {
