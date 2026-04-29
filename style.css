@@ -3923,11 +3923,32 @@ body {
 
   .tokuten__grid {
     grid-template-columns: 1fr;
+    grid-auto-rows: auto;
     width: 100%;
+    gap: 15px;
   }
 
   .tokuten__card {
     width: 100%;
+    height: auto;
+    min-height: 100px;
+    padding: 14px 14px 14px 55px;
+  }
+
+  .tokuten__main-card {
+    height: auto;
+    min-height: 100px;
+  }
+
+  .tokuten__badge--sm {
+    width: 45px;
+    height: 45px;
+  }
+
+  .tokuten__card-book {
+    width: 70px !important;
+    top: 5px !important;
+    right: 5px;
   }
 
   .tokuten__special {
