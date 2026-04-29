@@ -2899,6 +2899,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-shadow: none;
   }
 
   .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
