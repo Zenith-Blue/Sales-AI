@@ -2630,7 +2630,7 @@ body {
   /* Person image: Figma left:116px, top:61px, 386×499 (390px viewport) */
   .fv__person {
     position: absolute;
-    left: 29.74%;
+    left: calc(29.74% - 10px);
     top: 61px;
     width: 98.97%;
     height: auto;
