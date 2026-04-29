@@ -3606,6 +3606,7 @@ body {
   /* ===== Curriculum SP ===== */
   .curriculum {
     padding: 30px 27px 38px;
+    background: url('curriculum-bg-sp.webp') center/cover no-repeat;
   }
 
   .curriculum__inner {
