@@ -3952,17 +3952,23 @@ body {
     height: 61px;
   }
 
-  .tokuten__badge--lg .tokuten__badge-text {
-    padding-bottom: 9px;
+  .tokuten__badge--lg .tokuten__badge-text,
+  .tokuten__badge--sm .tokuten__badge-text {
+    padding-bottom: 13px;
+    gap: 0;
   }
 
-  .tokuten__badge--lg .tokuten__badge-label {
-    font-size: 6.9px;
+  .tokuten__badge--lg .tokuten__badge-label,
+  .tokuten__badge--sm .tokuten__badge-label {
+    font-size: 6px;
     letter-spacing: 1.0px;
+    line-height: 1;
   }
 
-  .tokuten__badge--lg .tokuten__badge-num {
-    font-size: 13.8px;
+  .tokuten__badge--lg .tokuten__badge-num,
+  .tokuten__badge--sm .tokuten__badge-num {
+    font-size: 12px;
+    line-height: 1;
   }
 
   .tokuten__card-book {
