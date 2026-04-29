@@ -2482,7 +2482,7 @@ body {
   text-align: center;
   -webkit-text-stroke: 5px #fff;
   paint-order: stroke fill;
-  text-shadow: 2.247px 2.247px 2.247px #c8c8c8;
+  filter: drop-shadow(2.25px 2.25px 2.25px #c8c8c8);
   margin: 0;
   line-height: 1.2;
 }
