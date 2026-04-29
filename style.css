@@ -305,6 +305,8 @@ body {
   position: relative;
   width: 1047px;
   height: 408px;
+  padding-bottom: 50px;
+  box-sizing: content-box;
 }
 
 .worries__bg-circle {
