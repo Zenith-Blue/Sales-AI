@@ -3654,8 +3654,8 @@ body {
     letter-spacing: 0.617px;
     white-space: normal;
     text-align: center;
-    line-height: 42px;
-    margin-top: 0;
+    line-height: 40px;
+    margin-top: -2px;
   }
 
   .gifts__hl-sm {
@@ -3696,6 +3696,8 @@ body {
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.617px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   /* Books */
