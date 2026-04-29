@@ -3324,7 +3324,7 @@ body {
   }
 
   .moshianata__cta {
-    border-radius: 9.85px;
+    border-radius: 0;
     padding: 15px 20px;
     width: calc(100% + 22px);
     margin-left: -11px;
