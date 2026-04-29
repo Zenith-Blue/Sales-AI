@@ -49,7 +49,7 @@ body {
   width: 577px;
   height: 775px;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 
 .fv__elbow-badge {
@@ -81,6 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  z-index: 1;
 }
 
 /* ===== Worry List ===== */
