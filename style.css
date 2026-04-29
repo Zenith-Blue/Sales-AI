@@ -3041,7 +3041,7 @@ body {
   }
 
   .voice__cards {
-    width: 340px;
+    width: 324px;
     max-width: 100%;
     gap: 19px;
     margin-bottom: 40px;
@@ -3053,7 +3053,8 @@ body {
     border-radius: 15px;
     padding: 0;
     min-height: auto;
-    width: 100%;
+    width: 322px;
+    max-width: 100%;
     overflow: hidden;
     box-shadow: 4px 4px 7.5px rgba(133,133,133,0.6);
     background: #fff;
@@ -3072,17 +3073,20 @@ body {
     padding: 9px 11px 11px 0;
     gap: 0;
     width: 100%;
+    height: 72px;
     border-radius: 13px 13px 0 0;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
   }
 
   .voice__case {
     width: 57px;
-    height: 52px;
-    padding: 0 5px;
+    height: 72px;
+    padding: 11px 4px 13px 7px;
     flex-shrink: 0;
     background: transparent;
+    border-right: 2px solid #f66f00;
   }
 
   .voice__case-label {
@@ -3093,6 +3097,7 @@ body {
   .voice__case-num {
     font-size: 28px;
     letter-spacing: 1px;
+    line-height: 26px;
   }
 
   .voice__card-title {
@@ -3107,45 +3112,49 @@ body {
   }
 
   .voice__card-photo {
-    width: 100%;
-    height: 200px;
+    width: 318px;
+    max-width: 100%;
+    height: 161px;
     border: none;
     border-radius: 0;
     box-shadow: none;
+    margin: 0 auto;
   }
 
   .voice__card-body {
     background: #f66f00;
-    padding: 16px 20px 24px;
+    padding: 8px 16px 19px;
     border-radius: 0 0 13px 13px;
     width: 100%;
     box-sizing: border-box;
-    gap: 8px;
+    gap: 7px;
   }
 
   .voice__card-name {
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
     letter-spacing: 1px;
-    line-height: 30px;
+    line-height: 26px;
+    padding: 10px 0 0;
   }
 
   .voice__divider {
-    border-top: 2px solid rgba(255,255,255,0.5);
+    border-top: 1.5px solid rgba(255,255,255,0.6);
     margin: 8px 0;
   }
 
   .voice__card-text {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 500;
     color: #fff;
     letter-spacing: 1.5px;
-    line-height: 22px;
+    line-height: 18px;
   }
 
   .voice__mark {
     background: none;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   /* ===== Reassure SP ===== */
