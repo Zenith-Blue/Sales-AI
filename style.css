@@ -3907,7 +3907,7 @@ body {
   .tokuten__title-wrap {
     position: static;
     text-align: center;
-    padding: 4px 8px 12px;
+    padding: 0;
     right: auto;
     left: auto;
   }
