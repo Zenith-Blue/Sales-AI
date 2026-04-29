@@ -3037,6 +3037,7 @@ body {
     line-height: 40px;
     position: relative;
     z-index: 1;
+    margin: 30px 0;
   }
 
   .voice__cards {
@@ -3060,8 +3061,8 @@ body {
   .voice__card-left {
     width: 100%;
     gap: 0;
-    order: 1;
-    display: contents;
+    display: flex;
+    flex-direction: column;
   }
 
   .voice__card-head {
@@ -3073,7 +3074,6 @@ body {
     border-radius: 13px 13px 0 0;
     display: flex;
     align-items: center;
-    order: 1;
   }
 
   .voice__case {
@@ -3111,13 +3111,11 @@ body {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    order: 2;
   }
 
   .voice__card-body {
     background: #f66f00;
     padding: 16px 20px 24px;
-    order: 3;
     border-radius: 0 0 13px 13px;
     width: 100%;
     box-sizing: border-box;
