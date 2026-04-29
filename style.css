@@ -1456,7 +1456,8 @@ body {
 }
 
 .gifts__books-img {
-  width: 100%;
+  width: 729px;
+  max-width: 100%;
   height: auto;
   display: block;
 }
