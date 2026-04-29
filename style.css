@@ -1398,15 +1398,14 @@ body {
 }
 
 .gifts__hl-golden {
-  display: inline-block;
-  font-size: 44px;
+  display: inline;
+  font-size: 33px;
   font-weight: 700;
   background: linear-gradient(to bottom, #ffff00, #e77400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 3px solid #f0a000;
-  padding-bottom: 2px;
+  border-bottom: none;
 }
 
 /* Books image */
