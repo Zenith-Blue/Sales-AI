@@ -4079,7 +4079,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
     top: 17px !important;
     width: 108px !important;
-    right: 0 !important;
+    right: -3px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
     top: 17px !important;
@@ -4090,14 +4090,23 @@ body {
   .tokuten__card-main {
     position: relative !important;
     bottom: auto !important;
-    left: -36px !important;
+    left: -39px !important;
     top: auto !important;
     margin-top: 6px;
+    font-size: 20px !important;
   }
 
   .tokuten__card-title-wrap {
     margin-top: 3px;
     padding: 5px 0 0 0;
+  }
+
+  .tokuten__special-title {
+    font-size: 21.73px;
+  }
+
+  .tokuten__special-text {
+    font-size: 13px;
   }
 
   .tokuten__main-title {
