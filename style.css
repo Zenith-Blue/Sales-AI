@@ -4040,13 +4040,15 @@ body {
   }
 
   /* 特典02: AIで作る自己紹介シート */
-  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 10px !important; left: -33px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 9px !important; left: -35px !important; }
 
   /* 特典03: 無敵の営業心理学 */
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 10px !important; }
 
-  /* 特典03の画像 */
+  /* 特典03 */
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-book { right: 3px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 12px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub--line1 { font-size: 12px !important; }
 
   /* 特典04: 頑張っているのに〜 */
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12px !important; }
@@ -4115,7 +4117,7 @@ body {
   }
 
   .tokuten__main-title {
-    left: 0px;
+    left: -3px;
   }
 
   .tokuten__main-book {
