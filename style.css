@@ -266,7 +266,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
 }
 
 .worries__topbar {
@@ -282,7 +281,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  padding-top: 16px;
+  padding-top: 50px;
 }
 
 .worries__headline {
@@ -2930,10 +2929,6 @@ body {
   }
 
   /* ===== Worries SP ===== */
-  .worries {
-    margin-top: 0;
-  }
-
   .worries__topbar {
     height: 10px;
   }
