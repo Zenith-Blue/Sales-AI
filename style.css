@@ -2792,9 +2792,9 @@ body {
   }
 
   .fv__badges-frame {
-    width: 382px;
-    max-width: 97.9%;
-    height: 128px;
+    width: 420px;
+    max-width: 107%;
+    height: 141px;
     box-shadow: none;
     overflow: hidden;
     background: transparent;
@@ -2805,10 +2805,10 @@ body {
 
   .fv__badges-frame img {
     position: relative;
-    width: 150%;
+    width: 165%;
     height: auto;
     top: auto;
-    left: 70px;
+    left: 77px;
     mix-blend-mode: multiply;
   }
 
@@ -2821,8 +2821,8 @@ body {
   }
 
   .fv__cta-link {
-    width: 369px;
-    max-width: 94.6%;
+    width: 406px;
+    max-width: 104%;
   }
 
   .fv__cta-note--dark::before,
@@ -2832,11 +2832,11 @@ body {
     display: none;
   }
 
-  /* Note: Figma font-size:14px, color:#11ad34, tracking:0.5712px */
+  /* Note: Figma font-size:14px × 1.1 = 15.4px */
   .fv__cta-note {
-    width: 369px;
-    max-width: 94.6%;
-    font-size: 14px;
+    width: 406px;
+    max-width: 104%;
+    font-size: 15.4px;
     -webkit-text-stroke: 4.348px #ffffff;
     letter-spacing: 0.5712px;
     text-shadow: 0px 4.348px 4.348px rgba(0,0,0,0.25);
