@@ -3307,6 +3307,10 @@ body {
     max-width: 237px;
   }
 
+  .moshianata__cards {
+    margin-bottom: 15px;
+  }
+
   .moshianata__cta {
     border-radius: 0;
     padding: 15px 20px;
@@ -3663,6 +3667,8 @@ body {
   .curriculum__stat-month .curriculum__stat-num {
     font-size: 30px;
     margin-right: -2px;
+    position: relative;
+    top: 2px;
   }
 
   .curriculum__stat-month {
