@@ -4185,7 +4185,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book {
     top: 17px !important;
     width: 108px !important;
-    right: 2px !important;
+    right: -3px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
     top: 22px !important;
