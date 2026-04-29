@@ -2763,6 +2763,10 @@ body {
     overflow: hidden;
   }
 
+  .fv__badges-frame img {
+    height: 80%;
+  }
+
   /* CTA: Figma left:8px, width:369px */
   .fv__cta-wrap {
     padding: 0 0 0 8px;
