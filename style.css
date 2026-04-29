@@ -4039,7 +4039,7 @@ body {
   .tokuten__main-title {
     font-size: 20px;
     top: 0;
-    left: 0;
+    left: -15px;
     white-space: nowrap;
   }
 
