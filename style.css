@@ -2791,19 +2791,20 @@ body {
 
   /* Badges: Figma left:5px, 382×148, shadow */
   .fv__badges {
-    padding-left: 5px;
+    padding: 0;
     margin-top: 5px;
+    display: flex;
+    justify-content: center;
   }
 
   .fv__badges-frame {
-    width: 420px;
-    max-width: 107%;
-    height: 141px;
+    width: 100%;
+    height: auto;
     box-shadow: none;
-    overflow: hidden;
+    overflow: visible;
     background: transparent;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
   }
 
