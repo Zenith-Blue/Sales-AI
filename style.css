@@ -3599,6 +3599,140 @@ body {
     max-width: 241px;
   }
 
+  /* ===== Curriculum SP ===== */
+  .curriculum {
+    padding: 30px 27px 38px;
+  }
+
+  .curriculum__inner {
+    width: 336px;
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  .curriculum__header {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .curriculum__header-top {
+    gap: 15px;
+    align-items: center;
+    width: 288px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .curriculum__pill {
+    font-size: 15.244px;
+    padding: 5px 40px;
+    border-radius: 3px;
+    letter-spacing: 1.386px;
+    width: 183px;
+  }
+
+  .curriculum__headline {
+    font-size: 26px;
+    letter-spacing: 1.307px;
+    line-height: 31.909px;
+    text-align: center;
+  }
+
+  .curriculum__stats {
+    gap: 9.302px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .curriculum__stat {
+    width: 106px;
+    height: 110px;
+    padding: 15px 10px;
+    border-radius: 11.628px;
+    gap: 8px;
+  }
+
+  .curriculum__stat-num {
+    font-size: 30px;
+  }
+
+  .curriculum__stat-unit {
+    font-size: 14px;
+  }
+
+  .curriculum__stat-min {
+    font-size: 20px;
+  }
+
+  .curriculum__stat-label {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .curriculum__stat-unit--month {
+    font-size: 20px;
+  }
+
+  .curriculum__stat-month .curriculum__stat-num {
+    font-size: 30px;
+  }
+
+  /* Chapters: single column */
+  .curriculum__chapters {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .curriculum__col--left,
+  .curriculum__col--right {
+    width: 100%;
+    gap: 0;
+  }
+
+  .curriculum__chapter {
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .curriculum__circle {
+    width: 64px;
+    height: 61px;
+    flex-shrink: 0;
+  }
+
+  .curriculum__circle-label {
+    font-size: 9px;
+  }
+
+  .curriculum__circle-num {
+    font-size: 24px;
+  }
+
+  .curriculum__card {
+    width: 249px;
+    min-height: 64px;
+    padding: 6px 12px 6px 19px;
+    border-radius: 5px;
+  }
+
+  .curriculum__card-title {
+    font-size: 14px;
+    letter-spacing: 1.288px;
+    white-space: normal;
+  }
+
+  .curriculum__card-title-ul {
+    height: 9px;
+    bottom: 5px;
+  }
+
+  .curriculum__card-desc {
+    font-size: 8px;
+    letter-spacing: 1.211px;
+    line-height: 13px;
+  }
+
   /* ===== Feature SP ===== */
   .feature::before {
     height: 50px;
