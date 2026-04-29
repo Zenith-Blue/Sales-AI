@@ -3366,10 +3366,12 @@ body {
     overflow: hidden;
   }
 
+  .reason {
+    background: #c8c8c8;
+  }
+
   .reason__bg {
-    top: 0;
-    height: 100%;
-    opacity: 0.6;
+    display: none;
   }
 
   /* SP person image */
