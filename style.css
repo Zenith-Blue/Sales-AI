@@ -742,7 +742,7 @@ body {
 
 .reassure__sub {
   margin: 0 0 -3px 0;
-  font-size: 31px;
+  font-size: clamp(19px, 2.42vw, 31px);
   font-weight: 700;
   color: #fe692c;
   text-align: center;
@@ -762,8 +762,8 @@ body {
   position: absolute;
   bottom: 4px;
   left: 3px;
-  width: 338px;
-  height: 34px;
+  width: clamp(222px, 26.4vw, 338px);
+  height: clamp(21px, 2.66vw, 34px);
   background: #edff65;
   z-index: 0;
 }
@@ -771,20 +771,20 @@ body {
 .reassure__title {
   position: relative;
   margin: 0;
-  font-size: 44px;
+  font-size: clamp(28px, 3.44vw, 44px);
   font-weight: 700;
   color: #ff530c;
   text-align: center;
   letter-spacing: 1px;
-  -webkit-text-stroke: 7px #ffffff;
+  -webkit-text-stroke: clamp(3px, 0.55vw, 7px) #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(3.84px 3.84px 3.84px #c8c8c8);
   z-index: 1;
 }
 
 .reassure__photo {
-  width: 444px;
-  height: 296px;
+  width: clamp(277px, 34.7vw, 444px);
+  height: clamp(185px, 23.1vw, 296px);
   margin-top: 19px;
   margin-bottom: 18px;
   border: 3.2px solid transparent;
@@ -806,7 +806,7 @@ body {
 .reassure__caption {
   margin: 0;
   padding-top: 16px;
-  font-size: 31px;
+  font-size: clamp(19px, 2.42vw, 31px);
   font-weight: 700;
   color: #fe692c;
   text-align: center;
