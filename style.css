@@ -3374,24 +3374,59 @@ body {
     padding: 20px 16px;
   }
 
-  /* CTA common */
+  /* CTA common - unified design across all sections */
+  .fv__cta-wrap,
   .tokuten__cta-wrap,
   .faq__cta-wrap,
   .reassure__cta-wrap {
-    padding: 0 16px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 8px;
   }
 
+  .fv__cta-link,
+  .tokuten__cta-link,
+  .faq__cta-wrap,
+  .reassure__cta-link {
+    width: 100%;
+    max-width: 369px;
+  }
+
+  .fv__cta-img,
   .tokuten__cta-img,
   .faq__cta-img,
   .reassure__cta-img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 369px;
     height: auto;
+    display: block;
+    margin: 0 auto;
   }
 
-  .faq__cta-note {
-    width: auto;
+  .fv__cta-note,
+  .tokuten__cta-note,
+  .faq__cta-note,
+  .reassure__cta-note {
+    width: 100%;
+    max-width: 369px;
     font-size: 14px;
+    font-weight: 700;
+    color: #11ad34;
+    text-align: center;
+    letter-spacing: 0.5712px;
+    -webkit-text-stroke: 4.348px #ffffff;
+    paint-order: stroke fill;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .fv__cta-note--dark,
+  .tokuten__cta-note--dark,
+  .faq__cta-note--dark,
+  .reassure__cta-note--dark {
+    color: #017f1d;
   }
 
   /* Footer */
