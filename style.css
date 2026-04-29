@@ -4496,4 +4496,25 @@ body {
     padding: 16px;
     text-align: center;
   }
+
+  /* SP版: 全ストローク削除 */
+  .fv__cta-note,
+  .tokuten__cta-note,
+  .faq__cta-note,
+  .reassure__cta-note,
+  .faq__title,
+  .tokuten__card-main,
+  .tokuten__main-title,
+  .tokuten__special-title,
+  .reassure__sub,
+  .reassure__title,
+  .reassure__caption,
+  .voice__card-title,
+  .moshianata__title,
+  .moshianata__h2,
+  .anshin__compare-title,
+  .anshin__points-title,
+  .worries__headline {
+    -webkit-text-stroke: 0 !important;
+  }
 }
