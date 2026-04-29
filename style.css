@@ -4044,7 +4044,8 @@ body {
     padding-bottom: 11px;
   }
 
-  /* 特典02: AIで作る自己紹介シート */
+  /* 特典02: 今日からすぐ使える〜 */
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { padding-top: 4px !important; }
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 7px !important; left: -35px !important; }
 
   /* 特典03: 無敵の営業心理学 */
@@ -4062,7 +4063,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { margin-top: 13px !important; left: -34px !important; }
 
   /* 特典05: 未経験だから〜 */
-  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 6px; }
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 8px; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 13px !important; left: -31px !important; }
 
@@ -4083,7 +4084,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 9px !important; }
-  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; margin-left: -9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; margin-left: -7px !important; }
 
   .tokuten__card-book {
     width: 90px !important;
@@ -4497,24 +4498,4 @@ body {
     text-align: center;
   }
 
-  /* SP版: 全ストローク削除 */
-  .fv__cta-note,
-  .tokuten__cta-note,
-  .faq__cta-note,
-  .reassure__cta-note,
-  .faq__title,
-  .tokuten__card-main,
-  .tokuten__main-title,
-  .tokuten__special-title,
-  .reassure__sub,
-  .reassure__title,
-  .reassure__caption,
-  .voice__card-title,
-  .moshianata__title,
-  .moshianata__h2,
-  .anshin__compare-title,
-  .anshin__points-title,
-  .worries__headline {
-    -webkit-text-stroke: 0 !important;
-  }
 }
