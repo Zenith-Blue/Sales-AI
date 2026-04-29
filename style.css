@@ -3956,12 +3956,12 @@ body {
 
   .tokuten__main-sub-wrap {
     position: static;
-    padding: 2px 90px 0 56px;
+    padding: 4px 90px 0 56px;
     width: auto;
   }
 
   .tokuten__main-sub {
-    font-size: 13px;
+    font-size: 10.5px;
   }
 
   .tokuten__main-sub--lg {
