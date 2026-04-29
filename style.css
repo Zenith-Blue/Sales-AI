@@ -3745,7 +3745,7 @@ body {
   .curriculum__card-title {
     font-size: 14px;
     letter-spacing: 1.288px;
-    white-space: normal;
+    white-space: nowrap;
   }
 
   .curriculum__card-title-ul {
