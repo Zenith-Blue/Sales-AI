@@ -3988,7 +3988,7 @@ body {
     font-size: 27px;
     background: linear-gradient(to right, #000, #3f3939);
     color: #fff;
-    -webkit-text-stroke: 5px #fff;
+    -webkit-text-stroke: 0;
     paint-order: stroke fill;
     filter: none;
     text-shadow: 0px 4.281px 4.281px rgba(0,0,0,0.25);
