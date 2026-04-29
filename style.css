@@ -3747,6 +3747,10 @@ body {
     bottom: 5px;
   }
 
+  .curriculum__card-title--sm {
+    font-size: 12px !important;
+  }
+
   .curriculum__card-desc {
     font-size: 8px;
     letter-spacing: 1.211px;
