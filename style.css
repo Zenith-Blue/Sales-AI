@@ -120,9 +120,12 @@ body {
   display: none;
 }
 
+.fv__headlines--pc {
+  display: flex;
+}
+
 .fv__headlines {
   padding-top: 25px;
-  display: flex;
   flex-direction: column;
   gap: 9px;
 }
