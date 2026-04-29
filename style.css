@@ -2731,7 +2731,7 @@ body {
   /* Line 2 "自由に稼げる営業力を" */
   .fv__headlines--sp .fv__headline:nth-child(2) {
     height: 46.178px;
-    padding: 0 10px 0 20px;
+    padding: 0 15px 0 20px;
   }
 
   /* Line 3 "身につける唯一のスクール" */
@@ -2751,9 +2751,22 @@ body {
 
   .fv__headline-text {
     text-shadow: 0px 4.034px 4.034px rgba(0,0,0,0.25);
-    letter-spacing: 1.158px;
+    letter-spacing: 0.58px;
     line-height: 1;
     white-space: nowrap;
+    margin: 0;
+  }
+
+  .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
+    letter-spacing: 1.158px;
+  }
+
+  .fv__headlines--sp .fv__headline:nth-child(2) .fv__headline-text {
+    letter-spacing: 0.58px;
+  }
+
+  .fv__headlines--sp .fv__headline:nth-child(3) .fv__headline-text {
+    letter-spacing: 1.158px;
   }
 
   /* Badges: Figma left:5px, 382×148, shadow */
