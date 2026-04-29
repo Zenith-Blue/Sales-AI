@@ -2304,7 +2304,7 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .anshin__bg {
@@ -2324,7 +2324,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 67px;
+  gap: 0;
   align-items: center;
 }
 
@@ -2369,7 +2369,7 @@ body {
   text-shadow: 3.756px 3.756px 3.756px #c8c8c8;
   -webkit-text-stroke: 5px #fff;
   paint-order: stroke fill;
-  margin: 0;
+  margin: 67px 0 0;
   line-height: 65.81px;
 }
 
@@ -2383,8 +2383,9 @@ body {
 
 .anshin__table {
   width: 855px;
-  height: 789px;
+  height: auto;
   flex-shrink: 0;
+  margin-top: 45px;
 }
 
 .anshin__table img {
@@ -2400,6 +2401,7 @@ body {
   gap: 30px;
   align-items: center;
   width: 957px;
+  margin-top: 50px;
 }
 
 .anshin__points-title {
