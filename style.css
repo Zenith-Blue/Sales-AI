@@ -2650,7 +2650,7 @@ body {
   /* Badge: Figma left:12px, top:92px, 207.06×131.4 */
   .fv__elbow-badge {
     left: 12px;
-    top: 92px;
+    top: 102px;
     width: 207.06px;
     height: 131.4px;
     object-fit: contain;
@@ -2696,7 +2696,9 @@ body {
   }
 
   .fv__ul {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
   }
 
   /* Headlines SP: Figma gap:4.633px, starts at ~top:233px with 10px padding */
