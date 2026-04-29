@@ -190,8 +190,8 @@ body {
 .fv__badges-frame {
   position: relative;
   width: 552px;
-  height: 178px;
-  overflow: hidden;
+  height: auto;
+  overflow: visible;
 }
 
 .fv__badges-img--sp {
@@ -199,13 +199,12 @@ body {
 }
 
 .fv__badges-img--pc {
-  position: absolute;
-  top: -3.42%;
-  left: -5.58%;
-  width: 154.9%;
-  height: 108.57%;
-  object-fit: cover;
-  mix-blend-mode: multiply;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ===== CTA ===== */
