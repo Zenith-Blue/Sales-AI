@@ -3444,6 +3444,11 @@ body {
     line-height: 28.103px;
     color: #feffc1;
     margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .gifts__headline {
+    margin-top: 0;
   }
 
   .gifts__headline {
