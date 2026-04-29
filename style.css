@@ -3962,39 +3962,74 @@ body {
     max-width: none;
   }
 
-  /* Points */
+  /* Points title: dark gradient bar */
   .anshin__points {
     width: 100%;
-    padding: 0 16px;
+    padding: 0;
     box-sizing: border-box;
+    gap: 0;
   }
 
   .anshin__points-title {
-    font-size: 30px;
+    font-size: 27px;
+    background: linear-gradient(to right, #000, #3f3939);
+    color: #fff;
+    -webkit-text-stroke: 0;
+    filter: none;
+    text-shadow: 0px 4.281px 4.281px rgba(0,0,0,0.25);
+    letter-spacing: 1.229px;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
   }
 
   .anshin__cards {
     flex-direction: column;
-    gap: 16px;
-    width: 100%;
+    gap: 15px;
+    width: 338.689px;
+    max-width: calc(100% - 52px);
+    margin: 0 auto;
+    padding-top: 30px;
   }
 
   .anshin__card {
     width: 100%;
-    padding: 18px 16px;
+    padding: 18px 20px 18px 20px;
+    border-radius: 9.461px;
+    border-width: 1.892px;
+    box-shadow: 0px 3.784px 3.784px rgba(0,0,0,0.25);
+  }
+
+  .anshin__card--1 { height: 195px; }
+  .anshin__card--2 { height: 175px; }
+  .anshin__card--3 { height: 185px; }
+
+  .anshin__card-icon {
+    width: 53px;
+    height: 53px;
   }
 
   .anshin__card-title {
-    font-size: 20px;
+    font-size: 24.598px;
+    letter-spacing: 1.237px;
+    line-height: 26.49px;
   }
 
   .anshin__card-title--sm {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .anshin__card-desc {
-    font-size: 14px;
-    width: 100%;
+    font-size: 13px;
+    letter-spacing: 0.946px;
+    line-height: 24.598px;
+    width: 287px;
+    max-width: 100%;
+  }
+
+  .anshin__card-line {
+    width: 302px;
+    max-width: 100%;
   }
 
   /* FAQ */
