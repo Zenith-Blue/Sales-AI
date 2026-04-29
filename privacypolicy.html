@@ -100,7 +100,7 @@
 
     .pp-section__row {
       display: flex;
-      justify-content: space-between;
+      gap: 15px;
       align-items: flex-start;
       font-size: 16px;
       letter-spacing: 0.32px;
@@ -139,6 +139,24 @@
     .pp-section__body a {
       color: #101010;
       text-decoration: underline;
+    }
+
+    /* ===== Back button ===== */
+    .pp-back-btn-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px 50px;
+      background: #fff7e8;
+    }
+
+    .pp-back-btn-wrapper a {
+      display: block;
+    }
+
+    .pp-back-btn-wrapper img {
+      display: block;
+      width: 436px;
+      height: 87px;
     }
 
     /* ===== Footer ===== */
@@ -247,6 +265,15 @@
       .pp-footer__divider {
         width: 1px;
         height: 10px;
+      }
+
+      .pp-back-btn-wrapper {
+        padding: 40px 20px 40px;
+      }
+
+      .pp-back-btn-wrapper img {
+        width: 218px;
+        height: auto;
       }
 
       .pp-footer__divider--extra {
@@ -430,6 +457,12 @@
     </div>
   </div>
 
+  <div class="pp-back-btn-wrapper">
+    <a href="index.html">
+      <img src="assets/pp-back-btn.png" alt="前のページに戻る" width="436" height="87">
+    </a>
+  </div>
+
   <div class="pp-gradient-bar"></div>
 
   <footer class="pp-footer">
@@ -442,11 +475,8 @@
         <div class="pp-footer__divider"></div>
         <a href="tokushouhou.html" class="pp-footer__link">特定商取引法</a>
       </div>
-      <div class="pp-footer__divider pp-footer__divider--extra"></div>
-      <div class="pp-footer__item">
-        <div class="pp-footer__divider"></div>
-        <span class="pp-footer__link">会社概要</span>
-      </div>
+      <div class="pp-footer__divider"></div>
+      <span class="pp-footer__link">会社概要</span>
       <div class="pp-footer__divider"></div>
     </div>
     <p class="pp-footer__copy">©sales AI . All rignt reserved.</p>

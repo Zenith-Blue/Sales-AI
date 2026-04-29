@@ -101,7 +101,7 @@
 
     .tsr-row {
       display: flex;
-      justify-content: space-between;
+      gap: 15px;
       align-items: flex-start;
       line-height: 32px;
       font-size: 16px;
@@ -234,6 +234,24 @@
       margin: 0;
     }
 
+    /* ===== Back button ===== */
+    .tsr-back-btn-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px 50px;
+      background: #fff7e8;
+    }
+
+    .tsr-back-btn-wrapper a {
+      display: block;
+    }
+
+    .tsr-back-btn-wrapper img {
+      display: block;
+      width: 436px;
+      height: 87px;
+    }
+
     /* ===== Footer ===== */
     .tsr-footer {
       background: #242424;
@@ -364,6 +382,15 @@
       .tsr-footer__divider {
         width: 1px;
         height: 10px;
+      }
+
+      .tsr-back-btn-wrapper {
+        padding: 40px 20px 40px;
+      }
+
+      .tsr-back-btn-wrapper img {
+        width: 218px;
+        height: auto;
       }
 
       .tsr-footer__divider--extra {
@@ -558,6 +585,12 @@
     </div>
   </div>
 
+  <div class="tsr-back-btn-wrapper">
+    <a href="index.html">
+      <img src="assets/pp-back-btn.png" alt="前のページに戻る" width="436" height="87">
+    </a>
+  </div>
+
   <div class="tsr-gradient-bar"></div>
 
   <footer class="tsr-footer">
@@ -570,11 +603,8 @@
         <div class="tsr-footer__divider"></div>
         <a href="tokushouhou.html" class="tsr-footer__link">特定商取引法</a>
       </div>
-      <div class="tsr-footer__divider tsr-footer__divider--extra"></div>
-      <div class="tsr-footer__item">
-        <div class="tsr-footer__divider"></div>
-        <span class="tsr-footer__link">会社概要</span>
-      </div>
+      <div class="tsr-footer__divider"></div>
+      <span class="tsr-footer__link">会社概要</span>
       <div class="tsr-footer__divider"></div>
     </div>
     <p class="tsr-footer__copy">©sales AI . All rignt reserved.</p>
