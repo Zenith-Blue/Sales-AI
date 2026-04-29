@@ -3934,7 +3934,7 @@ body {
 
   .tokuten__main-sub-wrap {
     position: static;
-    padding: 9px 12px 0 76px;
+    padding: 7px 12px 0 71px;
     width: auto;
   }
 
@@ -4052,7 +4052,7 @@ body {
 
   /* 特典03 */
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-book { right: 3px !important; }
-  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 12px !important; padding-top: 4px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 12px !important; padding-top: 6px !important; }
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub--line1 { font-size: 12px !important; }
 
   /* 特典04: 頑張っているのに〜 */
@@ -4321,7 +4321,7 @@ body {
   }
 
   .gifts__inner {
-    padding: 17px 0;
+    padding: 20px 0 17px;
     align-items: center;
   }
 
