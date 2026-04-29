@@ -2872,6 +2872,18 @@ body {
     margin: 0;
   }
 
+  /* The .fv__text-gradient wrapper inherits the default 16px font-size,
+     so its line-box is only ~19px tall while the inner .fv__text-lg
+     children render at 27.797px. -webkit-background-clip:text only
+     paints inside the wrapper's line-box, so the parts of the larger
+     children that extend above/below the wrapper get no gradient and
+     become transparent — that's why "自由に稼げる" appeared half-erased.
+     Lifting the wrapper's font-size to match the largest child fixes it. */
+  .fv__headlines--sp .fv__text-gradient {
+    font-size: 27.797px;
+    line-height: 1.2;
+  }
+
   .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
     letter-spacing: 1.158px;
   }
