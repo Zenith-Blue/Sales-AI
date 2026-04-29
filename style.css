@@ -3972,6 +3972,7 @@ body {
   .tokuten__badge--sm {
     width: 61px;
     height: 61px;
+    top: -3px;
   }
 
   .tokuten__badge--lg {
