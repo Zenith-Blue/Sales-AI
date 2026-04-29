@@ -3237,6 +3237,202 @@ body {
     margin-top: 10px;
   }
 
+  /* ===== Eigyoryoku SP ===== */
+  .eigyoryoku {
+    padding: 15px 21px;
+  }
+
+  .eigyoryoku__text {
+    font-size: 25px;
+    letter-spacing: 1.229px;
+  }
+
+  .eigyoryoku__text--yellow {
+    font-size: 25px;
+  }
+
+  .eigyoryoku__underline {
+    width: 105px;
+    height: 2px;
+    margin-top: 8px;
+  }
+
+  /* ===== Reason SP ===== */
+  .reason {
+    min-height: auto;
+  }
+
+  .reason__bg {
+    top: 0;
+    height: 100%;
+    opacity: 0.6;
+  }
+
+  .reason__headlines {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 30px 8px 0;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .reason__hl-box {
+    padding: 8px 15px;
+    width: auto;
+    max-width: 301px;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.25);
+  }
+
+  .reason__hl-lg {
+    font-size: 23.4px;
+  }
+
+  .reason__hl-sm {
+    font-size: 18px;
+  }
+
+  .reason__hl-text {
+    letter-spacing: 1.307px;
+  }
+
+  .reason__hl-box--indent {
+    margin-left: 0;
+  }
+
+  .reason__sub {
+    font-size: 12px;
+    letter-spacing: 1.229px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 0;
+  }
+
+  .reason__main {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    padding: 15px 8px 30px;
+    gap: 0;
+  }
+
+  /* Dark card */
+  .reason__dark {
+    width: 358px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 14px 37px 14px 39px;
+    border-width: 2px;
+  }
+
+  .reason__dark-main {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1.307px;
+  }
+
+  .reason__dark-lg {
+    font-size: 20px;
+  }
+
+  .reason__robot-wrap {
+    width: 49px;
+    height: 93px;
+    margin-right: 0;
+    top: 0;
+  }
+
+  .reason__robot-wrap img {
+    left: -76px;
+    top: -4px;
+    width: 150px;
+  }
+
+  .reason__dark-body {
+    font-size: 12px;
+    letter-spacing: 1.229px;
+    line-height: 20px;
+  }
+
+  .reason__dark-sep img {
+    width: 152px;
+    height: 3.429px;
+  }
+
+  /* Plus circle */
+  .reason__plus-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    border-width: 2px;
+    margin: 10px auto;
+  }
+
+  /* Feature cards */
+  .reason__features {
+    width: 358px;
+    max-width: 100%;
+    gap: 11px;
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .reason__feature {
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 8px 12px;
+    min-height: 92px;
+    gap: 10px;
+  }
+
+  .reason__icon-wrap {
+    width: 70px;
+    height: 70px;
+  }
+
+  .reason__icon-circle {
+    width: 66px;
+    height: 66px;
+    top: 2px;
+  }
+
+  .reason__icon-img-wrap--1,
+  .reason__icon-img-wrap--2,
+  .reason__icon-img-wrap--3 {
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 0;
+  }
+
+  .reason__icon-img-wrap--1 img,
+  .reason__icon-img-wrap--2 img,
+  .reason__icon-img-wrap--3 img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .reason__feature-title {
+    font-size: 16px;
+    letter-spacing: 1.307px;
+    line-height: 31.909px;
+    white-space: normal;
+  }
+
+  .reason__feature-desc {
+    font-size: 12px;
+    letter-spacing: 1.229px;
+    line-height: 17px;
+    max-width: 241px;
+  }
+
   /* ===== Feature SP ===== */
   .feature::before {
     height: 50px;
