@@ -3260,6 +3260,7 @@ body {
   /* ===== Reason SP ===== */
   .reason {
     min-height: auto;
+    overflow: hidden;
   }
 
   .reason__bg {
@@ -3310,6 +3311,7 @@ body {
     text-align: center;
     padding: 10px 0 0;
     margin: 0;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
   }
 
   .reason__main {
