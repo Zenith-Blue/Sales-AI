@@ -3306,14 +3306,15 @@ body {
 
   .reason__hl-box--indent {
     margin-left: 0;
+    margin-right: 0;
   }
 
   .reason__sub {
     font-size: 12px;
     letter-spacing: 1.229px;
     line-height: 20px;
-    text-align: center;
-    padding: 10px 0 0;
+    text-align: right;
+    padding: 10px 16px 0 0;
     margin: 0;
     text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
   }
