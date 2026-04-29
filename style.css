@@ -2754,7 +2754,7 @@ body {
   /* Person image: Figma left:116px, top:61px, 386×499 (390px viewport) */
   .fv__person {
     position: absolute;
-    left: calc(29.74% - 10px);
+    left: calc(29.74% + 10px);
     top: 61px;
     width: 98.97%;
     height: auto;
@@ -2895,6 +2895,11 @@ body {
   .fv__headlines--sp .fv__text-gradient {
     font-size: 27.797px;
     line-height: 1.2;
+    display: inline-block;
+    background: linear-gradient(to right, #fe3e3f, #ffd000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
@@ -2943,12 +2948,14 @@ body {
     mix-blend-mode: normal;
   }
 
-  /* CTA: Figma left:8px, width:369px */
+  /* CTA: centered */
   .fv__cta-wrap {
-    padding: 0 8px;
+    padding: 0;
     margin-top: 0;
+    margin-left: 0;
     align-items: center;
     gap: 10px;
+    width: 100%;
   }
 
   .fv__cta-link {
