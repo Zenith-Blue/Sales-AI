@@ -189,12 +189,10 @@ body {
 }
 
 .fv__text-gradient {
-  background: linear-gradient(to right, #ff6f3d, #ffd000);
+  background: linear-gradient(to right, #fe3e3f, #ffd000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  -webkit-text-stroke: 1px #ffffff;
-  paint-order: stroke fill;
 }
 
 .fv__text-lg {
