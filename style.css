@@ -3243,7 +3243,8 @@ body {
 
   /* ===== Moshianata SP ===== */
   .moshianata__bg {
-    top: -20px;
+    top: -25px;
+    left: -5px;
   }
 
   .moshianata__inner {
