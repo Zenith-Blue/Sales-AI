@@ -1375,6 +1375,18 @@ body {
   display: none;
 }
 
+.gifts__hl-golden-7 {
+  display: inline-block;
+  font-size: 44px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #ffff00, #e77400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-bottom: 3px solid #f0a000;
+  padding-bottom: 2px;
+}
+
 .gifts__hl-golden {
   display: inline-block;
   font-size: 44px;
