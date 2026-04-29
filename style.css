@@ -2138,7 +2138,7 @@ body {
 
 .curriculum__chapters {
   display: flex;
-  gap: 73px;
+  gap: 20px;
   align-items: flex-start;
   width: 100%;
 }
