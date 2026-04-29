@@ -7,7 +7,7 @@ const TARGET_URL = process.env.TARGET_URL || 'https://zenith-blue.github.io/Sale
 const OUT_DIR = path.join(__dirname, '..', 'docs', 'screenshots');
 
 const VIEWPORTS = [
-  { name: 'mobile-320',  width: 320,  height: 800 },
+  // mobile-320 is intentionally unsupported (design min-width is 375px).
   { name: 'mobile-375',  width: 375,  height: 812 },
   { name: 'mobile-390',  width: 390,  height: 844 },
   { name: 'mobile-414',  width: 414,  height: 896 },

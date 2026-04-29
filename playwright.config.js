@@ -17,7 +17,7 @@ module.exports = defineConfig({
     trace: 'retain-on-failure',
   },
   projects: [
-    { name: 'mobile-320',  use: { ...baseChromium, viewport: { width: 320,  height: 800  }, isMobile: false, hasTouch: true } },
+    // mobile-320 is intentionally unsupported (design min-width is 375px).
     { name: 'mobile-375',  use: { ...baseChromium, viewport: { width: 375,  height: 812  }, isMobile: false, hasTouch: true } },
     { name: 'mobile-390',  use: { ...baseChromium, viewport: { width: 390,  height: 844  }, isMobile: false, hasTouch: true } },
     { name: 'mobile-414',  use: { ...baseChromium, viewport: { width: 414,  height: 896  }, isMobile: false, hasTouch: true } },
