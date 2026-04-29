@@ -3486,7 +3486,8 @@ body {
   .reason__man-sp {
     display: block;
     position: absolute;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     top: 0;
     width: 170px;
     height: auto;
