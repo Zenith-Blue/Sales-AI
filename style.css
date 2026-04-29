@@ -3094,7 +3094,7 @@ body {
   .voice__cards {
     width: 324px;
     max-width: 100%;
-    gap: 19px;
+    gap: 0;
     margin-bottom: 40px;
   }
 
