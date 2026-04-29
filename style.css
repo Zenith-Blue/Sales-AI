@@ -1979,6 +1979,10 @@ body {
   white-space: nowrap;
 }
 
+.curriculum__sp-br {
+  display: none;
+}
+
 .curriculum__headline--orange {
   color: #fe692c;
 }
@@ -3636,6 +3640,11 @@ body {
     letter-spacing: 1.307px;
     line-height: 31.909px;
     text-align: center;
+    white-space: normal;
+  }
+
+  .curriculum__sp-br {
+    display: block;
   }
 
   .curriculum__stats {
