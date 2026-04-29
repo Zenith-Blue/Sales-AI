@@ -1544,7 +1544,7 @@ body {
 .reason__headlines {
   position: absolute;
   top: 87px;
-  left: 50%;
+  left: 40%;
   width: 609px;
   max-width: 100%;
   z-index: 1;
@@ -1623,7 +1623,8 @@ body {
   border: 3.64px solid #fe413e;
   border-radius: 18.198px;
   box-shadow: 0px 7.279px 7.279px rgba(0,0,0,0.25);
-  width: 100%;
+  width: 639.958px;
+  max-width: 100%;
   padding: 31px 73px 31px 86px;
   box-sizing: border-box;
   display: flex;
