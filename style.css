@@ -3063,8 +3063,7 @@ body {
   .voice__card-left {
     width: 100%;
     gap: 0;
-    display: flex;
-    flex-direction: column;
+    display: contents;
   }
 
   .voice__card-head {
@@ -3078,6 +3077,7 @@ body {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    order: 1;
   }
 
   .voice__case {
@@ -3122,6 +3122,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    order: 2;
   }
 
   .voice__card-photo img {
@@ -3138,6 +3139,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     gap: 7px;
+    order: 3;
   }
 
   .voice__card-name {
@@ -3177,7 +3179,7 @@ body {
   }
 
   .reassure__panel {
-    margin: 15px 20px;
+    margin: 10px;
     padding: 20px 15px;
     background: #fff;
     border: none;
