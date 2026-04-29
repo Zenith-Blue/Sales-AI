@@ -3999,8 +3999,11 @@ body {
     padding-bottom: 11px;
   }
 
+  /* 特典02: AIで作る自己紹介シート */
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 9px !important; }
+
   /* 特典03: 無敵の営業心理学 */
-  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -26px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -26px !important; margin-top: 9px !important; }
 
   /* 特典04: 頑張っているのに〜 */
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12px !important; }
