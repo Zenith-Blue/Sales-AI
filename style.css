@@ -3463,6 +3463,18 @@ body {
     font-size: 26px;
   }
 
+  .gifts__hl-golden-wrap {
+    display: inline-block;
+    border-bottom: 3px solid #f0a000;
+    padding-bottom: 2px;
+  }
+
+  /* Force line break before 7大特典 */
+  .gifts__hl-golden-wrap::before {
+    content: '\A';
+    white-space: pre;
+  }
+
   .gifts__hl-golden-7 {
     font-size: 42.155px;
     font-weight: 700;
@@ -3471,21 +3483,11 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     letter-spacing: 0.617px;
-    border-bottom: 3px solid #f0a000;
-    padding-bottom: 2px;
-    display: inline;
-    vertical-align: baseline;
-  }
-
-  /* Force line break before 7 */
-  .gifts__hl-golden-7::before {
-    content: '\A';
-    white-space: pre;
   }
 
   .gifts__hl-golden {
     font-size: 29.604px;
-    border-bottom-width: 2px;
+    border-bottom: none;
   }
 
   .gifts__hl-white-lg {
