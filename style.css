@@ -2932,9 +2932,9 @@ body {
 
   /* CTA: Figma left:8px, width:369px */
   .fv__cta-wrap {
-    padding: 0 0 0 8px;
+    padding: 0 8px;
     margin-top: 0;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
   }
 
