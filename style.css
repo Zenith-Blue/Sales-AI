@@ -3898,8 +3898,8 @@ body {
   }
 
   .feature__inner {
-    padding: 66px 11px 30px;
-    gap: 12px;
+    padding: 76px 11px 30px;
+    gap: 22px;
   }
 
   .feature__text-block {
@@ -3923,6 +3923,7 @@ body {
     max-width: 100%;
     padding: 8px 0;
     margin: 0 auto;
+    border-radius: 0;
   }
 
   .feature__fs-hl {
@@ -3982,12 +3983,13 @@ body {
   }
 
   .feature__card-text {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     width: 309px;
     max-width: 100%;
     text-align: left;
     margin: 0 auto;
+    white-space: nowrap;
   }
 
   /* Tokuten */
