@@ -3660,15 +3660,11 @@ body {
   }
 
   .gifts__hl-golden-wrap {
-    display: inline-block;
+    display: block;
     border-bottom: 3px solid #f0a000;
     padding-bottom: 2px;
-  }
-
-  /* Force line break before 7大特典 */
-  .gifts__hl-golden-wrap::before {
-    content: '\A';
-    white-space: pre;
+    width: fit-content;
+    margin: 0 auto;
   }
 
   .gifts__hl-golden-7 {
