@@ -360,7 +360,7 @@ body {
 .worries__sp-person {
   position: absolute;
   pointer-events: none;
-  z-index: 1;
+  z-index: 3;
 }
 
 /* ===== Feature Section ===== */
