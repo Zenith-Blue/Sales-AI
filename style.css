@@ -4152,7 +4152,7 @@ body {
   .tokuten__special-badge {
     width: 70px;
     height: 70px;
-    left: 16px;
+    left: -4px;
   }
 
   /* ===== Anshin SP ===== */
