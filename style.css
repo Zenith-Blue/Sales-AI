@@ -3242,6 +3242,10 @@ body {
   }
 
   /* ===== Moshianata SP ===== */
+  .moshianata__bg {
+    top: -20px;
+  }
+
   .moshianata__inner {
     max-width: 100%;
     padding: 25px 19px 20px;
