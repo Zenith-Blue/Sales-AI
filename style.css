@@ -4022,7 +4022,7 @@ body {
   }
 
   /* 特典02: AIで作る自己紹介シート */
-  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 11px !important; left: -33px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 10px !important; left: -33px !important; }
 
   /* 特典03: 無敵の営業心理学 */
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 10px !important; }
