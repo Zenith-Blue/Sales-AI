@@ -3499,13 +3499,12 @@ body {
     top: auto;
     left: auto;
     width: 321px;
-    margin-left: auto;
-    margin-right: 0;
+    margin: 0 auto;
     padding: 15px 0 10px 10px;
     gap: 8px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     box-sizing: border-box;
     min-height: 200px;
     justify-content: flex-end;
@@ -3516,8 +3515,8 @@ body {
     width: auto;
     max-width: 301px;
     box-shadow: 0px 4px 2px rgba(0,0,0,0.25);
-    align-self: flex-end;
-    margin-right: 2px;
+    align-self: center;
+    margin-right: 0;
   }
 
   .reason__hl-lg {
@@ -3534,8 +3533,8 @@ body {
 
   .reason__hl-box--indent {
     margin-left: 0;
-    margin-right: -4px;
-    align-self: flex-end;
+    margin-right: 0;
+    align-self: center;
   }
 
   .reason__sub {
