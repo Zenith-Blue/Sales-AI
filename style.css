@@ -562,7 +562,8 @@ body {
 .voice__card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 15px;
   background: #fff;
   border: 2.529px solid #f66f00;
   border-radius: 19px;
@@ -575,7 +576,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 399px;
+  width: 391px;
   flex-shrink: 0;
 }
 
