@@ -719,11 +719,13 @@ body {
 
 .reassure__panel {
   position: relative;
-  margin: 48px 5vw;
+  margin: 48px auto;
   background: #fff;
   border-radius: 20px;
   padding: 20px 5vw 30px;
   overflow: hidden;
+  width: 700px;
+  max-width: 100%;
 }
 
 .reassure__content {
@@ -1625,6 +1627,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
