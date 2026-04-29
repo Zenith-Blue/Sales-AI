@@ -1520,6 +1520,7 @@ body {
 
 .reason__red { color: #e60012; }
 .reason__yellow { color: yellow; }
+.reason__person-sp { display: none; }
 .reason__dark-main .reason__yellow {
   text-decoration: underline;
   text-decoration-color: yellow;
@@ -3366,9 +3367,20 @@ body {
   }
 
   .reason__bg {
-    top: -11.11%;
+    top: calc(-11.11% - 10px);
     height: 111.12%;
-    opacity: 0.6;
+    opacity: 1;
+  }
+
+  /* SP person image */
+  .reason__person-sp {
+    display: block;
+    position: absolute;
+    left: -49px;
+    top: -40px;
+    width: 204px;
+    height: auto;
+    z-index: 2;
   }
 
   .reason__headlines {
@@ -3377,11 +3389,12 @@ body {
     left: auto;
     width: 321px;
     margin-left: auto;
-    padding: 10px;
+    margin-right: 0;
+    padding: 10px 0 10px 10px;
     gap: 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     box-sizing: border-box;
     min-height: 200px;
     justify-content: flex-end;
@@ -3392,7 +3405,7 @@ body {
     width: auto;
     max-width: 301px;
     box-shadow: 0px 4px 2px rgba(0,0,0,0.25);
-    align-self: flex-start;
+    align-self: flex-end;
   }
 
   .reason__hl-lg {
@@ -3410,7 +3423,7 @@ body {
   .reason__hl-box--indent {
     margin-left: 0;
     margin-right: 0;
-    align-self: flex-start;
+    align-self: flex-end;
   }
 
   .reason__sub {
