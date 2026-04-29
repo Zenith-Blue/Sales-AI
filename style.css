@@ -3904,13 +3904,6 @@ body {
     font-size: 14px;
   }
 
-  .tokuten__title-wrap {
-    position: static;
-    text-align: center;
-    padding: 0;
-    right: auto;
-    left: auto;
-  }
 
   .tokuten__main-title {
     font-size: 22px;
@@ -4057,10 +4050,6 @@ body {
   .tokuten__card-title-wrap {
     margin-top: 3px;
     padding: 5px 0 0 0;
-  }
-
-  .tokuten__title-wrap {
-    padding: 0;
   }
 
   .tokuten__main-title {
