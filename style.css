@@ -3943,8 +3943,26 @@ body {
   }
 
   .tokuten__badge--sm {
-    width: 45px;
-    height: 45px;
+    width: 41px;
+    height: 41px;
+  }
+
+  .tokuten__badge--lg {
+    width: 41px;
+    height: 41px;
+  }
+
+  .tokuten__badge--lg .tokuten__badge-text {
+    padding-bottom: 9px;
+  }
+
+  .tokuten__badge--lg .tokuten__badge-label {
+    font-size: 6.9px;
+    letter-spacing: 1.0px;
+  }
+
+  .tokuten__badge--lg .tokuten__badge-num {
+    font-size: 13.8px;
   }
 
   .tokuten__card-book {
