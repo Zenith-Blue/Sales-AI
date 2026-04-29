@@ -4068,13 +4068,16 @@ body {
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 9px !important; left: -38px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: -1px !important; }
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; margin-left: -7px !important; }
+
+  /* 特典05の画像 */
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: -2px !important; }
 
   /* 特典07: 聞くだけで〜 */
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 9px !important; }
-  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; margin-left: -8px !important; }
 
   .tokuten__card-book {
     width: 90px !important;
@@ -4096,7 +4099,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
     top: 17px !important;
     width: 108px !important;
-    right: -2px !important;
+    right: -5px !important;
   }
 
   .tokuten__card-main {
