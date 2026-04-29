@@ -3950,6 +3950,8 @@ body {
   .tokuten__badge--lg {
     width: 61px;
     height: 61px;
+    left: -10px;
+    top: -8px;
   }
 
   .tokuten__badge--lg .tokuten__badge-text,
@@ -3972,9 +3974,22 @@ body {
   }
 
   .tokuten__card-book {
-    width: 70px !important;
-    top: 5px !important;
+    width: 90px !important;
+    top: -10px !important;
     right: 5px;
+  }
+
+  .tokuten__card-main {
+    position: relative !important;
+    bottom: auto !important;
+    left: auto !important;
+    top: auto !important;
+    margin-top: 5px;
+  }
+
+  .tokuten__main-book {
+    width: 90px;
+    top: -10px;
   }
 
   .tokuten__special {
