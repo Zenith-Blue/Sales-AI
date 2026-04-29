@@ -3928,7 +3928,7 @@ body {
 
   .tokuten__main-title {
     font-size: 22px;
-    top: -50px;
+    top: -53px;
     left: -36px;
     white-space: nowrap;
   }
@@ -4021,10 +4021,10 @@ body {
   }
 
   /* 特典02: AIで作る自己紹介シート */
-  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 11px !important; }
 
   /* 特典03: 無敵の営業心理学 */
-  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 11px !important; }
 
   /* 特典04: 頑張っているのに〜 */
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12px !important; }
@@ -4035,7 +4035,7 @@ body {
   /* 特典05: 未経験だから〜 */
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 3px; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 16px !important; }
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 16px !important; left: -33px !important; }
 
   /* 特典06: 営業って何を〜 */
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; }
