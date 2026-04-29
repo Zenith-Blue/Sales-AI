@@ -4072,13 +4072,13 @@ body {
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 15px !important; left: -31px !important; }
 
   /* 特典05の画像 */
-  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: 2px !important; }
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: 0px !important; }
 
   /* 特典06: 営業って何を〜 */
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; padding-left: 0; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 9px !important; left: -38px !important; }
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: 2px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: -1px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; }
 
   /* 特典07: 聞くだけで〜 */
