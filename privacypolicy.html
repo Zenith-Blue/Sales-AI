@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>プライバシーポリシー｜Sales AI</title>
   <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -107,15 +110,14 @@
     .pp-section__title {
       font-weight: 500;
       line-height: 32px;
-      white-space: nowrap;
       margin: 0;
-      flex-shrink: 0;
+      flex: 1 1 auto;
     }
 
     .pp-section__body {
       font-weight: 400;
+      flex: 0 0 670px;
       width: 670px;
-      flex-shrink: 0;
     }
 
     .pp-section__body p {
@@ -137,6 +139,49 @@
     .pp-section__body a {
       color: #101010;
       text-decoration: underline;
+    }
+
+    /* ===== Footer ===== */
+    .pp-footer {
+      background: #242424;
+      padding: 28px 20px 20px;
+    }
+
+    .pp-footer__links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12.637px;
+      margin-bottom: 18px;
+    }
+
+    .pp-footer__item {
+      display: flex;
+      align-items: center;
+      gap: 12.637px;
+    }
+
+    .pp-footer__divider {
+      width: 1.264px;
+      height: 12.637px;
+      background: #fff;
+      flex-shrink: 0;
+    }
+
+    .pp-footer__link {
+      font-family: 'Zen Kaku Gothic New', -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      font-size: 12.637px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .pp-footer__copy {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      opacity: 0.4;
+      text-align: center;
+      margin: 0;
     }
 
     @media (max-width: 767px) {
@@ -182,7 +227,38 @@
       }
 
       .pp-section__body {
+        flex: none;
         width: 100%;
+      }
+
+      .pp-footer {
+        padding: 21px 20px 15px;
+      }
+
+      .pp-footer__links {
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      .pp-footer__item {
+        gap: 10px;
+      }
+
+      .pp-footer__divider {
+        width: 1px;
+        height: 10px;
+      }
+
+      .pp-footer__divider--extra {
+        display: none;
+      }
+
+      .pp-footer__link {
+        font-size: 10px;
+      }
+
+      .pp-footer__copy {
+        font-size: 10px;
       }
     }
   </style>
@@ -355,6 +431,26 @@
   </div>
 
   <div class="pp-gradient-bar"></div>
+
+  <footer class="pp-footer">
+    <div class="pp-footer__links">
+      <div class="pp-footer__item">
+        <div class="pp-footer__divider"></div>
+        <a href="privacypolicy.html" class="pp-footer__link">プライバシーポリシー</a>
+      </div>
+      <div class="pp-footer__item">
+        <div class="pp-footer__divider"></div>
+        <span class="pp-footer__link">特定商取引法</span>
+      </div>
+      <div class="pp-footer__divider pp-footer__divider--extra"></div>
+      <div class="pp-footer__item">
+        <div class="pp-footer__divider"></div>
+        <span class="pp-footer__link">会社概要</span>
+      </div>
+      <div class="pp-footer__divider"></div>
+    </div>
+    <p class="pp-footer__copy">©sales AI . All rignt reserved.</p>
+  </footer>
 
 </body>
 </html>
