@@ -2967,42 +2967,12 @@ body {
     margin: 0;
   }
 
-  /* Reposition PC person images for SP - show at card side, vertically centered */
+  /* Hide all person images in cards on SP */
   .worries__card > div[style*="position:absolute"] {
-    display: block;
+    display: none;
   }
 
-  /* Card 1 (top): person on left */
-  .worries__card--top > div[style*="position:absolute"] {
-    left: -60px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-  }
-
-  /* Card 2 (ml): person on right */
-  .worries__card--ml > div[style*="position:absolute"] {
-    left: auto !important;
-    right: -60px;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-  }
-
-  /* Card 3 (mr): person on left */
-  .worries__card--mr > div[style*="position:absolute"] {
-    left: -55px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-  }
-
-  /* Card 4 (bl): person on right */
-  .worries__card--bl > div[style*="position:absolute"] {
-    left: auto !important;
-    right: -65px;
-    top: 50% !important;
-    transform: translateY(-50%) scaleX(-1) !important;
-  }
-
-  /* Hide BR person in card (no inline image) and container-level person */
+  /* Hide container-level person */
   .worries__layout > div[style*="position:absolute"][style*="left:882px"] {
     display: none;
   }
