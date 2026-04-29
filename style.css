@@ -3989,16 +3989,24 @@ body {
 
   .tokuten__badge--lg .tokuten__badge-label,
   .tokuten__badge--sm .tokuten__badge-label {
-    font-size: 7px;
+    font-size: 9px;
     letter-spacing: 1.0px;
     line-height: 1;
   }
 
   .tokuten__badge--lg .tokuten__badge-num,
   .tokuten__badge--sm .tokuten__badge-num {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1;
   }
+
+  .tokuten__badge--lg .tokuten__badge-text,
+  .tokuten__badge--sm .tokuten__badge-text {
+    padding-bottom: 11px;
+  }
+
+  /* 特典03: 無敵の営業心理学 */
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -26px !important; }
 
   /* 特典04: 頑張っているのに〜 */
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12px !important; }
