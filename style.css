@@ -1710,8 +1710,9 @@ body {
   font-weight: 700;
   margin: 10px auto;
   color: #535353;
-  line-height: 1;
+  line-height: 0.8;
   flex-shrink: 0;
+  padding-bottom: 2px;
 }
 
 /* Feature cards */
@@ -3573,7 +3574,7 @@ body {
   }
 
   .reason__robot-wrap img {
-    left: -76px;
+    left: -81px;
     top: -4px;
     width: 150px;
   }
