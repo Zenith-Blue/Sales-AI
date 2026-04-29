@@ -3441,21 +3441,18 @@ body {
   .gifts__subtitle {
     font-size: 18.066px;
     letter-spacing: 1.312px;
-    line-height: 28.103px;
+    line-height: 42px;
     color: #feffc1;
     margin-top: 10px;
     margin-bottom: 0;
   }
 
   .gifts__headline {
-    margin-top: 0;
-  }
-
-  .gifts__headline {
     letter-spacing: 0.617px;
     white-space: normal;
     text-align: center;
-    line-height: 1.1;
+    line-height: 42px;
+    margin-top: 0;
   }
 
   .gifts__hl-sm {
@@ -3476,6 +3473,8 @@ body {
     letter-spacing: 0.617px;
     border-bottom: 3px solid #f0a000;
     padding-bottom: 2px;
+    display: inline;
+    vertical-align: baseline;
   }
 
   /* Force line break before 7 */
