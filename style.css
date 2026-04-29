@@ -2903,7 +2903,7 @@ body {
     position: absolute;
     inset: 0;
     pointer-events: none;
-    z-index: 1;
+    z-index: 3;
   }
 
   /* Cards: alternating left/right */
