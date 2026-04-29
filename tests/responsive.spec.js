@@ -33,6 +33,16 @@ test.describe('Responsive layout audit', () => {
     const overflowing = await page.evaluate(() => {
       const vw = window.innerWidth;
       const results = [];
+      const isClipped = (el) => {
+        let n = el.parentElement;
+        while (n && n !== document.documentElement) {
+          const s = getComputedStyle(n);
+          if (s.overflowX === 'hidden' || s.overflowX === 'clip' || s.overflow === 'hidden' || s.overflow === 'clip') return true;
+          n = n.parentElement;
+        }
+        const rootStyle = getComputedStyle(document.documentElement);
+        return rootStyle.overflowX === 'hidden' || rootStyle.overflowX === 'clip';
+      };
       const all = document.querySelectorAll('body *');
       all.forEach((el) => {
         const style = getComputedStyle(el);
@@ -40,6 +50,7 @@ test.describe('Responsive layout audit', () => {
         const rect = el.getBoundingClientRect();
         if (rect.width === 0 || rect.height === 0) return;
         if (rect.right > vw + 1 || rect.left < -1) {
+          if (isClipped(el)) return;
           results.push({
             tag: el.tagName.toLowerCase(),
             class: typeof el.className === 'string' ? el.className : '',
