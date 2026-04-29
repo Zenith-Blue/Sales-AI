@@ -4035,6 +4035,7 @@ body {
   /* 特典07: 聞くだけで〜 */
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 9px !important; }
 
   .tokuten__card-book {
     width: 90px !important;
