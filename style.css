@@ -4036,13 +4036,17 @@ body {
   .tokuten__card-main {
     position: relative !important;
     bottom: auto !important;
-    left: auto !important;
+    left: -46px !important;
     top: auto !important;
     margin-top: 3px;
   }
 
   .tokuten__card-title-wrap {
     margin-top: 3px;
+  }
+
+  .tokuten__main-title {
+    left: -46px;
   }
 
   .tokuten__main-book {
