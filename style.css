@@ -3546,6 +3546,16 @@ body {
     z-index: 1;
   }
 
+  .reason__headlines {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+  }
+
   .reason__sub {
     font-size: 12px;
     font-weight: 700;
