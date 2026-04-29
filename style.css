@@ -3690,6 +3690,11 @@ body {
 
   .curriculum__stat-month .curriculum__stat-num {
     font-size: 30px;
+    margin-right: 0;
+  }
+
+  .curriculum__stat-month {
+    gap: 0;
   }
 
   /* Chapters: single column */
