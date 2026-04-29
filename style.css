@@ -4100,6 +4100,11 @@ body {
     font-size: 16px;
   }
 
+  .tokuten__special-badge {
+    width: 70px;
+    height: 70px;
+  }
+
   /* ===== Anshin SP ===== */
   .anshin {
     padding-bottom: 40px;
