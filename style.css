@@ -2804,6 +2804,13 @@ body {
     max-width: 94.6%;
   }
 
+  .fv__cta-note--dark::before,
+  .faq__cta-note--dark::before,
+  .reassure__cta-note--dark::before,
+  .tokuten__cta-note--dark::before {
+    display: none;
+  }
+
   /* Note: Figma font-size:14px, color:#11ad34, tracking:0.5712px */
   .fv__cta-note {
     width: 369px;
