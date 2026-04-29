@@ -3753,12 +3753,15 @@ body {
   .curriculum__card-title-ul {
     height: 9px;
     bottom: 0;
-    width: auto !important;
-    right: auto;
   }
 
   .curriculum__card-title-wrap {
     width: fit-content;
+  }
+
+  .curriculum__card-title-ul {
+    width: 100% !important;
+    left: 0;
   }
 
   .curriculum__card-title--sm {
