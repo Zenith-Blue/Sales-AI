@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zenith-blue.github.io/Sales-AI/sitemap.xml
