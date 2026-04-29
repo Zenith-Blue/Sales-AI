@@ -2884,6 +2884,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px 16px;
     gap: 7px;
   }
@@ -2921,12 +2922,14 @@ body {
     white-space: nowrap;
   }
 
-  /* Alternating left/right alignment */
-  .worries__card--top { align-self: flex-end; }
-  .worries__card--ml  { align-self: flex-start; }
-  .worries__card--mr  { align-self: flex-end; }
-  .worries__card--bl  { align-self: flex-start; }
-  .worries__card--br  { align-self: flex-end; }
+  /* All cards centered */
+  .worries__card--top,
+  .worries__card--ml,
+  .worries__card--mr,
+  .worries__card--bl,
+  .worries__card--br {
+    align-self: center;
+  }
 
   .worries__card-body {
     text-align: center;
