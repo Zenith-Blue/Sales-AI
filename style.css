@@ -3979,6 +3979,7 @@ body {
   .tokuten__inner {
     max-width: 100%;
     padding: 90px 16px 40px;
+    align-items: center;
   }
 
   .tokuten__main-card {
