@@ -3492,8 +3492,8 @@ body {
   }
 
   .reason__dark-sep {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .reason__dark-sep img {
