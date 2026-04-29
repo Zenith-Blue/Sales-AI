@@ -3897,10 +3897,41 @@ body {
   }
 
   /* FAQ */
+  .faq {
+    padding: 40px 0 60px;
+  }
+
+  .faq__title {
+    font-size: 30px;
+  }
+
   .faq__list {
     padding: 0 16px;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .faq__item {
+    padding: 12px 36px 12px 16px;
+  }
+
+  .faq__q-label {
+    font-size: 24px;
+    width: 30px;
+  }
+
+  .faq__q-text {
+    font-size: 14px;
+  }
+
+  .faq__a-label {
+    font-size: 20px;
+    width: 30px;
+  }
+
+  .faq__a-text {
+    font-size: 12px;
+    line-height: 20px;
   }
 
   /* Reassure */
