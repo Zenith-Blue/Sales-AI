@@ -277,6 +277,11 @@
       margin: 0;
     }
 
+    /* ===== CTA button (SP only) ===== */
+    .tsr-cta {
+      display: none;
+    }
+
     /* ===== SP ===== */
     @media (max-width: 767px) {
       .tsr-gradient-bar {
@@ -284,25 +289,38 @@
       }
 
       .tsr-page {
-        padding: 57px 24px 60px;
+        padding: 64px 24px 60px;
       }
 
       .tsr-content {
-        gap: 30px;
+        gap: 40px;
       }
 
       .tsr-title__ja {
         font-size: 24px;
         letter-spacing: 0.48px;
+        white-space: nowrap;
       }
 
       .tsr-sections {
-        gap: 60px;
+        gap: 67px;
+      }
+
+      .tsr-table-section {
+        gap: 25px;
+      }
+
+      .tsr-intro {
+        gap: 30px;
+      }
+
+      .tsr-list {
+        gap: 25px;
       }
 
       .tsr-row {
         flex-direction: column;
-        gap: 8px;
+        gap: 15px;
       }
 
       .tsr-row__body {
@@ -310,8 +328,24 @@
         width: 100%;
       }
 
+      .tsr-cancellation {
+        gap: 40px;
+      }
+
       .tsr-cooling__body {
         max-width: 100%;
+      }
+
+      .tsr-cta {
+        display: block;
+        width: 324px;
+        max-width: 100%;
+      }
+
+      .tsr-cta img {
+        width: 100%;
+        height: auto;
+        display: block;
       }
 
       .tsr-footer {
@@ -514,6 +548,9 @@
 
             <p class="tsr-note">本表記は消費者保護の観点から最大限の情報開示を行っております。実際の法的適用については専門家確認のうえ随時更新します。</p>
 
+          </div>
+          <div class="tsr-cta">
+            <img src="assets/tsr-cta-sp.png" alt="無料面談のお申し込みはこちら" width="324" height="65" />
           </div>
         </div>
 
