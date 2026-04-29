@@ -252,6 +252,14 @@ body {
   display: block;
 }
 
+/* Present note image (replaces text note across all CTA sections) */
+.cta-present-img {
+  display: block;
+  width: 508px;
+  height: auto;
+  max-width: 100%;
+}
+
 .fv__cta-note {
   margin: 0;
   width: 508px;
@@ -2918,7 +2926,7 @@ body {
   /* Badges: Figma left:5px, 382×148, shadow */
   .fv__badges {
     padding: 0;
-    margin-top: 5px;
+    margin-top: -10px;
     margin-left: 0;
     display: flex;
     justify-content: center;
@@ -2952,11 +2960,16 @@ body {
   /* CTA: centered */
   .fv__cta-wrap {
     padding: 0;
-    margin-top: 0;
+    margin-top: -5px;
     margin-left: 0;
     align-items: center;
     gap: 10px;
     width: 100%;
+  }
+
+  .cta-present-img {
+    width: 406px;
+    max-width: 100%;
   }
 
   .fv__cta-link {
