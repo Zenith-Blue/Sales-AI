@@ -4235,7 +4235,7 @@ body {
     width: 700px;
     height: auto;
     display: block;
-    margin: 0;
+    margin: 0 0 0 15px;
     max-width: none;
   }
 
