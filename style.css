@@ -2777,8 +2777,18 @@ body {
   }
 
   .fv__badges-frame img {
-    height: 80%;
+    position: static;
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: auto;
     mix-blend-mode: multiply;
+  }
+
+  .fv__badges-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* CTA: Figma left:8px, width:369px */
