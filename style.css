@@ -3225,6 +3225,7 @@ body {
   /* ===== Reassure SP ===== */
   .reassure {
     background: #fff7e8;
+    margin-top: -15px;
   }
 
   .reassure__bg {
@@ -3931,11 +3932,12 @@ body {
     width: 100%;
     height: auto;
     min-height: 120px;
+    padding: 10px 80px 10px 56px;
   }
 
   .tokuten__main-sub-wrap {
     position: static;
-    padding: 12px 12px 0 80px;
+    padding: 5px 0 0 0;
     width: auto;
   }
 
@@ -3971,7 +3973,7 @@ body {
     width: 100%;
     height: auto;
     min-height: 100px;
-    padding: 10px 10px 10px 56px;
+    padding: 10px 75px 10px 56px;
   }
 
   .tokuten__card-body {
@@ -3988,6 +3990,7 @@ body {
     font-size: 13px;
     white-space: normal;
     padding-top: 2px;
+    margin-left: -3px;
   }
 
   .tokuten__main-sub-wrap {
@@ -4083,26 +4086,26 @@ body {
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; }
 
   .tokuten__card-book {
-    width: 90px !important;
-    top: -10px !important;
-    right: 5px;
+    width: 70px !important;
+    top: 0px !important;
+    right: 3px;
   }
 
   /* 02, 04, 07の画像を30px下に、1.2倍 */
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book {
-    top: 17px !important;
-    width: 108px !important;
+    top: 10px !important;
+    width: 85px !important;
     right: 2px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
-    top: 20px !important;
-    width: 108px !important;
-    right: -3px !important;
+    top: 10px !important;
+    width: 85px !important;
+    right: -2px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
-    top: 17px !important;
-    width: 108px !important;
-    right: -3px !important;
+    top: 10px !important;
+    width: 85px !important;
+    right: -2px !important;
   }
 
   .tokuten__card-main {
@@ -4132,8 +4135,8 @@ body {
   }
 
   .tokuten__main-book {
-    width: 90px;
-    top: -10px;
+    width: 70px;
+    top: -5px;
   }
 
   .tokuten__special {
@@ -4382,8 +4385,8 @@ body {
 
   .gifts__hl-golden-wrap {
     display: inline;
-    border-bottom: none;
-    padding-bottom: 0;
+    border-bottom: 3px solid #f0a000;
+    padding-bottom: 2px;
   }
 
   .gifts__hl-golden-7 {
