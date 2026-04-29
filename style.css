@@ -3285,6 +3285,8 @@ body {
   .moshianata__h2 {
     text-shadow: 2.247px 2.247px 2.247px #c8c8c8;
     letter-spacing: 0.675px;
+    -webkit-text-stroke: 5px #fff;
+    paint-order: stroke fill;
   }
 
   .moshianata__cards {
