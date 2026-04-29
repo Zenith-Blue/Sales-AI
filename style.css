@@ -4061,10 +4061,12 @@ body {
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
     top: 17px !important;
     width: 108px !important;
+    right: 0 !important;
   }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
     top: 17px !important;
     width: 108px !important;
+    right: 0 !important;
   }
 
   .tokuten__card-main {
