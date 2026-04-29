@@ -2777,11 +2777,11 @@ body {
   }
 
   .fv__badges-frame img {
-    position: static;
-    width: 100%;
+    position: relative;
+    width: 150%;
     height: auto;
     top: auto;
-    left: auto;
+    left: -20px;
     mix-blend-mode: multiply;
   }
 
