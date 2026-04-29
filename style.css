@@ -3989,14 +3989,14 @@ body {
 
   .tokuten__badge--lg .tokuten__badge-label,
   .tokuten__badge--sm .tokuten__badge-label {
-    font-size: 6px;
+    font-size: 7px;
     letter-spacing: 1.0px;
     line-height: 1;
   }
 
   .tokuten__badge--lg .tokuten__badge-num,
   .tokuten__badge--sm .tokuten__badge-num {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1;
   }
 
