@@ -1585,8 +1585,8 @@ body {
 .reason__main {
   position: absolute;
   top: 486px;
-  left: 286px;
-  right: 351px;
+  left: 22.3%;
+  right: 27.4%;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -1701,9 +1701,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 17px;
-  width: 639.958px;
-  align-self: flex-start;
-  margin-left: 9px;
+  width: min(639.958px, 100%);
+  align-self: center;
+  margin-left: 0;
 }
 
 .reason__feature {
@@ -1788,7 +1788,7 @@ body {
 }
 
 .reason__feature-title {
-  font-size: 28.512px;
+  font-size: clamp(16px, 2.23vw, 28.512px);
   font-weight: 700;
   color: #2a2827;
   letter-spacing: 2.3294px;
@@ -1798,7 +1798,7 @@ body {
 }
 
 .reason__feature-desc {
-  font-size: 21.384px;
+  font-size: clamp(12px, 1.67vw, 21.384px);
   font-weight: 400;
   color: #000;
   letter-spacing: 2.19px;
@@ -3633,10 +3633,10 @@ body {
   }
 
   .reason__feature-title {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1.307px;
     line-height: 31.909px;
-    white-space: normal;
+    white-space: nowrap;
   }
 
   .reason__feature-desc {
