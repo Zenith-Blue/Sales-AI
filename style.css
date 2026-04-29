@@ -883,7 +883,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 17px 264px;
+  padding: 50px 264px 17px;
   gap: 0;
 }
 
