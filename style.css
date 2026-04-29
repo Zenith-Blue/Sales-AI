@@ -2989,6 +2989,211 @@ body {
     display: none;
   }
 
+  /* ===== Voice SP ===== */
+  .voice__inner {
+    padding: 12px 23px;
+  }
+
+  .voice__header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 54px 7px;
+  }
+
+  .voice__header-img {
+    display: none;
+  }
+
+  .voice__header::before {
+    content: 'VOICE';
+    position: absolute;
+    font-family: 'bananaslip', sans-serif;
+    font-size: 110px;
+    color: #ffe9ca;
+    line-height: 26px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .voice__header::after {
+    content: '受講生のリアルな\A変化をご紹介';
+    white-space: pre;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fe692c;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .voice__cards {
+    width: 324px;
+    max-width: 100%;
+    gap: 19px;
+  }
+
+  .voice__card {
+    flex-direction: column;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 0;
+    min-height: auto;
+    width: 322px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .voice__card-left {
+    width: 100%;
+    gap: 0;
+    order: 1;
+  }
+
+  .voice__card-head {
+    background: #fffef5;
+    border-bottom: 2px solid #f66f00;
+    padding: 9px 11px 11px 0;
+    gap: 0;
+    width: 100%;
+    border-radius: 13px 13px 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .voice__case {
+    width: 57px;
+    height: 52px;
+    padding: 0 5px;
+    flex-shrink: 0;
+    background: transparent;
+  }
+
+  .voice__case-label {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .voice__case-num {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .voice__card-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    -webkit-text-stroke: 0;
+    filter: none;
+  }
+
+  .voice__card-photo {
+    width: 100%;
+    height: 161px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    order: 2;
+  }
+
+  .voice__card-body {
+    background: #f66f00;
+    padding: 8px 16px 14px;
+    order: 3;
+    border-radius: 0 0 13px 13px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .voice__card-name {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 26px;
+  }
+
+  .voice__divider {
+    border-top-color: rgba(255,255,255,0.5);
+    margin: 7px 0;
+  }
+
+  .voice__card-text {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+  }
+
+  .voice__mark {
+    background: none;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  /* ===== Reassure SP ===== */
+  .reassure__panel {
+    margin: 0 11px;
+    padding: 18px 20px 20px;
+  }
+
+  .reassure__sub {
+    font-size: 19.197px;
+    -webkit-text-stroke: 0;
+    filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
+    letter-spacing: 0.651px;
+    line-height: 36px;
+  }
+
+  .reassure__title {
+    font-size: 27.728px;
+    -webkit-text-stroke: 0;
+    filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
+    letter-spacing: 0.651px;
+  }
+
+  .reassure__title-highlight {
+    width: 222px;
+    height: 21px;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .reassure__photo {
+    width: 277px;
+    height: 185px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+  }
+
+  .reassure__caption {
+    font-size: 19.197px;
+    -webkit-text-stroke: 0;
+    filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
+    letter-spacing: 0.651px;
+    padding-top: 10px;
+  }
+
+  .reassure__caption-em {
+    font-size: 24px;
+  }
+
+  .reassure__cta-wrap {
+    width: 100%;
+    margin-top: 10px;
+  }
+
   /* ===== Feature SP ===== */
   .feature::before {
     height: 50px;
