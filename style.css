@@ -4006,12 +4006,13 @@ body {
     width: 61px;
     height: 61px;
     top: -3px;
+    left: -13px;
   }
 
   .tokuten__badge--lg {
     width: 61px;
     height: 61px;
-    left: -10px;
+    left: -13px;
     top: -8px;
   }
 
@@ -4061,15 +4062,21 @@ body {
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 15px !important; left: -31px !important; }
 
+  /* 特典05の画像 */
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: 2px !important; }
+
   /* 特典06: 営業って何を〜 */
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; padding-left: 0; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 9px !important; left: -38px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: 2px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; }
 
   /* 特典07: 聞くだけで〜 */
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; }
 
   .tokuten__card-book {
     width: 90px !important;
@@ -4371,8 +4378,8 @@ body {
 
   .gifts__hl-golden-wrap {
     display: inline;
-    border-bottom: 3px solid #f0a000;
-    padding-bottom: 2px;
+    border-bottom: none;
+    padding-bottom: 0;
   }
 
   .gifts__hl-golden-7 {
