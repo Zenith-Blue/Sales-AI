@@ -41,11 +41,20 @@ body {
 .fv__person {
   position: absolute;
   right: -24px;
-  top: 0;
+  top: -10px;
   width: 577px;
   height: 775px;
   overflow: hidden;
   z-index: 1;
+}
+
+.fv__elbow-badge {
+  position: absolute;
+  left: 732px;
+  top: 437px;
+  width: 450.24px;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .fv__person img {
@@ -890,9 +899,9 @@ body {
 .tokuten__inner {
   position: relative;
   z-index: 1;
-  max-width: 1100px;
+  max-width: 762px;
   margin: 0 auto;
-  padding: 30px 0 61px;
+  padding: 90px 0 61px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -915,6 +924,7 @@ body {
   width: 100%;
   height: 186px;
   overflow: visible;
+  margin: 0 auto;
 }
 
 .tokuten__main-book {
@@ -929,7 +939,7 @@ body {
 .tokuten__main-sub-wrap {
   position: absolute;
   left: 95px;
-  top: 21px;
+  top: 23px;
   width: 535px;
 }
 
@@ -988,8 +998,8 @@ body {
 .tokuten__badge--sm {
   left: -10px;
   top: -8px;
-  width: 66px;
-  height: 66px;
+  width: 51.5px;
+  height: 51.5px;
 }
 
 .tokuten__badge > img {
@@ -1023,8 +1033,8 @@ body {
 }
 
 .tokuten__badge--sm .tokuten__badge-label {
-  font-size: 8.3px;
-  letter-spacing: 1.2px;
+  font-size: 6.9px;
+  letter-spacing: 1.0px;
 }
 
 .tokuten__badge-num {
@@ -1033,97 +1043,132 @@ body {
 }
 
 .tokuten__badge--sm .tokuten__badge-num {
-  font-size: 16.6px;
+  font-size: 13.8px;
 }
 
 /* ---- Grid of sub-cards (特典02-07) ---- */
 .tokuten__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 29px;
+  grid-auto-rows: 91.02px;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .tokuten__card {
   position: relative;
   background: #fff;
-  border-radius: 7px;
-  box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.25);
-  min-height: 131px;
+  border-radius: 5px;
+  box-shadow: 4.137px 4.137px 2.069px rgba(0, 0, 0, 0.25);
+  width: 367.17px;
+  height: 91.02px;
   overflow: visible;
   display: flex;
   align-items: flex-start;
-  padding: 14px 12px 14px 71px;
+  padding: 10px 8px 10px 49px;
 }
 
 .tokuten__card-book {
   position: absolute;
-  right: 0;
+  right: 5px;
   height: auto;
   object-fit: contain;
 }
 
 .tokuten__card-body {
   flex: 1;
-  padding-right: 144px;
+  padding-right: 100px;
 }
 
 .tokuten__card-sub {
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 700;
   color: #2e0808;
-  margin: 0 0 3px;
+  margin: 0 0 2px;
   line-height: 1.4;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.54px;
 }
 
 .tokuten__card-title-wrap {
   position: relative;
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 .tokuten__card-title-wrap::before {
   display: none;
 }
 
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { font-size: 14px; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap { padding: 10px 0; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { position: relative; top: -10px; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book { height: 88px; width: auto; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 23px; position: relative; left: -5px; }
-.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 19px; }
-.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 17px; }
+.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { font-size: 13px; }
+.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap { padding: 4px 0; }
+.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 20.7px; position: absolute; bottom: -7px; left: -22px; }
+.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 12.4px; }
+.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-body { padding-right: 0; }
+.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub--line1 { font-size: 12.41px; }
+.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { position: relative; top: -3px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub { font-size: 11.38px; white-space: nowrap; position: relative; top: 0px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12.41px; position: relative; top: 1px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line2 { position: relative; top: 2px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book { right: 5px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { position: absolute; bottom: -20px; left: -20px; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.9px; position: relative; left: -11px; top: 5px; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-body { padding-right: 0; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11.38px; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { position: relative; top: 0px; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-body { padding-right: 0; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { position: relative; top: 5px; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 12.41px; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 11.38px; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { position: relative; left: -20px; }
+.tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-body { padding-right: 0; }
+.tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 12.41px; position: relative; top: 2px; }
+.tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { position: relative; top: 5px; }
+.tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { position: absolute; bottom: -20px; left: -35px; font-size: 20px; }
 
 .tokuten__card-main {
   position: relative;
   z-index: 1;
-  font-size: 29px;
+  font-size: 20.7px;
   font-weight: 700;
   color: #fe692c;
   margin: 0;
-  letter-spacing: 0.78px;
+  letter-spacing: 0.54px;
   line-height: 1.0;
   white-space: nowrap;
-  -webkit-text-stroke: 10px #ffffff;
+  -webkit-text-stroke: 7px #ffffff;
   paint-order: stroke fill;
-  filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4.137px 4.137px rgba(0, 0, 0, 0.25));
 }
 
 /* ---- Plus sign ---- */
 .tokuten__plus {
+  position: relative;
   width: 45.5px;
   height: 45.5px;
   border-radius: 50%;
   background: #fff;
   border: 3.2px solid #fe692c;
   box-shadow: 0px 6.07px 3.03px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   color: #fe692c;
   flex-shrink: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  margin-top: -16px;
+}
+
+.tokuten__plus::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: 700;
+  color: #fe692c;
   line-height: 1;
+  text-indent: 0;
 }
 
 /* ---- Special card (特別特典) ---- */
@@ -1135,7 +1180,7 @@ body {
   box-shadow: 5.4px 5.4px 2.7px rgba(0, 0, 0, 0.25);
   width: 590px;
   padding: 20px 20px 20px 20px;
-  margin-top: 30px;
+  margin-top: -16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2361,9 +2406,8 @@ body {
 
 .faq__arrow {
   position: absolute;
-  top: 50%;
+  top: 16px;
   right: 16px;
-  transform: translateY(-50%);
   width: 24px;
   height: 24px;
   cursor: pointer;
@@ -2542,4 +2586,122 @@ body {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.4);
   margin: 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 800px) {
+  /* 全体の横スクロール防止・中央揃え */
+  body {
+    overflow-x: hidden;
+  }
+
+  .lp-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* FV */
+  .fv {
+    height: auto;
+    min-height: 400px;
+  }
+  .fv__person {
+    width: 55vw;
+    height: auto;
+    right: -10px;
+  }
+
+  /* Tokuten */
+  .tokuten__inner {
+    max-width: 100%;
+    padding: 90px 16px 40px;
+  }
+
+  .tokuten__main-card {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+  }
+
+  .tokuten__main-sub-wrap {
+    position: static;
+    padding: 12px 12px 0 80px;
+    width: auto;
+  }
+
+  .tokuten__main-sub {
+    font-size: 13px;
+  }
+
+  .tokuten__main-sub--lg {
+    font-size: 14px;
+  }
+
+  .tokuten__title-wrap {
+    position: static;
+    text-align: center;
+    padding: 4px 8px 12px;
+    right: auto;
+    left: auto;
+  }
+
+  .tokuten__main-title {
+    font-size: 24px;
+  }
+
+  .tokuten__main-book {
+    width: 100px;
+    top: -20px;
+  }
+
+  .tokuten__grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .tokuten__card {
+    width: 100%;
+  }
+
+  .tokuten__special {
+    width: 100%;
+  }
+
+  /* FAQ */
+  .faq__list {
+    padding: 0 16px;
+  }
+
+  /* Reassure */
+  .reassure__inner {
+    padding: 20px 16px;
+  }
+
+  /* Gifts */
+  .gifts__inner {
+    padding: 20px 16px;
+  }
+
+  /* CTA */
+  .tokuten__cta-wrap,
+  .faq__cta-wrap,
+  .reassure__cta-wrap,
+  .fv__cta-wrap {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .tokuten__cta-img,
+  .faq__cta-img,
+  .reassure__cta-img,
+  .fv__cta-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 16px;
+    text-align: center;
+  }
 }
