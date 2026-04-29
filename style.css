@@ -2717,32 +2717,27 @@ body {
   .fv__headlines--sp .fv__headline {
     background-color: #151515;
     align-self: flex-start;
-    overflow: hidden;
     display: flex;
     align-items: center;
     padding: 0;
-  }
-
-  /* Line 1 "未経験から": Figma 165.703×45.384, padding-left:22.16px */
-  .fv__headlines--sp .fv__headline:nth-child(1) {
-    width: 165.703px;
     height: 45.384px;
-    padding-left: 22.16px;
   }
 
-  /* Line 2 "自由に稼げる営業力を": Figma 295.915×46.178, padding-left:20.05px */
+  /* Line 1 "未経験から" */
+  .fv__headlines--sp .fv__headline:nth-child(1) {
+    padding: 0 15px 0 22px;
+  }
+
+  /* Line 2 "自由に稼げる営業力を" */
   .fv__headlines--sp .fv__headline:nth-child(2) {
-    width: 295.915px;
     height: 46.178px;
-    padding-left: 20.05px;
-    padding-right: 5px;
+    padding: 0 10px 0 20px;
   }
 
-  /* Line 3 "身につける唯一のスクール": Figma 356.737×46.439, padding-left:22.68px */
+  /* Line 3 "身につける唯一のスクール" */
   .fv__headlines--sp .fv__headline:nth-child(3) {
-    width: 356.737px;
     height: 46.439px;
-    padding-left: 22.68px;
+    padding: 0 15px 0 22px;
   }
 
   /* Text sizes: Figma lg:27.797px, sm:23.164px */
