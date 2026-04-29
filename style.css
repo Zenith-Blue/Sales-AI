@@ -3962,18 +3962,18 @@ body {
     font-size: 29px;
   }
 
-  /* Table: image scrolls horizontally */
+  /* Table: 80% scaled */
   .anshin__table {
     width: 100%;
     height: auto;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
   }
 
   .anshin__table img {
-    width: 855px;
+    width: 80%;
     height: auto;
-    max-width: none;
+    display: block;
+    margin: 0 auto;
   }
 
   /* Points title: dark gradient bar */
