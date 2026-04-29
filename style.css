@@ -3695,12 +3695,14 @@ body {
 
   .curriculum__stat-month {
     gap: 0;
+    align-items: baseline;
   }
 
-  .curriculum__stat-unit--month {
+  .curriculum__stat-month .curriculum__stat-unit--month {
     font-size: 20px;
     letter-spacing: -2px;
     width: auto;
+    padding-bottom: 0;
   }
 
   /* Chapters: single column */
