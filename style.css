@@ -1368,6 +1368,10 @@ body {
   font-size: 40px;
 }
 
+.gifts__sp-br {
+  display: none;
+}
+
 .gifts__hl-golden {
   display: inline-block;
   font-size: 44px;
@@ -3661,12 +3665,14 @@ body {
     font-size: 26px;
   }
 
-  .gifts__hl-golden-wrap {
+  .gifts__sp-br {
     display: block;
+  }
+
+  .gifts__hl-golden-wrap {
+    display: inline;
     border-bottom: 3px solid #f0a000;
     padding-bottom: 2px;
-    width: fit-content;
-    margin: 0 auto;
   }
 
   .gifts__hl-golden-7 {
