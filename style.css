@@ -1217,7 +1217,7 @@ body {
   flex-shrink: 0;
   line-height: 0;
   text-indent: -9999px;
-  margin-top: -16px;
+  margin: -16px auto 0;
 }
 
 .tokuten__plus::after {
