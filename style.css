@@ -2295,6 +2295,25 @@ body {
   line-height: 1;
 }
 
+.anshin__compare-title {
+  font-weight: 700;
+  color: #fe692c;
+  text-align: center;
+  text-shadow: 3.756px 3.756px 3.756px #c8c8c8;
+  -webkit-text-stroke: 5px #fff;
+  paint-order: stroke fill;
+  margin: 0;
+  line-height: 65.81px;
+}
+
+.anshin__compare-lg {
+  font-size: 56.382px;
+}
+
+.anshin__compare-sm {
+  font-size: 50.118px;
+}
+
 .anshin__table {
   width: 855px;
   height: 789px;
@@ -3929,6 +3948,18 @@ body {
 
   .anshin__inner {
     gap: 30px;
+  }
+
+  .anshin__compare-title {
+    line-height: 1.2;
+  }
+
+  .anshin__compare-lg {
+    font-size: 30px;
+  }
+
+  .anshin__compare-sm {
+    font-size: 26px;
   }
 
   /* Table: image scrolls horizontally */
