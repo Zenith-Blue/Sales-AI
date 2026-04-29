@@ -3425,6 +3425,12 @@ body {
     letter-spacing: 0.516px;
     line-height: 18.576px;
     text-align: center;
+    white-space: normal;
+  }
+
+  .gifts__pill-accent::before {
+    content: '\A';
+    white-space: pre;
   }
 
   .gifts__pill-accent {
