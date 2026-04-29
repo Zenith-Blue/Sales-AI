@@ -3111,6 +3111,7 @@ body {
     text-shadow: none;
     text-align: center;
     flex: 1;
+    padding-left: 2px;
   }
 
   .voice__card-photo {
