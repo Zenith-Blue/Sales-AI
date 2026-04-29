@@ -1592,10 +1592,10 @@ body {
 }
 
 .reason__sub {
-  font-size: 27.943px;
+  font-size: clamp(20px, 2.18vw, 27.943px);
   font-weight: 700;
   color: #000;
-  letter-spacing: 2.86px;
+  letter-spacing: clamp(1.5px, 0.22vw, 2.86px);
   text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
   text-align: center;
   line-height: 46.572px;
