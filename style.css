@@ -3391,7 +3391,7 @@ body {
     top: 0;
     width: 170px;
     height: auto;
-    z-index: 0;
+    z-index: 1;
   }
 
   .reason__headlines {
