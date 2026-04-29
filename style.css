@@ -3505,10 +3505,17 @@ body {
 
   .gifts__books-img {
     position: relative;
-    top: 0;
+    top: 5px;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .gifts__books-frame {
+    display: flex;
+    justify-content: center;
   }
 
   /* CTA common - unified design across all sections */
