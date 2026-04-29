@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>特定商取引法に基づく表記｜Sales AI</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, "Meiryo", sans-serif;
+      background: #fff7e8;
+      color: #101010;
+    }
+
+    .tsr-gradient-bar {
+      width: 100%;
+      height: 15.388px;
+      background: linear-gradient(109.15deg, #fe413e 0.22%, #fe7427 44.55%, #ffbe08 86.81%);
+    }
+
+    .tsr-page {
+      background: #fff7e8;
+      padding: 107px 20px 90px;
+    }
+
+    .tsr-content {
+      max-width: 1008px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 75px;
+    }
+
+    /* ===== Title ===== */
+    .tsr-title {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .tsr-title__en {
+      font-size: 16px;
+      font-weight: 500;
+      color: #fe692c;
+      letter-spacing: 0.32px;
+      margin: 0;
+    }
+
+    .tsr-title__ja {
+      font-size: 56px;
+      font-weight: 700;
+      color: #2a2827;
+      letter-spacing: 1.12px;
+      margin: 0;
+    }
+
+    /* ===== Sections ===== */
+    .tsr-sections {
+      display: flex;
+      flex-direction: column;
+      gap: 109px;
+    }
+
+    /* ===== Table section ===== */
+    .tsr-table-section {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .tsr-intro {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .tsr-intro__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.32px;
+      color: #000;
+      margin: 0;
+    }
+
+    /* ===== Row list ===== */
+    .tsr-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .tsr-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      line-height: 32px;
+      font-size: 16px;
+      letter-spacing: 0.32px;
+      color: #101010;
+    }
+
+    .tsr-row__label {
+      font-weight: 500;
+      flex: 1 1 auto;
+      margin: 0;
+    }
+
+    .tsr-row__body {
+      font-weight: 400;
+      flex: 0 0 670px;
+      width: 670px;
+      margin: 0;
+      line-height: 32px;
+    }
+
+    .tsr-row__body ul {
+      margin: 0;
+      padding: 0;
+      list-style: disc;
+    }
+
+    .tsr-row__body li {
+      margin-left: 24px;
+      line-height: 32px;
+    }
+
+    a.tsr-row__body,
+    .tsr-row__body a {
+      color: #101010;
+      text-decoration: underline;
+      display: block;
+    }
+
+    /* ===== Divider ===== */
+    .tsr-divider {
+      width: 100%;
+      height: 1px;
+      background: #e0e0e0;
+      border: none;
+      margin: 0;
+    }
+
+    /* ===== Cooling-off section ===== */
+    .tsr-cooling {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .tsr-cooling__header {
+      width: 100%;
+      height: 53px;
+      background: #fe692c;
+      display: flex;
+      align-items: center;
+      padding-left: 19px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 0.36px;
+      line-height: 32px;
+    }
+
+    .tsr-cooling__body {
+      width: 100%;
+      max-width: 962px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.32px;
+      color: #101010;
+    }
+
+    .tsr-cooling__body p {
+      margin: 0;
+    }
+
+    .tsr-cooling__body ul {
+      margin: 0;
+      padding: 0;
+      list-style: disc;
+    }
+
+    .tsr-cooling__body li {
+      margin-left: 24px;
+      line-height: 32px;
+    }
+
+    .tsr-cooling__border {
+      width: 100%;
+      height: 2px;
+      background: #fe692c;
+    }
+
+    /* ===== Cancellation section ===== */
+    .tsr-cancellation {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .tsr-cancellation__heading {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .tsr-cancellation__title {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: 0.36px;
+      color: #000;
+      margin: 0;
+    }
+
+    .tsr-note {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      letter-spacing: 0.28px;
+      color: #6b6b6b;
+      margin: 0;
+    }
+
+    /* ===== Footer ===== */
+    .tsr-footer {
+      background: #242424;
+      padding: 28px 20px 20px;
+    }
+
+    .tsr-footer__links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12.637px;
+      margin-bottom: 18px;
+    }
+
+    .tsr-footer__item {
+      display: flex;
+      align-items: center;
+      gap: 12.637px;
+    }
+
+    .tsr-footer__divider {
+      width: 1.264px;
+      height: 12.637px;
+      background: #fff;
+      flex-shrink: 0;
+    }
+
+    .tsr-footer__link {
+      font-family: 'Zen Kaku Gothic New', -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+      font-size: 12.637px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .tsr-footer__copy {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      opacity: 0.4;
+      text-align: center;
+      margin: 0;
+    }
+
+    /* ===== SP ===== */
+    @media (max-width: 767px) {
+      .tsr-gradient-bar {
+        background: linear-gradient(96.01deg, #fe413e 0.22%, #fe7427 44.55%, #ffbe08 86.81%);
+      }
+
+      .tsr-page {
+        padding: 57px 24px 60px;
+      }
+
+      .tsr-content {
+        gap: 30px;
+      }
+
+      .tsr-title__ja {
+        font-size: 24px;
+        letter-spacing: 0.48px;
+      }
+
+      .tsr-sections {
+        gap: 60px;
+      }
+
+      .tsr-row {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .tsr-row__body {
+        flex: none;
+        width: 100%;
+      }
+
+      .tsr-cooling__body {
+        max-width: 100%;
+      }
+
+      .tsr-footer {
+        padding: 21px 20px 15px;
+      }
+
+      .tsr-footer__links {
+        gap: 10px;
+        margin-bottom: 12px;
+      }
+
+      .tsr-footer__item {
+        gap: 10px;
+      }
+
+      .tsr-footer__divider {
+        width: 1px;
+        height: 10px;
+      }
+
+      .tsr-footer__divider--extra {
+        display: none;
+      }
+
+      .tsr-footer__link {
+        font-size: 10px;
+      }
+
+      .tsr-footer__copy {
+        font-size: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tsr-gradient-bar"></div>
+
+  <div class="tsr-page">
+    <div class="tsr-content">
+
+      <div class="tsr-title">
+        <p class="tsr-title__en">Specified Commercial Transactions Law</p>
+        <p class="tsr-title__ja">特定商取引法に基づく表記</p>
+      </div>
+
+      <div class="tsr-sections">
+
+        <!-- Main table -->
+        <div class="tsr-table-section">
+          <div class="tsr-intro">
+            <p class="tsr-intro__text">最終更新日：2025年5月1日</p>
+            <hr class="tsr-divider" />
+          </div>
+          <div class="tsr-list">
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">販売事業者名</p>
+              <p class="tsr-row__body">ビジネスゲートコンサルティング株式会社</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">販売事業者所在地</p>
+              <p class="tsr-row__body">千葉県船橋市本郷町442-202</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">運営統括責任者</p>
+              <p class="tsr-row__body">畠山 慎吾</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">ホームページ</p>
+              <a href="http://businessgate.co.jp/kigyou.html" class="tsr-row__body" target="_blank" rel="noopener">http://businessgate.co.jp/kigyou.html</a>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">メールアドレス</p>
+              <a href="mailto:info@businessgate.co.jp" class="tsr-row__body">info@businessgate.co.jp</a>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">役務の名称・内容</p>
+              <div class="tsr-row__body">
+                <ul>
+                  <li>SalesAI（個別コーチング型営業スキル向上プログラム）<br>
+                    ・全6モジュール・個別コーチングセッション<br>
+                    ・実践ロープレセッション（2回）<br>
+                    ・商談録音フィードバック（プレミアムプランのみ）<br>
+                    ・コミュニティ参加権・メール相談
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">役務の提供期間</p>
+              <p class="tsr-row__body">スタンダードプラン：契約日から3ヶ月間<br>
+                プレミアムプラン：契約日から3ヶ月間（卒業後1ヶ月フォローアップ含む）</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">販売価格</p>
+              <p class="tsr-row__body">無料相談にて個別にご案内します。お申込み前に必ず書面にて明示します。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">支払方法</p>
+              <p class="tsr-row__body">(1) クレジットカード払い（VISA・Mastercard・JCB・AMEX）<br>
+                (2) 銀行振込（振込手数料はお客様負担）</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">支払時期</p>
+              <p class="tsr-row__body">クレジットカード：申込完了後、カード会社の規定に従い確定<br>
+                銀行振込：お申込み日より7日以内にお振込ください。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">役務提供開始時期</p>
+              <p class="tsr-row__body">お申込み・お支払い確認後、3営業日以内に初回日程調整のご連絡をします。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">通常必要な費用</p>
+              <p class="tsr-row__body">受講に必要なPC・スマートフォン・インターネット環境の費用はお客様負担です。教材費・追加費用は発生しません。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+          </div>
+        </div>
+
+        <!-- Cooling-off section -->
+        <div class="tsr-cooling">
+          <div class="tsr-cooling__header">クーリングオフについて（重要）</div>
+          <div class="tsr-cooling__body">
+            <p>本サービスが特定商取引法に定める特定継続的役務提供に該当する場合、契約書面を受け取った日を含めて8日以内は、書面または電磁的記録による申し出により、理由を問わず無条件で契約を解除（クーリングオフ）することができます。</p>
+            <br>
+            <ul>
+              <li>クーリングオフを行使しても、違約金・損害賠償等の請求は一切ありません。</li>
+              <li>すでにお支払いいただいた料金は、全額速やかに返金します。</li>
+              <li>役務提供開始後であっても、クーリングオフ期間内であれば解除可能です。</li>
+              <li>クーリングオフは必ず書面（はがき・封書）または電子メールで通知してください。口頭での申し出は効力を持ちません。</li>
+            </ul>
+            <br>
+            <p>
+              <strong>クーリングオフ通知先</strong><br>
+              千葉県船橋市本郷町442-202<br>
+              ビジネスゲートコンサルティング株式会社 SalesAI事務局<br>
+              メール：info@businessgate.co.jp
+            </p>
+            <br>
+            <p><strong>通知の効力は発信時に発生します（消印有効）。</strong></p>
+          </div>
+          <div class="tsr-cooling__border"></div>
+        </div>
+
+        <!-- Cancellation section -->
+        <div class="tsr-cancellation">
+          <div class="tsr-cancellation__heading">
+            <p class="tsr-cancellation__title">中途解約について</p>
+            <hr class="tsr-divider" />
+          </div>
+          <div class="tsr-list">
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">解約可否</p>
+              <p class="tsr-row__body">クーリングオフ期間経過後も、お客様の都合による中途解約が可能です。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">役務開始前の解約</p>
+              <p class="tsr-row__body">違約金：11,000円（税込）を上限とします。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">役務開始後の解約</p>
+              <p class="tsr-row__body">提供済み役務の対価＋違約金（契約残額の20%または50,000円のいずれか低い額）の合計額を申し受けます。残額は返金します（30日以内）。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <div class="tsr-row">
+              <p class="tsr-row__label">解約の申し出方</p>
+              <p class="tsr-row__body">メール（info@businessgate.co.jp）にてお申し出ください。</p>
+            </div>
+            <hr class="tsr-divider" />
+
+            <p class="tsr-note">本表記は消費者保護の観点から最大限の情報開示を行っております。実際の法的適用については専門家確認のうえ随時更新します。</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="tsr-gradient-bar"></div>
+
+  <footer class="tsr-footer">
+    <div class="tsr-footer__links">
+      <div class="tsr-footer__item">
+        <div class="tsr-footer__divider"></div>
+        <a href="privacypolicy.html" class="tsr-footer__link">プライバシーポリシー</a>
+      </div>
+      <div class="tsr-footer__item">
+        <div class="tsr-footer__divider"></div>
+        <a href="tokushouhou.html" class="tsr-footer__link">特定商取引法</a>
+      </div>
+      <div class="tsr-footer__divider tsr-footer__divider--extra"></div>
+      <div class="tsr-footer__item">
+        <div class="tsr-footer__divider"></div>
+        <span class="tsr-footer__link">会社概要</span>
+      </div>
+      <div class="tsr-footer__divider"></div>
+    </div>
+    <p class="tsr-footer__copy">©sales AI . All rignt reserved.</p>
+  </footer>
+
+</body>
+</html>
