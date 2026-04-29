@@ -563,7 +563,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 15px;
+  gap: 25px;
   background: #fff;
   border: 2.529px solid #f66f00;
   border-radius: 19px;
@@ -576,7 +576,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 391px;
+  width: 381px;
   flex-shrink: 0;
 }
 
