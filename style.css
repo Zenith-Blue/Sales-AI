@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, "Meiryo", sans-serif;
   background: #fff;
   overflow-x: hidden;
 }
@@ -3035,7 +3035,7 @@ body {
   .voice__header::after {
     content: '受講生のリアルな\A変化をご紹介';
     white-space: pre;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, "Meiryo", sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: #fe692c;
