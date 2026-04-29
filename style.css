@@ -4096,6 +4096,10 @@ body {
     width: 100%;
   }
 
+  .tokuten__special-pill {
+    font-size: 16px;
+  }
+
   /* ===== Anshin SP ===== */
   .anshin {
     padding-bottom: 40px;
