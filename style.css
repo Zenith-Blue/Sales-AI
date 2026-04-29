@@ -3474,6 +3474,8 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     letter-spacing: 0.617px;
+    border-bottom: 3px solid #f0a000;
+    padding-bottom: 2px;
   }
 
   /* Force line break before 7 */
