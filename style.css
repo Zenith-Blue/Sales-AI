@@ -3419,7 +3419,7 @@ body {
 
   .reason__hl-box--indent {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: -2px;
     align-self: flex-end;
   }
 
