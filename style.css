@@ -3514,7 +3514,7 @@ body {
     width: 321px;
     margin: 0 auto;
     padding: 15px 0 10px 10px;
-    gap: 8px;
+    gap: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
