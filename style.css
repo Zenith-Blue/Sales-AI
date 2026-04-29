@@ -37,6 +37,10 @@ body {
   pointer-events: none;
 }
 
+.fv__bg--sp {
+  display: none;
+}
+
 /* Right person image */
 .fv__person {
   position: absolute;
@@ -2615,8 +2619,12 @@ body {
     overflow: hidden;
   }
 
-  .fv__bg {
+  .fv__bg--pc {
     display: none;
+  }
+
+  .fv__bg--sp {
+    display: block;
   }
 
   /* Person image: Figma left:116px, top:61px, 386×499 (390px viewport) */
