@@ -94,7 +94,7 @@ body {
   position: absolute;
   left: 0;
   top: 30px;
-  width: 782px;
+  width: clamp(550px, 61.1vw, 782px);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -106,7 +106,7 @@ body {
   background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(255,255,255,0.75) 65%, rgba(255,255,255,0) 100%);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  padding: 0 0 0 60px;
+  padding: 0 0 0 clamp(30px, 4.7vw, 60px);
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -1544,8 +1544,8 @@ body {
   position: absolute;
   top: 87px;
   left: 40%;
-  width: 609px;
-  max-width: 100%;
+  width: clamp(480px, 67.7vw, 609px);
+  max-width: 60%;
   z-index: 1;
   display: flex;
   flex-direction: column;
