@@ -3982,10 +3982,16 @@ body {
   }
 
 
+  .tokuten__title-wrap {
+    position: static;
+    padding: 4px 90px 0 0;
+    text-align: left;
+  }
+
   .tokuten__main-title {
     font-size: 20px;
-    top: -48px;
-    left: -36px;
+    top: 0;
+    left: 0;
     white-space: nowrap;
   }
 
@@ -4167,7 +4173,7 @@ body {
   }
 
   .tokuten__main-title {
-    left: -8px;
+    left: 0;
   }
 
   .tokuten__main-book {
