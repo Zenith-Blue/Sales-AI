@@ -4047,7 +4047,11 @@ body {
 
   .tokuten__card-title-wrap {
     margin-top: 3px;
-    padding-top: 15px;
+    padding: 5px 0 0 0;
+  }
+
+  .tokuten__title-wrap {
+    padding: 5px 0 0 0;
   }
 
   .tokuten__main-title {
