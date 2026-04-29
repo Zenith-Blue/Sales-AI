@@ -3328,13 +3328,14 @@ body {
     gap: 0;
   }
 
-  /* Dark card */
+  /* Dark card: Figma 358×221, bg #2a2827, border 2px #fe413e, radius 10px */
   .reason__dark {
     width: 358px;
     max-width: 100%;
     border-radius: 10px;
     padding: 14px 37px 14px 39px;
     border-width: 2px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
   }
 
   .reason__dark-main {
@@ -3345,6 +3346,10 @@ body {
 
   .reason__dark-lg {
     font-size: 20px;
+  }
+
+  .reason__dark-main .reason__yellow {
+    text-underline-offset: 6px;
   }
 
   .reason__robot-wrap {
@@ -3362,8 +3367,16 @@ body {
 
   .reason__dark-body {
     font-size: 12px;
+    font-weight: 500;
     letter-spacing: 1.229px;
     line-height: 20px;
+    width: 279px;
+    max-width: 100%;
+  }
+
+  .reason__dark-sep {
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .reason__dark-sep img {
@@ -3371,7 +3384,7 @@ body {
     height: 3.429px;
   }
 
-  /* Plus circle */
+  /* Plus circle: Figma 30px */
   .reason__plus-circle {
     width: 30px;
     height: 30px;
@@ -3380,7 +3393,7 @@ body {
     margin: 10px auto;
   }
 
-  /* Feature cards */
+  /* Feature cards: Figma 358×92, gap 11px */
   .reason__features {
     width: 358px;
     max-width: 100%;
@@ -3390,11 +3403,13 @@ body {
   }
 
   .reason__feature {
+    background: #fff7e8;
     border-radius: 10px;
     border-width: 2px;
-    padding: 8px 12px;
+    padding: 9px 12px;
     min-height: 92px;
     gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
   }
 
   .reason__icon-wrap {
@@ -3406,15 +3421,28 @@ body {
     width: 66px;
     height: 66px;
     top: 2px;
+    left: 2px;
   }
 
-  .reason__icon-img-wrap--1,
-  .reason__icon-img-wrap--2,
-  .reason__icon-img-wrap--3 {
+  .reason__icon-img-wrap--1 {
     width: 70px;
     height: 70px;
     top: 0;
     left: 0;
+  }
+
+  .reason__icon-img-wrap--2 {
+    width: 79px;
+    height: 79px;
+    top: -3px;
+    left: -6px;
+  }
+
+  .reason__icon-img-wrap--3 {
+    width: 73px;
+    height: 80px;
+    top: -3px;
+    left: -2px;
   }
 
   .reason__icon-img-wrap--1 img,
@@ -3435,6 +3463,7 @@ body {
 
   .reason__feature-desc {
     font-size: 12px;
+    font-weight: 400;
     letter-spacing: 1.229px;
     line-height: 17px;
     max-width: 241px;
