@@ -189,10 +189,12 @@ body {
 }
 
 .fv__text-gradient {
-  background: linear-gradient(to right, #fe3e3f, #ffd000);
+  background: linear-gradient(to right, #ff6f3d, #ffd000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-text-stroke: 1px #ffffff;
+  paint-order: stroke fill;
 }
 
 .fv__text-lg {
@@ -2877,23 +2879,6 @@ body {
 
   .fv__headlines--sp .fv__headline:nth-child(2) .fv__headline-text {
     letter-spacing: 0.58px;
-  }
-
-  /* SP: switch the gradient line to a solid bright orange with a thin white
-     outline. The original red→yellow gradient becomes unreadable on the
-     #151515 headline once Noto Sans JP is replaced by Hiragino's thinner
-     bold — the dark-red half of the gradient gets swallowed by the
-     background. A solid color + paint-order stroke restores legibility
-     without changing the surrounding design. */
-  .fv__headlines--sp .fv__text-gradient {
-    background: none;
-    -webkit-background-clip: initial;
-    background-clip: initial;
-    -webkit-text-fill-color: #ff7a1f;
-    color: #ff7a1f;
-    -webkit-text-stroke: 1px #ffffff;
-    paint-order: stroke fill;
-    font-weight: 900;
   }
 
   .fv__headlines--sp .fv__headline:nth-child(3) .fv__headline-text {
