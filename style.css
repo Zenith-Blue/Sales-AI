@@ -347,6 +347,22 @@ body {
   color: yellow;
 }
 
+/* SP decorations - hidden on PC */
+.worries__sp-decor {
+  display: none;
+}
+
+.worries__sp-circle {
+  position: absolute;
+  pointer-events: none;
+}
+
+.worries__sp-person {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* ===== Feature Section ===== */
 .feature {
   position: relative;
@@ -2848,45 +2864,52 @@ body {
     font-size: 22px;
   }
 
+  /* Layout: 505px fixed height with absolute positioning for decorations */
   .worries__layout {
-    width: 358px;
-    max-width: calc(100% - 32px);
-    height: auto;
+    position: relative;
+    width: 390px;
+    max-width: 100%;
+    height: 470px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 7px;
-    padding: 10px;
+    align-items: center;
+    padding: 0;
   }
 
-  /* Hide PC-only decorative elements */
+  /* Hide PC decorative elements */
   .worries__bg-circle {
     display: none;
   }
 
-  .worries__layout > div[style*="position:absolute"][style*="left:269px"],
-  .worries__layout > div[style*="position:absolute"][style*="left:279px"],
-  .worries__layout > div[style*="position:absolute"][style*="left:882px"] {
+  .worries__layout > div[style*="position:absolute"] {
     display: none;
   }
 
-  /* Reset all card positions to flow layout */
-  .worries__card,
-  .worries__card--top,
-  .worries__card--ml,
-  .worries__card--mr,
-  .worries__card--bl,
-  .worries__card--br {
+  /* Show SP decorations */
+  .worries__sp-decor {
+    display: block;
+  }
+
+  /* Cards wrapper for vertical stacking */
+  .worries__layout .worries__card {
     position: relative;
     left: auto;
     top: auto;
     width: 317px;
-    max-width: 100%;
+    max-width: 81.3%;
     height: auto;
     min-height: auto;
     border-radius: 4px;
     padding: 14px 28px;
+    margin-left: auto;
+    z-index: 2;
   }
+
+  .worries__card + .worries__card {
+    margin-top: 7px;
+  }
+
+  .worries__card--top { margin-top: 0; }
 
   .worries__card-body {
     text-align: center;
@@ -2909,7 +2932,7 @@ body {
     margin: 0;
   }
 
-  /* Hide person images overflowing from cards on SP */
+  /* Hide PC person images in cards */
   .worries__card > div[style*="position:absolute"] {
     display: none;
   }
