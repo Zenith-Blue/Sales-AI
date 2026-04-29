@@ -3363,7 +3363,6 @@ body {
   .reason {
     min-height: auto;
     overflow: hidden;
-    background: #d9d9d9;
   }
 
   .reason__bg {
