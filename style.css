@@ -3934,7 +3934,11 @@ body {
     width: 100%;
     height: auto;
     min-height: 100px;
-    padding: 10px 90px 10px 56px;
+    padding: 10px 10px 10px 56px;
+  }
+
+  .tokuten__card-body {
+    padding-right: 0;
   }
 
   .tokuten__main-card {
