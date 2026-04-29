@@ -3997,6 +3997,17 @@ body {
     right: 5px;
   }
 
+  /* 02, 04, 07の画像を30px下に */
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book {
+    top: 20px !important;
+  }
+  .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
+    top: 20px !important;
+  }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
+    top: 20px !important;
+  }
+
   .tokuten__card-main {
     position: relative !important;
     bottom: auto !important;
