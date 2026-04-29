@@ -3965,6 +3965,7 @@ body {
   .tokuten__card-sub {
     font-size: 13px;
     white-space: normal;
+    padding-top: 2px;
   }
 
   .tokuten__main-sub-wrap {
