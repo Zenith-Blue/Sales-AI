@@ -3948,7 +3948,7 @@ body {
   }
 
   .tokuten__card-sub {
-    font-size: 10px;
+    font-size: 13px;
     white-space: normal;
   }
 
@@ -3961,6 +3961,10 @@ body {
   }
 
   .tokuten__main-sub--lg {
+    font-size: 12px;
+  }
+
+  .tokuten__main-sub {
     font-size: 11px;
   }
 
