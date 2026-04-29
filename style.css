@@ -746,7 +746,7 @@ body {
   position: absolute;
   bottom: 4px;
   left: 3px;
-  width: 355px;
+  width: 310px;
   height: 34px;
   background: #edff65;
   z-index: 0;
@@ -789,7 +789,7 @@ body {
 
 .reassure__caption {
   margin: 0;
-  padding-top: 26px;
+  padding-top: 16px;
   font-size: 31px;
   font-weight: 700;
   color: #fe692c;
@@ -829,7 +829,7 @@ body {
   align-items: center;
   gap: 10px;
   width: 449px;
-  margin-top: 19px;
+  margin-top: 9px;
 }
 
 .reassure__cta-link {
