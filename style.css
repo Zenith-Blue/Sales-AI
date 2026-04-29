@@ -2384,7 +2384,7 @@ body {
   width: 855px;
   height: auto;
   flex-shrink: 0;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .anshin__table img {
@@ -2400,7 +2400,7 @@ body {
   gap: 30px;
   align-items: center;
   width: 957px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .anshin__points-title {
