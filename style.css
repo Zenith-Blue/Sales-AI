@@ -61,7 +61,7 @@ body {
 /* Right person image */
 .fv__person {
   position: absolute;
-  right: -24px;
+  right: -29px;
   top: -10px;
   width: 577px;
   height: 775px;
@@ -1457,7 +1457,6 @@ body {
 
 .gifts__books-img {
   width: 729px;
-  max-width: 100%;
   height: auto;
   display: block;
 }
