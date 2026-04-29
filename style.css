@@ -3676,11 +3676,12 @@ body {
   }
 
   .reason__feature-desc {
-    font-size: 12px;
+    font-size: 9.6px;
     font-weight: 400;
     letter-spacing: 1.229px;
-    line-height: 17px;
+    line-height: 14px;
     max-width: 241px;
+    margin-top: -3px;
   }
 
   /* ===== Curriculum SP ===== */
