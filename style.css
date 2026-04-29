@@ -3545,7 +3545,7 @@ body {
     margin: 0;
     white-space: nowrap;
     position: relative;
-    left: -30px;
+    left: 0;
   }
 
   .reason__main {
@@ -3555,6 +3555,7 @@ body {
     right: auto;
     padding: 30px 8px 30px;
     gap: 0;
+    align-items: center;
   }
 
   /* Dark card: Figma 358×221, bg #2a2827, border 2px #fe413e, radius 10px */
@@ -3628,7 +3629,7 @@ body {
     width: 358px;
     max-width: 100%;
     gap: 11px;
-    margin-left: 0;
+    margin: 0 auto;
     align-self: center;
   }
 
