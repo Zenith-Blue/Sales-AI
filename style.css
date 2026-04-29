@@ -3331,6 +3331,11 @@ body {
   /* ===== Eigyoryoku SP ===== */
   .eigyoryoku {
     padding: 15px 21px;
+    margin-bottom: 0;
+  }
+
+  .reason {
+    margin-top: 0;
   }
 
   .eigyoryoku__text {
@@ -3352,6 +3357,7 @@ body {
   .reason {
     min-height: auto;
     overflow: hidden;
+    background: #d9d9d9;
   }
 
   .reason__bg {
