@@ -3441,6 +3441,9 @@ body {
 
   .gifts__headline {
     letter-spacing: 0.617px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.1;
   }
 
   .gifts__hl-sm {
@@ -3452,8 +3455,19 @@ body {
   }
 
   .gifts__hl-golden {
-    font-size: 29.604px;
+    font-size: 42px;
     border-bottom-width: 2px;
+    display: inline;
+  }
+
+  .gifts__hl-golden + .gifts__hl-sm {
+    font-size: 29.604px;
+  }
+
+  /* Force line break before 7大特典 */
+  .gifts__hl-golden::before {
+    content: '\A';
+    white-space: pre;
   }
 
   /* Books */
