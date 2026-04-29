@@ -3402,9 +3402,73 @@ body {
     padding: 20px 16px;
   }
 
-  /* Gifts */
+  /* ===== Gifts SP ===== */
   .gifts__inner {
-    padding: 20px 16px;
+    padding: 17px 0;
+    align-items: center;
+  }
+
+  /* Pill */
+  .gifts__pill-wrap {
+    width: 293px;
+    padding: 0;
+  }
+
+  .gifts__pill {
+    height: 48px;
+    border-radius: 42px;
+  }
+
+  .gifts__pill-text {
+    font-size: 15.2px;
+    letter-spacing: 0.516px;
+    line-height: 18.576px;
+    text-align: center;
+  }
+
+  .gifts__pill-accent {
+    color: #ff530c;
+  }
+
+  /* Subtitle + Headline */
+  .gifts__subtitle {
+    font-size: 18.066px;
+    letter-spacing: 1.312px;
+    line-height: 28.103px;
+    color: #feffc1;
+  }
+
+  .gifts__headline {
+    letter-spacing: 0.617px;
+  }
+
+  .gifts__hl-sm {
+    font-size: 22px;
+  }
+
+  .gifts__hl-lg {
+    font-size: 26px;
+  }
+
+  .gifts__hl-golden {
+    font-size: 29.604px;
+    border-bottom-width: 2px;
+  }
+
+  /* Books */
+  .gifts__books-frame {
+    width: 355px;
+    max-width: 91%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .gifts__books-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
   }
 
   /* CTA common - unified design across all sections */
