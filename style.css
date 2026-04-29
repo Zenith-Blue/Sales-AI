@@ -2897,37 +2897,36 @@ body {
     display: none;
   }
 
-  /* Show SP decorations */
+  /* Show SP decorations - hide absolute positioned, use per-card icons instead */
   .worries__sp-decor {
-    display: block;
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    z-index: 3;
-    transform: translateY(-20px);
+    display: none;
   }
 
-  /* Cards: alternating left/right */
+  /* Cards */
   .worries__layout .worries__card {
     position: relative;
     left: auto;
     top: auto;
-    width: 82%;
+    width: 317px;
+    max-width: 85%;
     height: auto;
     min-height: auto;
     border-radius: 4px;
-    padding: 14px 28px;
+    padding: 14px 20px;
     z-index: 2;
   }
 
-  /* All cards centered */
-  .worries__card--top,
-  .worries__card--ml,
-  .worries__card--mr,
-  .worries__card--bl,
-  .worries__card--br {
-    align-self: center;
+  .worries__card-sub,
+  .worries__card-main {
+    white-space: nowrap;
   }
+
+  /* Alternating left/right alignment */
+  .worries__card--top { align-self: flex-end; }
+  .worries__card--ml  { align-self: flex-start; }
+  .worries__card--mr  { align-self: flex-end; }
+  .worries__card--bl  { align-self: flex-start; }
+  .worries__card--br  { align-self: flex-end; }
 
   .worries__card-body {
     text-align: center;
@@ -2950,8 +2949,43 @@ body {
     margin: 0;
   }
 
-  /* Hide PC person images in cards */
+  /* Reposition PC person images for SP - show at card side, vertically centered */
   .worries__card > div[style*="position:absolute"] {
+    display: block;
+  }
+
+  /* Card 1 (top): person on left */
+  .worries__card--top > div[style*="position:absolute"] {
+    left: -60px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  /* Card 2 (ml): person on right */
+  .worries__card--ml > div[style*="position:absolute"] {
+    left: auto !important;
+    right: -60px;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  /* Card 3 (mr): person on left */
+  .worries__card--mr > div[style*="position:absolute"] {
+    left: -55px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  /* Card 4 (bl): person on right */
+  .worries__card--bl > div[style*="position:absolute"] {
+    left: auto !important;
+    right: -65px;
+    top: 50% !important;
+    transform: translateY(-50%) scaleX(-1) !important;
+  }
+
+  /* Hide BR person in card (no inline image) and container-level person */
+  .worries__layout > div[style*="position:absolute"][style*="left:882px"] {
     display: none;
   }
 
