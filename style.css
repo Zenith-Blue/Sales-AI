@@ -3929,6 +3929,74 @@ body {
     width: 100%;
   }
 
+  /* ===== Anshin SP ===== */
+  .anshin {
+    padding-bottom: 40px;
+  }
+
+  .anshin__header {
+    height: auto;
+    padding: 15px 21px;
+  }
+
+  .anshin__header-text {
+    font-size: 27px;
+    letter-spacing: 1.229px;
+  }
+
+  .anshin__inner {
+    gap: 30px;
+  }
+
+  /* Table: horizontal scroll */
+  .anshin__table {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .anshin__table img {
+    width: 855px;
+    height: auto;
+    max-width: none;
+  }
+
+  /* Points */
+  .anshin__points {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  .anshin__points-title {
+    font-size: 30px;
+  }
+
+  .anshin__cards {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .anshin__card {
+    width: 100%;
+    padding: 18px 16px;
+  }
+
+  .anshin__card-title {
+    font-size: 20px;
+  }
+
+  .anshin__card-title--sm {
+    font-size: 18px;
+  }
+
+  .anshin__card-desc {
+    font-size: 14px;
+    width: 100%;
+  }
+
   /* FAQ */
   .faq {
     padding: 40px 0 60px;
