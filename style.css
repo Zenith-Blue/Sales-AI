@@ -1520,7 +1520,6 @@ body {
 
 .reason__red { color: #e60012; }
 .reason__yellow { color: yellow; }
-.reason__person-sp { display: none; }
 .reason__dark-main .reason__yellow {
   text-decoration: underline;
   text-decoration-color: yellow;
@@ -3375,10 +3374,6 @@ body {
   }
 
   /* SP person image */
-  .reason__person-sp {
-    display: none;
-  }
-
   .reason__headlines {
     position: relative;
     top: auto;
