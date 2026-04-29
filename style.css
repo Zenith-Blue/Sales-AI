@@ -2686,8 +2686,7 @@ body {
   }
 
   .fv__ul {
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
+    text-decoration: none;
   }
 
   /* Headlines SP: Figma gap:4.633px, starts at ~top:233px with 10px padding */
