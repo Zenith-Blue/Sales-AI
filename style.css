@@ -2620,6 +2620,7 @@ body {
     height: auto;
     right: auto;
     overflow: visible;
+    z-index: 1;
   }
 
   .fv__person img {
@@ -2634,6 +2635,7 @@ body {
     left: 3.5%;
     top: 28vw;
     width: 53vw;
+    z-index: 2;
   }
 
   .fv__content {
@@ -2643,6 +2645,7 @@ body {
     width: 100%;
     padding: 8px 0 20px;
     gap: 0;
+    z-index: 3;
   }
 
   /* Worry list SP */
