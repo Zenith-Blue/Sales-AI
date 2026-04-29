@@ -4419,25 +4419,23 @@ body {
 
   /* Books */
   .gifts__books-frame {
-    width: 355px;
-    max-width: 91%;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     overflow: visible;
+    display: flex;
+    justify-content: center;
   }
 
   .gifts__books-img {
     position: relative;
     top: 5px;
     left: 0;
-    width: 110%;
+    width: 90%;
+    max-width: 355px;
     height: auto;
     display: block;
     margin: 0 auto;
-  }
-
-  .gifts__books-frame {
-    display: flex;
-    justify-content: center;
   }
 
   /* CTA common - unified design across all sections */
