@@ -3461,20 +3461,32 @@ body {
     font-size: 26px;
   }
 
-  .gifts__hl-golden {
-    font-size: 42px;
-    border-bottom-width: 2px;
-    display: inline;
+  .gifts__hl-golden-7 {
+    font-size: 42.155px;
+    font-weight: 700;
+    background: linear-gradient(to bottom, #ffff00, #ea8601);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 0.617px;
   }
 
-  .gifts__hl-golden + .gifts__hl-sm {
-    font-size: 29.604px;
-  }
-
-  /* Force line break before 7大特典 */
-  .gifts__hl-golden::before {
+  /* Force line break before 7 */
+  .gifts__hl-golden-7::before {
     content: '\A';
     white-space: pre;
+  }
+
+  .gifts__hl-golden {
+    font-size: 29.604px;
+    border-bottom-width: 2px;
+  }
+
+  .gifts__hl-white-lg {
+    font-size: 29.604px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.617px;
   }
 
   /* Books */
