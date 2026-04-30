@@ -4711,12 +4711,26 @@ body {
     padding: 0 8px;
   }
 
+  @keyframes scaleAnimationSP {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
   .fv__cta-link,
   .tokuten__cta-link,
   .faq__cta-wrap,
   .reassure__cta-link {
     width: 100%;
-    max-width: 369px;
+    max-width: 350px;
+    animation: scaleAnimationSP 2s infinite ease-in-out;
+  }
+
+  .faq__cta-img {
+    animation: scaleAnimationSP 2s infinite ease-in-out;
   }
 
   .fv__cta-img,
@@ -4724,7 +4738,7 @@ body {
   .faq__cta-img,
   .reassure__cta-img {
     width: 100%;
-    max-width: 369px;
+    max-width: 350px;
     height: auto;
     display: block;
     margin: 0 auto;
