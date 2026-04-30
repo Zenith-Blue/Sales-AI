@@ -3235,6 +3235,9 @@ body {
     background: transparent;
     border-right: 2px solid #f66f00;
     color: #f66f00;
+    position: relative;
+    left: -1px;
+    top: 2px;
   }
 
   .voice__case-label {
