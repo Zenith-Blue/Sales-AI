@@ -3009,27 +3009,19 @@ body {
   }
 
   .worries__inner {
-    padding-top: 40px;
+    padding-top: 0;
     gap: 5px;
+    overflow: hidden;
   }
 
   .worries__headline {
-    font-size: 22px;
-    -webkit-text-stroke: 0;
-    text-shadow: 0px 4px 8px rgba(0,0,0,0.5);
-    line-height: 20px;
-    margin-top: 5px;
-    text-align: center;
-    width: 100%;
-  }
-
-  .worries__hl-bold {
-    font-size: 22px;
+    display: none;
   }
 
   .worries__onayami-sp {
     display: block;
-    width: 100%;
+    width: 120%;
+    margin-left: -10%;
     height: auto;
   }
 
