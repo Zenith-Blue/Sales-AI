@@ -4136,7 +4136,7 @@ body {
   }
 
   /* 特典02: 今日からすぐ使える〜 */
-  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { padding-top: 4px !important; margin-left: -3px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { padding-top: 4px !important; margin-left: -11px !important; }
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 7px !important; left: -35px !important; }
 
   /* 特典03: 無敵の営業心理学 */
