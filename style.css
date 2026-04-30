@@ -4342,7 +4342,7 @@ body {
   .anshin__compare-title {
     line-height: 1.5;
     -webkit-text-stroke: 6px #fff;
-    text-shadow: 2.25px 2.25px 2.25px #c8c8c8;
+    text-shadow: 1.5px 1.5px 1.5px #c8c8c8;
     letter-spacing: 3.5px;
     margin-top: 10px;
   }
