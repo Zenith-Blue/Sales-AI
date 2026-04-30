@@ -2798,8 +2798,8 @@ body {
   margin: 0;
 }
 
-/* ===== SP Zoom: 500px以下はそのまま、500px〜800pxは390px基準で拡大 ===== */
-@media (min-width: 500px) and (max-width: 800px) {
+/* ===== SP Zoom: 390px基準で800pxまで拡大 ===== */
+@media (min-width: 390px) and (max-width: 800px) {
   body {
     zoom: calc(100vw / 390);
   }
