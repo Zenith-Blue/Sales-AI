@@ -3472,7 +3472,7 @@ body {
   }
 
   .moshianata__person--woman {
-    left: -24px;
+    left: calc(50% - 219px);
     top: 5px;
     width: 165px;
     max-width: none;
@@ -3481,7 +3481,8 @@ body {
   }
 
   .moshianata__person--man {
-    right: -10px;
+    left: calc(50% + 65px);
+    right: auto;
     top: -11px;
     width: 140px;
     max-width: none;
