@@ -35,6 +35,8 @@ body {
   margin: 0 auto;
 }
 
+.sp-br { display: none; }
+
 /* ===== FV Section ===== */
 .fv {
   position: relative;
@@ -2751,6 +2753,8 @@ body {
 
 /* ===== Responsive ===== */
 @media (max-width: 800px) {
+  .sp-br { display: inline; }
+
   /* 全体の横スクロール防止・中央揃え */
   body {
     overflow-x: hidden;
