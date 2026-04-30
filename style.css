@@ -1842,7 +1842,7 @@ body {
 }
 
 .moshianata__person--woman {
-  left: 10.31%;
+  left: calc(10.31% - 20px);
   top: 43px;
   width: 28.86%;
   max-width: 370px;
