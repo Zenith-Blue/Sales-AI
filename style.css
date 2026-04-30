@@ -3160,9 +3160,7 @@ body {
     position: absolute;
     font-family: 'bananaslip', sans-serif;
     font-size: 88px;
-    font-weight: 900;
     color: #ffe9ca;
-    -webkit-text-stroke: 3px #ffe9ca;
     line-height: 26px;
     top: 50%;
     left: 50%;
@@ -3330,7 +3328,9 @@ body {
   }
 
   .reassure__panel {
-    margin: 10px 10px 10px;
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
     padding: 15px 15px;
     background: #fff;
     border: none;
