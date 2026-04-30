@@ -1906,7 +1906,7 @@ body {
   color: #fe692c;
   -webkit-text-stroke: 7px #ffffff;
   paint-order: stroke fill;
-  text-shadow: 4.869px 4.869px 4.869px #c8c8c8;
+  filter: drop-shadow(4.869px 4.869px 4.869px #c8c8c8);
   margin: 0;
   line-height: 1;
   letter-spacing: 1.4617px;
