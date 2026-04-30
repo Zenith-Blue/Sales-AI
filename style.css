@@ -3491,7 +3491,7 @@ body {
 
   .moshianata__inner {
     max-width: 100%;
-    padding: 33px 19px 27px;
+    padding: 38px 19px 27px;
     gap: 22px;
   }
 
@@ -3541,7 +3541,7 @@ body {
     gap: 10.89px;
     width: 360px;
     max-width: 100%;
-    margin: -10px auto -10px;
+    margin: -10px auto -20px;
   }
 
   .moshianata__card {
