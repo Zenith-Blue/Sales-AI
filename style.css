@@ -2358,6 +2358,9 @@ body {
 
 .anshin__compare-lg {
   font-size: 56.382px;
+  -webkit-text-stroke: 3.76px #fff;
+  paint-order: stroke fill;
+  filter: drop-shadow(3.76px 3.76px 3.76px #c8c8c8);
 }
 
 .anshin__compare-sm {
@@ -4221,11 +4224,14 @@ body {
   }
 
   .anshin__compare-lg {
-    font-size: 33px;
+    font-size: 33.73px;
+    -webkit-text-stroke: 2.25px #fff;
+    paint-order: stroke fill;
+    filter: drop-shadow(2.25px 2.25px 2.25px #c8c8c8);
   }
 
   .anshin__compare-sm {
-    font-size: 29px;
+    font-size: 29.98px;
   }
 
   /* Table: scrollable */
