@@ -1892,7 +1892,9 @@ body {
   font-size: 52.01px;
   font-weight: 700;
   color: #570000;
-  text-shadow: 0px 0px 63.393px #fffdf1;
+  -webkit-text-stroke: 1.5px #ffffff;
+  paint-order: stroke fill;
+  text-shadow: 0px 0px 8px #ffffff, 0px 0px 63.393px #fffdf1;
   margin: 0;
   line-height: 1;
 }
@@ -1900,7 +1902,9 @@ body {
 .moshianata__h2 {
   font-weight: 700;
   color: #fe692c;
-  text-shadow: 4.869px 4.869px 4.869px #c8c8c8;
+  -webkit-text-stroke: 1.5px #ffffff;
+  paint-order: stroke fill;
+  text-shadow: 0px 0px 8px #ffffff, 4.869px 4.869px 4.869px #c8c8c8;
   margin: 0;
   line-height: 1;
   letter-spacing: 1.4617px;
@@ -3450,7 +3454,7 @@ body {
   .moshianata__h1,
   .moshianata__h3 {
     font-size: 24px;
-    text-shadow: 0px 0px 29.252px #fffdf1;
+    text-shadow: 0px 0px 8px #ffffff, 0px 0px 29.252px #fffdf1;
   }
 
   .moshianata__h2-lg {
@@ -3463,7 +3467,7 @@ body {
   }
 
   .moshianata__h2 {
-    text-shadow: 2.247px 2.247px 2.247px #c8c8c8;
+    text-shadow: 0px 0px 8px #ffffff, 2.247px 2.247px 2.247px #c8c8c8;
     letter-spacing: 0.675px;
   }
 
