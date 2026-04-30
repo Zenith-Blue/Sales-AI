@@ -47,7 +47,7 @@ body {
   }
 
   .moshianata__person--man {
-    right: 22px;
+    right: -10px;
     top: -11px;
     width: 140px;
     max-width: none;
@@ -3491,7 +3491,7 @@ body {
   }
 
   .moshianata__person--man {
-    right: 22px;
+    right: -10px;
     top: -11px;
     width: 140px;
     max-width: none;
