@@ -2382,8 +2382,8 @@ body {
   font-weight: 700;
   color: #fe692c;
   text-align: center;
-  text-shadow: 3.756px 3.756px 3.756px #c8c8c8;
-  -webkit-text-stroke: 5px #fff;
+  text-shadow: 3.76px 3.76px 3.76px #c8c8c8;
+  -webkit-text-stroke: 3.76px #fff;
   paint-order: stroke fill;
   margin: 0;
   line-height: 65.81px;
