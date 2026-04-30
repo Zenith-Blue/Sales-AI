@@ -2452,7 +2452,7 @@ body {
 
 .anshin__table {
   width: 100%;
-  max-width: 550px;
+  max-width: 1000px;
   height: auto;
   flex-shrink: 0;
   margin-top: 0;
@@ -4447,7 +4447,7 @@ body {
   }
 
   .anshin__table img {
-    width: 550px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
