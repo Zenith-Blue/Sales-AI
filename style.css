@@ -3939,9 +3939,14 @@ body {
   }
 
   .curriculum__card-desc {
-    font-size: 8px;
+    font-size: 9.5px;
     letter-spacing: 1.211px;
     line-height: 13px;
+  }
+
+  .curriculum__circle {
+    position: relative;
+    top: 3px;
   }
 
   /* ===== Feature SP ===== */
