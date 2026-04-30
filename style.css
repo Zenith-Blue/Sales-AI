@@ -1663,6 +1663,7 @@ body {
   letter-spacing: 2.1178px;
   line-height: 45.364px;
   margin: 0;
+  white-space: nowrap;
 }
 
 .reason__dark-lg {
@@ -1676,7 +1677,7 @@ body {
 }
 
 .reason__robot-wrap {
-  width: 120px;
+  width: 84px;
   flex-shrink: 0;
   margin-right: 10px;
   top: -10px;
