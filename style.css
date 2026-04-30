@@ -1206,29 +1206,30 @@ body {
 
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { font-size: 13px; }
 .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-title-wrap { padding: 4px 0; }
-.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 20.7px; position: absolute; bottom: -7px; left: -22px; }
+.tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { font-size: 20.7px; position: absolute; bottom: -7px; left: -35px; }
 .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub { font-size: 12.4px; }
 .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-body { padding-right: 0; }
 .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-sub--line1 { font-size: 12.41px; }
-.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { position: relative; top: -3px; }
+.tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { position: relative; top: -3px; left: -35px; }
 .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub { font-size: 11.38px; white-space: nowrap; position: relative; top: 0px; }
 .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12.41px; position: relative; top: 1px; }
 .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line2 { position: relative; top: 2px; }
 .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book { right: 5px; }
-.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { position: absolute; bottom: -20px; left: -20px; }
+.tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { position: absolute; bottom: -20px; left: -35px; }
 .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.9px; position: relative; left: -11px; top: 5px; }
 .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-body { padding-right: 0; }
 .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11.38px; }
-.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { position: relative; top: 0px; }
+.tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { position: relative; top: 0px; left: -35px; }
 .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-body { padding-right: 0; }
 .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { position: relative; top: 5px; }
 .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 12.41px; }
 .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 11.38px; }
-.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { position: relative; left: -20px; }
+.tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { position: relative; left: -35px; }
 .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-body { padding-right: 0; }
 .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 12.41px; position: relative; top: 2px; }
 .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { position: relative; top: 5px; }
 .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { position: absolute; bottom: -20px; left: -35px; font-size: 20px; }
+.tokuten__grid .tokuten__card:nth-child(7) .tokuten__card-main { left: -35px; }
 
 .tokuten__card-main {
   position: relative;
