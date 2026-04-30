@@ -3011,7 +3011,6 @@ body {
   .worries__inner {
     padding-top: 0;
     gap: 5px;
-    overflow: hidden;
   }
 
   .worries__headline {
@@ -3020,8 +3019,7 @@ body {
 
   .worries__onayami-sp {
     display: block;
-    width: 120%;
-    margin-left: -10%;
+    width: 90%;
     height: auto;
   }
 
