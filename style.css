@@ -3540,11 +3540,11 @@ body {
   .reason__man-sp {
     display: block;
     position: absolute;
-    left: 50%;
-    transform: translateX(calc(-50% - 50px));
-    top: 0;
-    width: 170px;
+    left: -49px;
+    top: -54px;
+    width: 204px;
     height: auto;
+    transform: none;
     z-index: 1;
   }
 
@@ -3554,22 +3554,53 @@ body {
     left: auto;
     width: 100%;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 15px 0 10px calc(50% + 50px);
-    align-items: flex-start;
+    height: 210px;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  .reason__hl-box {
+    position: absolute;
+    top: 30px;
+    left: 104px;
+    padding: 4px 10px;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.25);
+    align-self: auto;
+  }
+
+  .reason__hl-box--indent {
+    top: 77px;
+    left: 120px;
+    margin-left: 0;
+  }
+
+  .reason__hl-lg {
+    font-size: 23.4px;
+  }
+
+  .reason__hl-sm {
+    font-size: 18px;
+  }
+
+  .reason__hl-text {
+    letter-spacing: 1.307px;
   }
 
   .reason__sub {
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    width: 100%;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.229px;
     line-height: 20px;
     text-align: center;
-    padding: 19px 0 0;
+    padding: 0;
     margin: 0;
     white-space: nowrap;
-    position: relative;
-    left: 0;
   }
 
   .reason__main {
@@ -3577,9 +3608,10 @@ body {
     top: auto;
     left: auto;
     right: auto;
-    padding: 30px 8px 30px;
+    padding: 0 8px 30px;
     gap: 0;
     align-items: center;
+    margin-top: 10px;
   }
 
   /* Dark card: Figma 358×221, bg #2a2827, border 2px #fe413e, radius 10px */
@@ -3710,17 +3742,17 @@ body {
   }
 
   .reason__feature-title {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1.307px;
     line-height: 31.909px;
     white-space: nowrap;
   }
 
   .reason__feature-desc {
-    font-size: 9.6px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.229px;
-    line-height: 14px;
+    line-height: 17px;
     max-width: 241px;
     margin-top: -3px;
   }
