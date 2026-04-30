@@ -3533,7 +3533,7 @@ body {
     height: 78px;
     border-radius: 9.85px;
     width: calc(100% + 22px);
-    margin: 0 -11px;
+    margin: 40px -11px 0;
   }
 
   .moshianata__cta-text {
