@@ -4055,7 +4055,8 @@ body {
   }
 
   .tokuten__card {
-    width: 100%;
+    width: 300px;
+    max-width: 100%;
     height: auto;
     min-height: 100px;
     padding: 10px 10px 10px 56px;
