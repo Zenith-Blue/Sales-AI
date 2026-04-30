@@ -3343,7 +3343,7 @@ body {
 
   .reassure__sub {
     font-size: 19.197px;
-    -webkit-text-stroke: 5px #fff;
+    -webkit-text-stroke: 3px #fff;
     paint-order: stroke fill;
     filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
     letter-spacing: 0.651px;
@@ -3352,7 +3352,7 @@ body {
 
   .reassure__title {
     font-size: 27.728px;
-    -webkit-text-stroke: 5px #fff;
+    -webkit-text-stroke: 3px #fff;
     paint-order: stroke fill;
     filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
     letter-spacing: 0.651px;
@@ -3376,7 +3376,7 @@ body {
 
   .reassure__caption {
     font-size: 19.197px;
-    -webkit-text-stroke: 5px #fff;
+    -webkit-text-stroke: 3px #fff;
     paint-order: stroke fill;
     filter: drop-shadow(2.396px 2.396px 2.396px #c8c8c8);
     letter-spacing: 0.651px;
