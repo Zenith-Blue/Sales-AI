@@ -1976,7 +1976,7 @@ body {
   color: #fe692c;
   letter-spacing: 2.2382px;
   line-height: 1;
-  -webkit-text-stroke: 1.5px #ffffff;
+  -webkit-text-stroke: 2px #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(1.74px 1.74px 1.74px rgba(0,0,0,0.25));
   margin: 0;
@@ -3507,6 +3507,7 @@ body {
   .moshianata__title {
     font-size: 15.84px;
     letter-spacing: 1.294px;
+    -webkit-text-stroke: 2px #ffffff;
     filter: drop-shadow(1.005px 1.005px 1.005px rgba(0,0,0,0.25));
   }
 
