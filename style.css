@@ -3291,6 +3291,7 @@ body {
 
   .voice__card {
     flex-direction: column;
+    gap: 0;
     border: 2px solid #f66f00;
     border-radius: 15px;
     padding: 0;
