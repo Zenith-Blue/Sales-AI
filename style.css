@@ -1512,7 +1512,7 @@ body {
   position: relative;
   width: 729px;
   max-width: 100%;
-  overflow: hidden;
+  overflow: visible;
   flex-shrink: 0;
   margin: 0 auto;
   align-self: center;
@@ -1524,7 +1524,7 @@ body {
   100% { transform: translateX(220%); }
 }
 
-.gifts__books-frame::after {
+.gifts::after {
   content: '';
   position: absolute;
   top: 0;
@@ -1539,6 +1539,7 @@ body {
   );
   animation: light-sweep 4s ease-in-out infinite;
   pointer-events: none;
+  z-index: 2;
 }
 
 .gifts__books-img {
