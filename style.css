@@ -3396,21 +3396,50 @@ body {
 
   /* ===== Moshianata SP ===== */
   .moshianata__blur {
-    display: none;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    width: 65%;
+    max-width: none;
+    height: 105px;
+    filter: blur(5.406px);
   }
 
   .moshianata__person {
-    display: none;
+    display: block;
+    -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+  }
+
+  .moshianata__person--woman {
+    left: -11%;
+    top: 10px;
+    width: 44%;
+    max-width: none;
+    aspect-ratio: 170 / 175;
+    object-position: 0% top;
+  }
+
+  .moshianata__person--man {
+    right: -3.4%;
+    left: auto;
+    top: 10px;
+    width: 33%;
+    max-width: none;
+    aspect-ratio: 128 / 156;
+    object-position: 20% top;
   }
 
   .moshianata__inner {
     max-width: 100%;
-    padding: 20px 19px 20px;
-    gap: 10px;
+    padding: 33px 19px 27px;
+    gap: 22px;
   }
 
   .moshianata__headline {
-    gap: 4px;
+    gap: 6px;
+    padding-left: 30px;
   }
 
   .moshianata__headline-img {
@@ -3429,6 +3458,7 @@ body {
 
   .moshianata__h2-sm {
     font-size: 26px;
+    letter-spacing: 0.52px;
   }
 
   .moshianata__h2 {
@@ -3437,31 +3467,30 @@ body {
   }
 
   .moshianata__cards {
-    gap: 10.835px;
-    width: 320px;
-    max-width: 100%;
+    gap: 10.89px;
+    width: 100%;
+    max-width: 354px;
     margin: 0 auto;
-    margin-bottom: 15px;
   }
 
   .moshianata__card {
-    border-width: 1.97px;
-    border-radius: 9.85px;
-    min-height: 90.623px;
-    padding: 12px 8px 12px 14px;
-    box-shadow: 0px 3.94px 3.94px rgba(0,0,0,0.25);
-    gap: 10px;
+    border-width: 1.98px;
+    border-radius: 9.9px;
+    min-height: 91.082px;
+    padding: 10.986px 6.938px 15.033px 15.033px;
+    box-shadow: 0px 3.96px 1.98px rgba(0,0,0,0.25);
+    gap: 8.095px;
   }
 
   .moshianata__icon {
-    width: 65px;
-    height: 65px;
+    width: 65.342px;
+    height: 65.342px;
   }
 
   .moshianata__title {
-    font-size: 15.761px;
-    letter-spacing: 1.288px;
-    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.25));
+    font-size: 15.84px;
+    letter-spacing: 1.294px;
+    filter: drop-shadow(1.005px 1.005px 1.005px rgba(0,0,0,0.25));
   }
 
   .moshianata__title-wrap {
@@ -3469,28 +3498,32 @@ body {
   }
 
   .moshianata__title-ul {
-    height: 8px;
+    height: 8.041px;
     background: #edff65;
     width: 100% !important;
     left: 0;
   }
 
   .moshianata__desc {
-    font-size: 11.82px;
-    letter-spacing: 1.211px;
-    line-height: 16.746px;
-    max-width: 237px;
-    margin-top: 4px;
+    font-size: 11.88px;
+    letter-spacing: 1.2167px;
+    line-height: 16.83px;
+    max-width: 238.596px;
+    margin-top: 1.735px;
   }
 
   .moshianata__cta {
-    height: 80px;
+    height: 78px;
+    border-radius: 9.85px;
+    width: calc(100% + 22px);
+    margin: 0 -11px;
   }
 
   .moshianata__cta-text {
     font-size: 15px;
     line-height: 22px;
-    padding: 0 20px;
+    max-width: 334px;
+    padding: 0;
   }
 
   /* ===== Eigyoryoku SP ===== */
