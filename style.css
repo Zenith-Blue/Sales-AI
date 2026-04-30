@@ -1874,11 +1874,6 @@ body {
   pointer-events: none;
 }
 
-.moshianata__hero-row {
-  position: relative;
-  width: 100%;
-}
-
 .moshianata__person {
   position: absolute;
   z-index: 1;
@@ -3470,34 +3465,28 @@ body {
     filter: blur(5.406px);
   }
 
-  .moshianata__hero-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-    position: relative;
-  }
-
   .moshianata__person {
     display: block;
-    position: static;
     -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
     mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
-    flex-shrink: 0;
   }
 
   .moshianata__person--woman {
-    width: 130px;
+    left: -24px;
+    top: 5px;
+    width: 165px;
+    max-width: none;
     aspect-ratio: 170 / 175;
     object-position: 0% top;
-    margin-right: -15px;
   }
 
   .moshianata__person--man {
-    width: 115px;
+    right: -10px;
+    top: -11px;
+    width: 140px;
+    max-width: none;
     aspect-ratio: 128 / 156;
     object-position: 20% top;
-    margin-left: -15px;
   }
 
   .moshianata__inner {
