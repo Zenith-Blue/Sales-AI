@@ -4429,6 +4429,7 @@ body {
   .faq__title {
     font-size: 30px;
     letter-spacing: 2px;
+    -webkit-text-stroke: 5px #fff;
   }
 
   .faq__list {
