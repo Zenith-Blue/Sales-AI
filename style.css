@@ -4184,13 +4184,13 @@ body {
 
   /* 01, 03, 06の画像を3px右に */
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-book {
-    right: 2px !important;
+    right: -4px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-book {
-    right: 2px !important;
+    right: -4px !important;
   }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-book {
-    right: 2px !important;
+    right: -4px !important;
   }
 
   /* 02, 04, 07の画像を30px下に */
