@@ -2391,7 +2391,7 @@ body {
   color: #fe692c;
   text-align: center;
   text-shadow: 3.76px 3.76px 3.76px #c8c8c8;
-  -webkit-text-stroke: 4.5px #fff;
+  -webkit-text-stroke: 8px #fff;
   paint-order: stroke fill;
   margin: 5px 0 0;
   line-height: 65.81px;
@@ -2400,7 +2400,7 @@ body {
 
 .anshin__compare-lg {
   font-size: 56.382px;
-  -webkit-text-stroke: 3.76px #fff;
+  -webkit-text-stroke: 8px #fff;
   paint-order: stroke fill;
   filter: drop-shadow(3.76px 3.76px 3.76px #c8c8c8);
 }
@@ -4314,7 +4314,7 @@ body {
 
   .anshin__compare-title {
     line-height: 1.5;
-    -webkit-text-stroke: 5px #fff;
+    -webkit-text-stroke: 6px #fff;
     text-shadow: 2.25px 2.25px 2.25px #c8c8c8;
     letter-spacing: 2.8px;
     margin-top: 10px;
@@ -4322,7 +4322,7 @@ body {
 
   .anshin__compare-lg {
     font-size: 33.73px;
-    -webkit-text-stroke: 3.25px #fff;
+    -webkit-text-stroke: 6px #fff;
     paint-order: stroke fill;
     text-shadow: 2.25px 2.25px 2.25px #c8c8c8;
     filter: none;
