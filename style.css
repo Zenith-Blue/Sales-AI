@@ -3654,9 +3654,11 @@ body {
   }
 
   .reason__robot-wrap {
-    width: 63px;
+    width: 57px;
     margin-right: 0;
     top: 0;
+    position: relative;
+    left: 10px;
   }
 
   .reason__robot-wrap img {
@@ -3676,7 +3678,7 @@ body {
   }
 
   .reason__dark-sep {
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 10px;
   }
 
