@@ -1822,9 +1822,55 @@ body {
   pointer-events: none;
 }
 
+.moshianata__bg--sp {
+  display: none;
+}
+
+.moshianata__person {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+}
+
+.moshianata__person--woman {
+  left: 10.31%;
+  top: 43px;
+  width: 28.86%;
+  max-width: 370px;
+  aspect-ratio: 369 / 379;
+  object-fit: cover;
+  object-position: 0% top;
+}
+
+.moshianata__person--man {
+  right: 10.23%;
+  top: 56px;
+  width: 21.74%;
+  max-width: 279px;
+  aspect-ratio: 278 / 338;
+  object-fit: cover;
+  object-position: 37% top;
+}
+
+.moshianata__blur {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 94px;
+  width: 43%;
+  max-width: 548px;
+  height: 227px;
+  background: #fff;
+  filter: blur(11.715px);
+  z-index: 1;
+  pointer-events: none;
+}
+
 .moshianata__inner {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   max-width: 692px;
   margin: 0 auto;
   padding: 94px 0 60px;
@@ -1889,7 +1935,7 @@ body {
   background: #fff;
   border: 3.425px solid #fe692c;
   border-radius: 17.123px;
-  box-shadow: 0px 6.849px 3.425px rgba(0,0,0,0.25);
+  box-shadow: 0px 6.849px 6.849px rgba(0,0,0,0.25);
   min-height: 157.531px;
   padding: 22px 12px 23px 26px;
   box-sizing: border-box;
@@ -1933,8 +1979,7 @@ body {
   color: #fe692c;
   letter-spacing: 2.2382px;
   line-height: 1;
-  -webkit-text-stroke: 6px #ffffff;
-  paint-order: stroke fill;
+  -webkit-text-stroke: 0;
   filter: drop-shadow(1.74px 1.74px 1.74px rgba(0,0,0,0.25));
   margin: 0;
   white-space: nowrap;
@@ -1943,7 +1988,7 @@ body {
 
 .moshianata__desc {
   font-size: 20.547px;
-  font-weight: 400;
+  font-weight: 700;
   color: #000;
   letter-spacing: 2.1044px;
   line-height: 29.109px;
@@ -3355,9 +3400,19 @@ body {
   }
 
   /* ===== Moshianata SP ===== */
-  .moshianata__bg {
+  .moshianata__bg--pc {
+    display: none;
+  }
+
+  .moshianata__bg--sp {
+    display: block;
     top: -30px;
     left: -10px;
+  }
+
+  .moshianata__person,
+  .moshianata__blur {
+    display: none;
   }
 
   .moshianata__inner {
