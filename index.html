@@ -1304,17 +1304,18 @@
   <script src="script.js"></script>
   <script>
     (function () {
-      var gifts = document.querySelector('.gifts');
-      if (!gifts) return;
-      var observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            gifts.classList.add('gifts--sweep-active');
-            observer.disconnect();
-          }
-        });
-      }, { threshold: 0.1 });
-      observer.observe(gifts);
+      var giftsSections = document.querySelectorAll('.gifts');
+      giftsSections.forEach(function (gifts) {
+        var observer = new IntersectionObserver(function (entries, obs) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              gifts.classList.add('gifts--sweep-active');
+              obs.disconnect();
+            }
+          });
+        }, { threshold: 0.1 });
+        observer.observe(gifts);
+      });
     })();
   </script>
 </body>
