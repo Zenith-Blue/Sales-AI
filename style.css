@@ -2417,6 +2417,8 @@ body {
   height: auto;
   flex-shrink: 0;
   margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .anshin__table img {
@@ -4400,7 +4402,7 @@ body {
     width: 550px;
     height: auto;
     display: block;
-    margin: 0 0 0 15px;
+    margin: 0 auto;
     max-width: none;
   }
 
