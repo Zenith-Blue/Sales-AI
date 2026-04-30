@@ -4046,6 +4046,11 @@ body {
     gap: 15px;
   }
 
+  .tokuten__grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
   .tokuten__card {
     width: 360px;
     max-width: 100%;
