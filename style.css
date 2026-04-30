@@ -3198,7 +3198,7 @@ body {
     line-height: 48px;
     position: relative;
     z-index: 1;
-    margin: 30px 0;
+    margin: 30px 0 20px;
   }
 
   .voice__cards {
