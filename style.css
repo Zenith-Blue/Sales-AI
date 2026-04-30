@@ -4442,6 +4442,10 @@ body {
     line-height: 20px;
   }
 
+  .faq__arrow {
+    top: auto;
+  }
+
   /* Reassure */
   .reassure__inner {
     padding: 20px 16px;
