@@ -3306,11 +3306,11 @@ body {
   }
 
   .voice__card-text {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 1.5px;
-    line-height: 18px;
+    line-height: 22px;
   }
 
   .voice__mark {
