@@ -1,3 +1,13 @@
+/* ===== CTA Animation ===== */
+@keyframes scaleAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
 /* ===== Reset & Base ===== */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -265,6 +275,7 @@ body {
 .fv__cta-link {
   display: block;
   width: 508px;
+  animation: scaleAnimation 2s infinite ease-in-out;
 }
 
 .fv__cta-img {
@@ -893,6 +904,7 @@ body {
 .reassure__cta-link {
   display: block;
   width: 100%;
+  animation: scaleAnimation 2s infinite ease-in-out;
 }
 
 .reassure__cta-img {
@@ -1390,6 +1402,7 @@ body {
 
 .tokuten__cta-link {
   display: block;
+  animation: scaleAnimation 2s infinite ease-in-out;
 }
 
 .tokuten__cta-img {
@@ -2721,6 +2734,7 @@ body {
   width: 508px;
   height: auto;
   display: block;
+  animation: scaleAnimation 2s infinite ease-in-out;
 }
 
 .faq__cta-note {
