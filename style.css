@@ -3158,7 +3158,7 @@ body {
     content: 'VOICE';
     position: absolute;
     font-family: 'bananaslip', sans-serif;
-    font-size: 110px;
+    font-size: 88px;
     font-weight: 900;
     color: #ffe9ca;
     -webkit-text-stroke: 3px #ffe9ca;
@@ -3175,13 +3175,14 @@ body {
     white-space: pre;
     font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, "Meiryo", sans-serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
+    letter-spacing: -0.03em;
     color: #fe692c;
     -webkit-text-stroke: 5px #fff;
     paint-order: stroke fill;
     text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     text-align: center;
-    line-height: 60px;
+    line-height: 48px;
     position: relative;
     z-index: 1;
     margin: 30px 0;
