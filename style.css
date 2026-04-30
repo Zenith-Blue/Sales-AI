@@ -3430,10 +3430,10 @@ body {
   }
 
   .moshianata__person--man {
-    right: -3.4%;
+    right: -5.4%;
     left: auto;
-    top: -10px;
-    width: 40%;
+    top: -20px;
+    width: 38%;
     max-width: none;
     aspect-ratio: 128 / 156;
     object-position: 20% top;
