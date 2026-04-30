@@ -4066,7 +4066,7 @@ body {
   .tokuten__main-card {
     height: auto;
     min-height: 100px;
-    padding: 10px 10px 10px 56px;
+    padding: 10px 10px 10px 46px;
   }
 
   .tokuten__card-sub {
@@ -4149,7 +4149,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { margin-top: 13px !important; left: -34px !important; }
 
   /* 特典05: 未経験だから〜 */
-  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 8px; }
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 6px; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 13px !important; left: -31px !important; }
 
