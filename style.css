@@ -3463,7 +3463,7 @@ body {
   .moshianata__h1,
   .moshianata__h3 {
     font-size: 24px;
-    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-stroke: 4px #ffffff;
     text-shadow: 0px 0px 8px #ffffff, 0px 0px 29.252px #fffdf1;
   }
 
