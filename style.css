@@ -2573,7 +2573,7 @@ body {
 
 .faq__arrow {
   position: absolute;
-  top: 21px;
+  top: 18px;
   right: 16px;
   width: 24px;
   height: 24px;
@@ -4516,7 +4516,7 @@ body {
   }
 
   .faq__arrow {
-    top: 21px;
+    top: 18px;
     width: 17px;
     height: 17px;
   }
