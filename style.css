@@ -3435,7 +3435,7 @@ body {
   .moshianata__person--man {
     right: -3.4%;
     left: auto;
-    top: 10px;
+    top: -10px;
     width: 33%;
     max-width: none;
     aspect-ratio: 128 / 156;
