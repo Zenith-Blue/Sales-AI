@@ -2393,7 +2393,7 @@ body {
   text-shadow: 3.76px 3.76px 3.76px #c8c8c8;
   -webkit-text-stroke: 4.5px #fff;
   paint-order: stroke fill;
-  margin: 0;
+  margin: 5px 0 0;
   line-height: 65.81px;
   letter-spacing: 2.8px;
 }
@@ -2413,7 +2413,7 @@ body {
   width: 855px;
   height: auto;
   flex-shrink: 0;
-  margin-top: 0;
+  margin-top: -5px;
 }
 
 .anshin__table img {
