@@ -1904,7 +1904,7 @@ body {
 .moshianata__h2 {
   font-weight: 700;
   color: #fe692c;
-  -webkit-text-stroke: 7px #ffffff;
+  -webkit-text-stroke: 12px #ffffff;
   paint-order: stroke fill;
   filter: drop-shadow(4.869px 4.869px 4.869px #c8c8c8);
   margin: 0;
