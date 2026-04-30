@@ -1522,7 +1522,7 @@ body {
   width: 729px;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* ===== Eigyoryoku Section ===== */
@@ -4696,7 +4696,7 @@ body {
     max-width: 420px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0;
   }
 
   /* CTA common - unified design across all sections */
