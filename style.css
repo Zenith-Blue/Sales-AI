@@ -3450,7 +3450,9 @@ body {
 
   .moshianata__headline {
     gap: 6px;
-    padding-left: 30px;
+    padding-left: 0;
+    align-items: center;
+    margin-top: -5px;
   }
 
   .moshianata__headline-img {
