@@ -4005,6 +4005,15 @@ body {
     text-decoration-thickness: 2px;
   }
 
+  .feature__line1,
+  .feature__line3 {
+    font-weight: 800;
+  }
+
+  .feature__headline-text {
+    font-weight: 800;
+  }
+
   /* Card */
   .feature__card {
     width: 367px;
