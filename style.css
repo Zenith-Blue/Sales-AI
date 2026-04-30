@@ -2798,6 +2798,13 @@ body {
   margin: 0;
 }
 
+/* ===== SP Zoom: 500px以下はそのまま、500px〜800pxは390px基準で拡大 ===== */
+@media (min-width: 500px) and (max-width: 800px) {
+  body {
+    zoom: calc(100vw / 390);
+  }
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 800px) {
   .sp-br { display: inline; }
