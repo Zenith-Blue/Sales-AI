@@ -1838,10 +1838,10 @@ body {
 
 .moshianata__person--woman {
   left: 15%;
-  top: 43px;
-  width: 23%;
-  max-width: 296px;
-  aspect-ratio: 369 / 379;
+  top: 6px;
+  width: 24.2%;
+  max-width: 255px;
+  aspect-ratio: 278 / 338;
   object-fit: cover;
   object-position: 0% top;
 }
