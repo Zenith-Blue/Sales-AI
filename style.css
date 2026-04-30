@@ -4843,11 +4843,11 @@ body {
   }
 }
 
-/* ===== iPad: FV person image 1.5x SP ===== */
+/* ===== Tablet → SP: FV person image scales from 1.5x at iPad down to SP ===== */
 @media (min-width: 600px) and (max-width: 1024px) {
   .fv__person {
-    width: 579px;
-    left: calc(50% - 100px);
+    width: clamp(386px, calc(45.5vw + 113px), 579px);
+    left: calc(50% - clamp(69px, calc(7.3vw + 25px), 100px));
     top: 65px;
     height: auto;
     overflow: visible;
