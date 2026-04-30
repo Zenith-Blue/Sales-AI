@@ -4185,7 +4185,7 @@ body {
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 1px !important; left: -41px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: -4px !important; }
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; margin-left: -10px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; margin-left: -10px !important; line-height: calc(1.4em - 3px) !important; }
 
   /* 特典05の画像 */
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: -2px !important; }
