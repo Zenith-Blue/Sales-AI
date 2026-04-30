@@ -45,7 +45,7 @@ jobs:
             --exclude='playwright.config.js' \
             --exclude='.DS_Store' \
             --exclude='*.log' \
-            ./ "${SAKURA_USER}@${SAKURA_HOST}:/home/businessgate/www/sales/"
+            ./ "${SAKURA_USER}@${SAKURA_HOST}:/home/businessgate/www/salesai/"
 
       - name: Verify deployment
         env:
@@ -54,4 +54,4 @@ jobs:
         run: |
           ssh -i ~/.ssh/deploy_key -o UserKnownHostsFile=~/.ssh/known_hosts \
             "${SAKURA_USER}@${SAKURA_HOST}" \
-            'ls -la /home/businessgate/www/sales/ | head -20'
+            'ls -la /home/businessgate/www/salesai/ | head -20'
