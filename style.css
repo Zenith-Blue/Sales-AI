@@ -3489,6 +3489,8 @@ body {
   }
 
   .moshianata__card {
+    width: 360px;
+    max-width: 100%;
     border-width: 1.98px;
     border-radius: 9.9px;
     min-height: 91.082px;
