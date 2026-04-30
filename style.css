@@ -2543,6 +2543,7 @@ body {
   filter: drop-shadow(4.869px 4.869px 4.869px #c8c8c8);
   margin: 0;
   line-height: 1.2;
+  letter-spacing: 5px;
 }
 
 .faq__list {
