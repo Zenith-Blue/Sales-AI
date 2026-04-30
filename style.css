@@ -3988,11 +3988,10 @@ body {
   .feature__card-text {
     font-size: 14px;
     line-height: 20px;
-    width: 309px;
-    max-width: 100%;
+    width: 100%;
     text-align: left;
     margin: 0 auto;
-    white-space: nowrap;
+    box-sizing: border-box;
   }
 
   /* Tokuten */
