@@ -4841,3 +4841,22 @@ body {
     font-weight: 700;
   }
 }
+
+/* ===== iPad: FV person image 1.5x SP ===== */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .fv__person {
+    width: 579px;
+    left: calc(50% - 100px);
+    top: 65px;
+    height: auto;
+    overflow: visible;
+  }
+
+  .fv__person img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+}
