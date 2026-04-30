@@ -36,6 +36,14 @@ body {
   body {
     zoom: calc(100vw / 1280);
   }
+
+  .moshianata__person--woman {
+    left: 10px;
+  }
+
+  .moshianata__person--man {
+    right: 2px;
+  }
 }
 
 /* ===== Layout Wrapper ===== */
