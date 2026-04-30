@@ -28,19 +28,19 @@ body {
   }
 
   .moshianata__person--woman {
-    left: -11%;
+    left: -88px;
     top: 0;
-    width: 44%;
+    width: 155px;
     max-width: none;
     aspect-ratio: 170 / 175;
     object-position: 0% top;
   }
 
   .moshianata__person--man {
-    right: -5.4%;
+    right: -43px;
     left: auto;
     top: -20px;
-    width: 38%;
+    width: 135px;
     max-width: none;
     aspect-ratio: 128 / 156;
     object-position: 20% top;
