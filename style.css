@@ -81,7 +81,8 @@ body {
 /* Right person image */
 .fv__person {
   position: absolute;
-  right: -29px;
+  left: calc(50% + 92px);
+  right: auto;
   top: -10px;
   width: 577px;
   height: 775px;
@@ -91,7 +92,7 @@ body {
 
 .fv__elbow-badge {
   position: absolute;
-  left: 732px;
+  left: calc(50% + 92px);
   top: 437px;
   width: 450.24px;
   z-index: 2;
