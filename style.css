@@ -4695,3 +4695,38 @@ body {
   }
 
 }
+
+/* ===== 484px breakpoint: moshianata people centering ===== */
+@media (max-width: 484px) {
+  .moshianata {
+    background: #fdf5ec;
+  }
+
+  .moshianata__bg {
+    position: absolute;
+    inset: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    object-position: unset;
+  }
+
+  .moshianata__headline {
+    position: relative;
+    z-index: 2;
+  }
+
+  .moshianata__cards {
+    position: relative;
+    z-index: 1;
+    transform: scale(1.1);
+    transform-origin: top center;
+    margin-top: -15px;
+  }
+
+  .moshianata__desc {
+    font-weight: 700;
+  }
+}
