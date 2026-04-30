@@ -1237,6 +1237,20 @@ body {
 .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { position: absolute; bottom: -20px; left: -35px; font-size: 20px; }
 .tokuten__grid .tokuten__card:nth-child(7) .tokuten__card-main { left: -35px; }
 
+.tokuten__card-sub--line1 {
+  font-size: 11px !important;
+  position: relative !important;
+  left: -5px !important;
+  top: 0 !important;
+}
+
+.tokuten__card-sub--line2 {
+  font-size: 10px !important;
+  position: relative !important;
+  left: -5px !important;
+  top: 0 !important;
+}
+
 .tokuten__card-main {
   position: relative;
   z-index: 1;
