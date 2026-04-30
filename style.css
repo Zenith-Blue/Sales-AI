@@ -4458,6 +4458,18 @@ body {
 
   .faq__arrow {
     top: auto;
+    width: 17px;
+    height: 17px;
+  }
+
+  .faq__arrow span:first-child {
+    width: 17px;
+    height: 2px;
+  }
+
+  .faq__arrow span:last-child {
+    width: 2px;
+    height: 17px;
   }
 
   /* Reassure */
