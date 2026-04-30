@@ -3443,7 +3443,7 @@ body {
   .moshianata__person--woman {
     left: -11%;
     top: 0;
-    width: clamp(120px, 44vw, 155px);
+    width: 155px;
     max-width: none;
     aspect-ratio: 170 / 175;
     object-position: 0% top;
@@ -3453,7 +3453,7 @@ body {
     right: -5.4%;
     left: auto;
     top: -20px;
-    width: clamp(105px, 38vw, 135px);
+    width: 135px;
     max-width: none;
     aspect-ratio: 128 / 156;
     object-position: 20% top;
@@ -3568,6 +3568,38 @@ body {
     line-height: 22px;
     max-width: 334px;
     padding: 0;
+  }
+
+  /* ===== Moshianata Phase 2: 420px以下で画像・テキスト縮小 ===== */
+  @media (max-width: 420px) {
+    .moshianata__person--woman {
+      width: clamp(100px, 37vw, 155px);
+    }
+
+    .moshianata__person--man {
+      width: clamp(90px, 32vw, 135px);
+    }
+
+    .moshianata__h1,
+    .moshianata__h3 {
+      font-size: clamp(18px, 5.7vw, 24px);
+    }
+
+    .moshianata__h2-lg {
+      font-size: clamp(25px, 8vw, 33.726px);
+    }
+
+    .moshianata__h2-sm {
+      font-size: clamp(19px, 6.2vw, 26px);
+    }
+
+    .moshianata__cards {
+      width: clamp(280px, 86vw, 360px);
+    }
+
+    .moshianata__card {
+      width: clamp(280px, 86vw, 360px);
+    }
   }
 
   /* ===== Eigyoryoku SP ===== */
