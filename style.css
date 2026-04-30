@@ -4272,6 +4272,7 @@ body {
     height: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    margin-top: -20px;
   }
 
   .anshin__table img {
