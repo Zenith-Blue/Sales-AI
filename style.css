@@ -1537,9 +1537,13 @@ body {
     rgba(255, 255, 255, 0.35) 50%,
     transparent 80%
   );
-  animation: light-sweep 4s ease-in-out infinite;
+  animation: none;
   pointer-events: none;
   z-index: 2;
+}
+
+.gifts--sweep-active::after {
+  animation: light-sweep 4s ease-in-out infinite;
 }
 
 .gifts__books-img {
