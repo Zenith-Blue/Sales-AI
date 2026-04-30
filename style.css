@@ -26,6 +26,24 @@ body {
   body {
     zoom: calc(100vw / 1280);
   }
+
+  .moshianata__person--woman {
+    right: 300px;
+    top: 5px;
+    width: 165px;
+    max-width: none;
+    aspect-ratio: 170 / 175;
+    object-position: 0% top;
+  }
+
+  .moshianata__person--man {
+    left: 305px;
+    top: -11px;
+    width: 140px;
+    max-width: none;
+    aspect-ratio: 128 / 156;
+    object-position: 20% top;
+  }
 }
 
 /* ===== Layout Wrapper ===== */
