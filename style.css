@@ -1885,8 +1885,7 @@ body {
 .moshianata__person--woman {
   left: calc(50% - 448px);
   top: 38px;
-  width: 24.2%;
-  max-width: 255px;
+  width: 255px;
   aspect-ratio: 278 / 338;
   object-fit: cover;
   object-position: 0% top;
@@ -1896,8 +1895,7 @@ body {
   left: calc(50% + 193px);
   right: auto;
   top: 6px;
-  width: 24.2%;
-  max-width: 255px;
+  width: 255px;
   aspect-ratio: 278 / 338;
   object-fit: cover;
   object-position: 37% top;
