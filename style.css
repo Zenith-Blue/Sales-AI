@@ -2387,6 +2387,7 @@ body {
   paint-order: stroke fill;
   margin: 0;
   line-height: 65.81px;
+  letter-spacing: 0.2px;
 }
 
 .anshin__compare-lg {
@@ -4310,7 +4311,7 @@ body {
   }
 
   .anshin__table img {
-    width: 630px;
+    width: 620px;
     height: auto;
     display: block;
     margin: 0 0 0 15px;
