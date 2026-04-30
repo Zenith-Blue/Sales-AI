@@ -4138,10 +4138,11 @@ body {
 
   /* 特典02: 今日からすぐ使える〜 */
   .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub { padding-top: 4px !important; margin-left: -11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 7px !important; left: -35px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-sub--line2 { font-size: 11px !important; }
+  .tokuten__grid .tokuten__card:nth-child(1) .tokuten__card-main { margin-top: 1px !important; left: -35px !important; }
 
   /* 特典03: 無敵の営業心理学 */
-  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 10px !important; }
+  .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-main { left: -21px !important; margin-top: 1px !important; }
 
   /* 特典03 */
   .tokuten__grid .tokuten__card:nth-child(2) .tokuten__card-book { right: 3px !important; }
@@ -4152,12 +4153,12 @@ body {
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line1 { font-size: 12px !important; }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub--line2 { font-size: 11px !important; }
   .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-sub { font-size: 11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { margin-top: 13px !important; left: -34px !important; }
+  .tokuten__grid .tokuten__card:nth-child(3) .tokuten__card-main { margin-top: 1px !important; left: -34px !important; }
 
   /* 特典05: 未経験だから〜 */
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub { font-size: 11.5px !important; padding-left: 6px; }
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-sub--line2 { font-size: 11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 13px !important; left: -31px !important; }
+  .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-main { margin-top: 1px !important; left: -31px !important; }
 
   /* 特典05の画像 */
   .tokuten__grid .tokuten__card:nth-child(4) .tokuten__card-book { right: -3px !important; }
@@ -4165,7 +4166,7 @@ body {
   /* 特典06: 営業って何を〜 */
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line1 { font-size: 13px !important; padding-left: 0; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub--line2 { font-size: 11px !important; }
-  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 9px !important; left: -41px !important; }
+  .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-main { margin-top: 1px !important; left: -41px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-book { right: -4px !important; }
   .tokuten__grid .tokuten__card:nth-child(5) .tokuten__card-sub { padding-left: 0; margin-left: -10px !important; }
 
@@ -4175,7 +4176,7 @@ body {
   /* 特典07: 聞くだけで〜 */
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line1 { font-size: 13px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub--line2 { font-size: 12px !important; }
-  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 9px !important; }
+  .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-main { margin-top: 1px !important; }
   .tokuten__grid .tokuten__card:nth-child(6) .tokuten__card-sub { padding-left: 0; margin-left: -7px !important; }
 
   .tokuten__card-book {
@@ -4204,6 +4205,7 @@ body {
   }
   .tokuten__grid .tokuten__card:nth-child(7) .tokuten__card-book {
     top: 20px !important;
+    right: -5px !important;
   }
 
   .tokuten__card-main {
@@ -4211,7 +4213,7 @@ body {
     bottom: auto !important;
     left: -39px !important;
     top: auto !important;
-    margin-top: 6px;
+    margin-top: 1px !important;
     font-size: 20px !important;
   }
 
@@ -4238,7 +4240,8 @@ body {
   }
 
   .tokuten__special {
-    width: 100%;
+    width: 360px;
+    max-width: 100%;
   }
 
   .tokuten__special-pill {
