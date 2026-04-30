@@ -2390,7 +2390,7 @@ body {
   paint-order: stroke fill;
   margin: 5px 0 0;
   line-height: 65.81px;
-  letter-spacing: 2.8px;
+  letter-spacing: 3.5px;
 }
 
 .anshin__compare-lg {
@@ -4310,7 +4310,7 @@ body {
     line-height: 1.5;
     -webkit-text-stroke: 6px #fff;
     text-shadow: 2.25px 2.25px 2.25px #c8c8c8;
-    letter-spacing: 2.8px;
+    letter-spacing: 3.5px;
     margin-top: 10px;
   }
 
