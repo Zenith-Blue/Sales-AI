@@ -1563,6 +1563,10 @@ body {
   z-index: 1;
 }
 
+.reason__hero--sp {
+  display: none;
+}
+
 .reason__red { color: #e60012; }
 .reason__yellow { color: yellow; }
 .reason__man-sp { display: none; }
@@ -3545,6 +3549,14 @@ body {
   .reason {
     min-height: auto;
     overflow: hidden;
+  }
+
+  .reason__hero--pc {
+    display: none;
+  }
+
+  .reason__hero--sp {
+    display: block;
   }
 
   .reason__bg--pc {
