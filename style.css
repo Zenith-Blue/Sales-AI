@@ -3654,7 +3654,7 @@ body {
   }
 
   .reason__robot-wrap {
-    width: 70px;
+    width: 63px;
     margin-right: 0;
     top: 0;
   }
@@ -3672,6 +3672,7 @@ body {
     line-height: 20px;
     width: 279px;
     max-width: 100%;
+    margin: 0 0 0;
   }
 
   .reason__dark-sep {
