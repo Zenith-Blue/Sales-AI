@@ -4680,25 +4680,7 @@ body {
     color: #017f1d;
   }
 
-  /* SP版: ストローク付き文字をExtra Bold */
-  .fv__cta-note,
-  .tokuten__cta-note,
-  .faq__cta-note,
-  .reassure__cta-note,
-  .faq__title,
-  .tokuten__card-main,
-  .tokuten__main-title,
-  .tokuten__special-title,
-  .reassure__sub,
-  .reassure__title,
-  .reassure__caption,
-  .voice__card-title,
-  .moshianata__title,
-  .moshianata__h2,
-  .anshin__compare-title,
-  .worries__headline {
-    font-weight: 900;
-  }
+  /* SP版: font-weight を PC版(700) に統一 */
 
   /* Footer */
   .site-footer {
