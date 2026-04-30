@@ -1636,21 +1636,16 @@ body {
 }
 
 .reason__robot-wrap {
-  width: 89.366px;
-  height: 168.87px;
-  overflow: hidden;
-  position: relative;
+  width: 120px;
   flex-shrink: 0;
   margin-right: 10px;
   top: -10px;
 }
 
 .reason__robot-wrap img {
-  position: absolute;
-  left: -139.3px;
-  top: -7.4px;
-  width: 274px;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 .reason__dark-sep {
@@ -3639,16 +3634,15 @@ body {
   }
 
   .reason__robot-wrap {
-    width: 62px;
-    height: 93px;
+    width: 70px;
     margin-right: 0;
     top: 0;
   }
 
   .reason__robot-wrap img {
-    left: -63px;
-    top: -4px;
-    width: 150px;
+    left: auto;
+    top: auto;
+    width: 100%;
   }
 
   .reason__dark-body {
