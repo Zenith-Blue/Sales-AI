@@ -2391,11 +2391,11 @@ body {
   color: #fe692c;
   text-align: center;
   text-shadow: 3.76px 3.76px 3.76px #c8c8c8;
-  -webkit-text-stroke: 3.76px #fff;
+  -webkit-text-stroke: 4.5px #fff;
   paint-order: stroke fill;
   margin: 0;
   line-height: 65.81px;
-  letter-spacing: 2.3px;
+  letter-spacing: 2.8px;
 }
 
 .anshin__compare-lg {
@@ -4299,7 +4299,7 @@ body {
     line-height: 1.5;
     -webkit-text-stroke: 3.25px #fff;
     text-shadow: 2.25px 2.25px 2.25px #c8c8c8;
-    letter-spacing: 2.3px;
+    letter-spacing: 2.8px;
     margin-top: 10px;
   }
 
