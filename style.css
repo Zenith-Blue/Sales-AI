@@ -4424,7 +4424,7 @@ body {
   }
 
   .gifts__inner {
-    padding: 25px 0 17px;
+    padding: 25px 0 5px;
     align-items: center;
   }
 
@@ -4470,7 +4470,7 @@ body {
     letter-spacing: 0.617px;
     white-space: normal;
     text-align: center;
-    line-height: 40px;
+    line-height: 1.05;
     margin-top: -2px;
   }
 
@@ -4529,8 +4529,8 @@ body {
     position: relative;
     top: 5px;
     left: 0;
-    width: 90%;
-    max-width: 355px;
+    width: 100%;
+    max-width: 420px;
     height: auto;
     display: block;
     margin: 0 auto;
