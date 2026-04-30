@@ -1888,6 +1888,14 @@ body {
   width: 100%;
 }
 
+.moshianata__headline-img {
+  display: block;
+  width: 100%;
+  max-width: 598px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .moshianata__h1,
 .moshianata__h3 {
   font-size: 52.01px;
@@ -3406,6 +3414,10 @@ body {
 
   .moshianata__headline {
     gap: 4px;
+  }
+
+  .moshianata__headline-img {
+    max-width: 340px;
   }
 
   .moshianata__h1,
