@@ -4865,7 +4865,7 @@ body {
   }
 }
 
-/* Upper tablet (~800–1024px): right-anchor person and elbow badge */
+/* Upper tablet (~800–1024px): right-anchor person and match PC image crop */
 @media (min-width: 800px) and (max-width: 1024px) {
   .fv {
     --fv-tablet-w: clamp(386px, calc(45.5vw + 113px), 579px);
@@ -4873,6 +4873,15 @@ body {
   .fv__person {
     left: auto;
     right: 0;
+    overflow: hidden;
+  }
+  .fv__person img {
+    position: absolute;
+    top: -3.3%;
+    left: 0;
+    width: 111.11%;
+    height: 106.6%;
+    object-fit: cover;
   }
   .fv__elbow-badge {
     left: auto;
