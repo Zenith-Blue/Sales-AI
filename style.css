@@ -2870,7 +2870,7 @@ body {
   /* Person image: Figma left:116px, top:61px, 386×499 (390px viewport) */
   .fv__person {
     position: absolute;
-    left: calc(50% - 69px);
+    left: calc(50% - 39px);
     top: 65px;
     width: 386px;
     height: auto;
