@@ -4893,3 +4893,14 @@ body {
     width: calc(var(--fv-tablet-w) * 450.24 / 577);
   }
 }
+
+/* ≥1000px: lock vertical size (height + badge top) — only horizontal shrinks */
+@media (min-width: 1000px) {
+  .fv__person {
+    height: 775px;
+    aspect-ratio: auto;
+  }
+  .fv__elbow-badge {
+    top: 437px;
+  }
+}
