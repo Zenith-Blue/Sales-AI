@@ -82,8 +82,8 @@ body {
 /* Right person image */
 .fv__person {
   position: absolute;
-  right: 0;
-  left: auto;
+  left: calc(50% + 92px);
+  right: auto;
   top: -10px;
   width: var(--fv-person-w);
   aspect-ratio: 577 / 775;
@@ -94,8 +94,8 @@ body {
 
 .fv__elbow-badge {
   position: absolute;
-  right: calc(var(--fv-person-w) * 127 / 577);
-  left: auto;
+  left: calc(50% + 92px);
+  right: auto;
   top: calc(-10px + var(--fv-person-w) * 447 / 577);
   width: calc(var(--fv-person-w) * 450.24 / 577);
   z-index: 2;
