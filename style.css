@@ -947,7 +947,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   padding: 50px 264px 17px;
   gap: 0;
 }
@@ -2830,15 +2830,15 @@ body {
   margin: 0;
 }
 
-/* ===== SP Zoom: 390px基準で799pxまで拡大 ===== */
-@media (min-width: 390px) and (max-width: 799px) {
+/* ===== SP Zoom: 390px基準で1000pxまで拡大 ===== */
+@media (min-width: 390px) and (max-width: 1000px) {
   body {
     zoom: calc(100vw / 390);
   }
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .sp-br { display: inline; }
 
   /* 全体の横スクロール防止・中央揃え */
@@ -2889,7 +2889,7 @@ body {
 
   /* Badge: Figma left:12px, top:92px, 207.06×131.4 */
   .fv__elbow-badge {
-    left: calc(50% - 233px);
+    left: calc(50% - 183px);
     top: 92px;
     width: 269.18px;
     height: 170.82px;
@@ -3121,6 +3121,9 @@ body {
     display: block;
     width: 130%;
     height: auto;
+    /* Counter the body zoom so the image keeps the same physical size
+       (the size it has at viewport ~400px) across the whole SP range */
+    zoom: calc(390px / 100vw);
   }
 
   /* Layout container */
@@ -4847,8 +4850,207 @@ body {
   }
 }
 
-/* ===== Tablet → SP: FV person image scales from 1.5x at iPad down to SP ===== */
-@media (min-width: 600px) and (max-width: 1024px) {
+/* Lower SP range (~390–799px): scale FV worries / headlines / badge to 1.3× */
+@media (min-width: 390px) and (max-width: 799px) {
+  .fv__worries {
+    padding: 1.3px 0 14.3px 9.1px;
+    width: 483.6px;
+    height: 132.6px;
+  }
+  .fv__worry-item {
+    gap: 6.5px;
+    margin-bottom: -9.178px;
+  }
+  .fv__check {
+    width: 48.614px;
+    height: 48.614px;
+  }
+  .fv__worry-text {
+    font-size: 20.623px;
+    letter-spacing: -0.737px;
+    text-shadow: 0px 0px 2.526px white, 0px 1.859px 1.859px #fff8f8;
+    line-height: 27.213px;
+  }
+  .fv__headlines--sp {
+    gap: 6.023px;
+    padding: 167px 0 0 0;
+    margin-left: -11.7px;
+  }
+  .fv__headlines--sp .fv__headline {
+    height: 58.999px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(1) {
+    padding: 0 19.5px 0 28.6px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(2) {
+    height: 60.031px;
+    padding: 0 19.5px 0 26px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(3) {
+    height: 60.371px;
+    padding: 0 19.5px 0 28.6px;
+  }
+  .fv__text-lg {
+    font-size: 36.136px;
+  }
+  .fv__text-sm {
+    font-size: 30.113px;
+  }
+  .fv__headline-text {
+    text-shadow: 0px 5.244px 5.244px rgba(0,0,0,0.25);
+    letter-spacing: 0.754px;
+  }
+  .fv__headlines--sp .fv__text-gradient {
+    font-size: 36.136px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
+    letter-spacing: 1.5054px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(2) .fv__headline-text {
+    letter-spacing: 0.754px;
+  }
+  .fv__headlines--sp .fv__headline:nth-child(3) .fv__headline-text {
+    letter-spacing: 1.5054px;
+  }
+  /* Elbow badge: pinned 30px from the left, scaled 1.3×, 5px down */
+  .fv__elbow-badge {
+    left: 30px;
+    right: auto;
+    top: 97px;
+    width: 349.934px;
+    height: 222.066px;
+  }
+  /* Black-circle badges: shift 15px up (keep base size at 390px) */
+  .fv__badges {
+    margin-top: -25px;
+  }
+  /* CTA: shrink 1/1.3 and shift up */
+  .fv__cta-wrap {
+    margin-top: -20px;
+  }
+  .fv__cta-link,
+  .cta-present-img,
+  .fv__cta-note {
+    width: 312.3px;
+    max-width: 80%;
+  }
+  .fv__cta-note {
+    font-size: 11.846px;
+    -webkit-text-stroke: 3.345px #ffffff;
+    letter-spacing: 0.4394px;
+    text-shadow: 0px 3.345px 3.345px rgba(0,0,0,0.25);
+  }
+  /* Person image: 1.5× larger at this range */
+  .fv__person {
+    width: 579px;
+  }
+}
+
+/* Upper SP range (~800–1000px): scale FV worry list to 1.5× of base SP sizes */
+@media (min-width: 800px) and (max-width: 1000px) {
+  /* Worries: smoothly scale from 1.56× at 800px to 2.1× at 1000px;
+     Badge: smoothly scale 1.3× → 1.56× and top 97px → 122px */
+  .fv {
+    --worries-scale: clamp(1.56, calc(1.56 + 0.19 * (100vw - 800px) / 200px), 1.75);
+    --badge-scale: clamp(1.3, calc(1.3 + 0.26 * (100vw - 800px) / 200px), 1.56);
+  }
+  .fv__worries {
+    padding: calc(1px * var(--worries-scale)) 0 calc(11px * var(--worries-scale)) calc(7px * var(--worries-scale));
+    width: calc(372px * var(--worries-scale));
+    height: calc(102px * var(--worries-scale));
+  }
+  .fv__worry-item {
+    gap: calc(5px * var(--worries-scale));
+    margin-bottom: calc(-7.06px * var(--worries-scale));
+  }
+  .fv__check {
+    width: calc(37.395px * var(--worries-scale));
+    height: calc(37.395px * var(--worries-scale));
+  }
+  .fv__worry-text {
+    font-size: calc(15.864px * var(--worries-scale));
+    letter-spacing: calc(-0.567px * var(--worries-scale));
+    text-shadow: 0 0 calc(1.943px * var(--worries-scale)) white,
+                 0 calc(1.43px * var(--worries-scale)) calc(1.43px * var(--worries-scale)) #fff8f8;
+    line-height: calc(20.933px * var(--worries-scale));
+  }
+
+  /* Switch to PC 2-line headlines, sized like SP × 1.5× */
+  .fv__headlines--sp {
+    display: none;
+  }
+  .fv__headlines--pc {
+    display: flex;
+    flex-direction: column;
+    padding-top: 175px;
+    gap: 6.95px;
+    margin-left: -13.5px;
+  }
+  .fv__headline--full,
+  .fv__headline--inline {
+    background-color: #151515;
+    height: 68.076px;
+    padding: 0 22.5px 0 33px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    width: max-content;
+    white-space: nowrap;
+  }
+  .fv__text-lg {
+    font-size: 41.696px;
+  }
+  .fv__text-sm {
+    font-size: 34.746px;
+  }
+  .fv__headline-text {
+    text-shadow: 0px 6.051px 6.051px rgba(0,0,0,0.25);
+    letter-spacing: 0.87px;
+    line-height: 1;
+    margin: 0;
+  }
+  .fv__headlines--pc .fv__text-gradient {
+    font-size: 41.696px;
+    line-height: 1.2;
+    display: inline-block;
+    background: linear-gradient(to right, #fe3e3f, #ffd000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+  }
+
+  /* Elbow badge: smoothly scaled and positioned via --badge-scale */
+  .fv__elbow-badge {
+    left: 30px;
+    right: auto;
+    top: 142px;
+    width: calc(269.18px * var(--badge-scale));
+    height: calc(170.82px * var(--badge-scale));
+  }
+
+  /* Person image: 1.3× × 1.2 = 1.56×, shifted past the right edge by 100px, 30px up */
+  .fv__person {
+    left: auto;
+    right: -100px;
+    top: 35px;
+    width: 602.16px;
+  }
+
+  /* Badges (3 black circles) shifted 35px up, scaled to 1/1.3; CTA 20px up */
+  .fv__badges {
+    margin-top: -45px;
+  }
+  .fv__badges-img--sp {
+    width: 76.923%;
+  }
+  .fv__cta-wrap {
+    margin-top: -25px;
+  }
+}
+
+/* ===== Tablet (only 1001–1024px after SP extended to ≤1000) ===== */
+@media (min-width: 1001px) and (max-width: 1024px) {
   .fv__person {
     width: clamp(386px, calc(45.5vw + 113px), 579px);
     left: calc(50% - clamp(69px, calc(7.3vw + 25px), 100px));
@@ -4866,144 +5068,35 @@ body {
   }
 }
 
-/* Upper tablet (~800–1024px): right-anchor person and match PC image crop */
-@media (min-width: 800px) and (max-width: 1024px) {
-  .fv {
-    --fv-tablet-w: clamp(386px, calc(45.5vw + 113px), 579px);
-  }
+/* PC range (≥1001px): right-anchored woman image, smoothly shrinks toward
+   the 1000px SP layout state as viewport narrows */
+@media (min-width: 1001px) {
   .fv__person {
     left: auto;
-    right: 0;
-    top: auto;
-    bottom: 0;
+    right: -80px;
+    top: 35px;
+    bottom: auto;
+    width: clamp(602.16px, 60vw, 800px);
+    aspect-ratio: 386 / 499;
+    height: auto;
     overflow: hidden;
   }
   .fv__person img {
-    position: absolute;
-    top: -3.3%;
+    position: relative;
+    top: 0;
     left: 0;
-    width: 111.11%;
-    height: 106.6%;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
+  /* Lock the elbow badge top position so it doesn't drift downward as the
+     viewport shrinks from MAX toward 1000 */
   .fv__elbow-badge {
-    left: calc(50% - 233px);
-    right: auto;
-    top: 92px;
-    width: calc(var(--fv-tablet-w) * 450.24 / 577);
+    top: 437px;
   }
-
-  /* Worry list scaled to 1.5× SP sizes for tablet range */
-  .fv__worries {
-    padding: 1.5px 0 16.5px 10.5px;
-    width: 558px;
-    max-width: 95.4%;
-    height: 153px;
-  }
-  .fv__worry-item {
-    gap: 7.5px;
-    margin-bottom: -10.59px;
-  }
-  .fv__check {
-    width: 56.0925px;
-    height: 56.0925px;
-  }
-  .fv__worry-text {
-    font-size: 23.796px;
-    letter-spacing: -0.8505px;
-    text-shadow: 0px 0px 2.9145px white, 0px 2.145px 2.145px #fff8f8;
-    line-height: 31.4px;
-    -webkit-text-stroke: 0;
-    paint-order: fill;
-  }
-
-  /* Headlines: switch to SP layout and scale 1.5× for tablet range */
-  .fv__headlines--pc {
-    display: none;
-  }
-  .fv__headlines--sp {
-    display: flex;
-    flex-direction: column;
-    gap: 6.95px;
-    padding: 210px 0 0 0;
-    margin-left: -13.5px;
-  }
-  .fv__headlines--sp .fv__headline {
-    background-color: #151515;
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    height: 68.076px;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(1) {
-    padding: 0 22.5px 0 33px;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(2) {
-    height: 69.267px;
-    padding: 0 22.5px 0 30px;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(3) {
-    height: 69.659px;
-    padding: 0 22.5px 0 33px;
-  }
-  .fv__text-lg {
-    font-size: 41.696px;
-  }
-  .fv__text-sm {
-    font-size: 34.746px;
-  }
-  .fv__headline-text {
-    text-shadow: 0px 6.051px 6.051px rgba(0,0,0,0.25);
-    letter-spacing: 0.87px;
-    line-height: 1;
-    white-space: nowrap;
-    margin: 0;
-  }
-  .fv__headlines--sp .fv__text-gradient {
-    font-size: 41.696px;
-    line-height: 1.2;
-    display: inline-block;
-    background: linear-gradient(to right, #fe3e3f, #ffd000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: none;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(1) .fv__headline-text {
-    letter-spacing: 1.737px;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(2) .fv__headline-text {
-    letter-spacing: 0.87px;
-  }
-  .fv__headlines--sp .fv__headline:nth-child(3) .fv__headline-text {
-    letter-spacing: 1.737px;
-  }
-}
-
-/* ≥1000px: lock full image size and right-anchor — no shrinking, no anchor jump */
-@media (min-width: 1000px) {
+  /* Worries: SP-style box that smoothly scales from 2× at 1440+ down to
+     1.75× at the 1000px boundary */
   .fv {
-    --fv-person-w: 577px;
-    --fv-tablet-w: 577px;
-  }
-  .fv__person {
-    left: auto;
-    right: 0;
-    width: 577px;
-    height: 775px;
-    aspect-ratio: auto;
-  }
-  .fv__elbow-badge {
-    left: auto;
-    right: 127px;
-  }
-}
-
-/* PC (≥1025px): SP-style worries box, smoothly scaling from 1.5× at 1024 to 2× at 1440+ */
-@media (min-width: 1025px) {
-  .fv {
-    --worries-scale: clamp(1.5, calc((100vw - 1024px) / 832px + 1.5), 2);
+    --worries-scale: clamp(1.75, calc((100vw - 1000px) / 1760px + 1.75), 2);
   }
   .fv__worries {
     background: linear-gradient(to right, rgba(255,255,255,1) 59.135%, rgba(255,255,255,0.65) 85%, rgba(255,255,255,0) 100%);
@@ -5042,3 +5135,4 @@ body {
     paint-order: fill;
   }
 }
+
