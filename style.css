@@ -777,6 +777,8 @@ body {
   gap: 0;
   width: 700px;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reassure__headline {
