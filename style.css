@@ -84,7 +84,8 @@ body {
   position: absolute;
   left: calc(50% + 92px);
   right: auto;
-  top: -10px;
+  top: auto;
+  bottom: 0;
   width: var(--fv-person-w);
   aspect-ratio: 577 / 775;
   height: auto;
@@ -96,7 +97,7 @@ body {
   position: absolute;
   left: calc(50% + 92px);
   right: auto;
-  top: calc(-10px + var(--fv-person-w) * 447 / 577);
+  top: calc(100% - var(--fv-person-w) * 328 / 577);
   width: calc(var(--fv-person-w) * 450.24 / 577);
   z-index: 2;
   pointer-events: none;
@@ -4873,6 +4874,8 @@ body {
   .fv__person {
     left: auto;
     right: 0;
+    top: auto;
+    bottom: 0;
     overflow: hidden;
   }
   .fv__person img {
@@ -4886,7 +4889,7 @@ body {
   .fv__elbow-badge {
     left: auto;
     right: calc(var(--fv-tablet-w) * 127 / 577);
-    top: calc(65px + var(--fv-tablet-w) * 447 / 577);
+    top: calc(100% - var(--fv-tablet-w) * 328 / 577);
     width: calc(var(--fv-tablet-w) * 450.24 / 577);
   }
 }
