@@ -62,6 +62,7 @@ body {
   height: 765px;
   overflow: hidden;
   background-color: #e8e8e8;
+  --fv-person-w: clamp(450px, 45vw, 577px);
 }
 
 /* Background image */
@@ -81,20 +82,22 @@ body {
 /* Right person image */
 .fv__person {
   position: absolute;
-  left: calc(50% + 92px);
-  right: auto;
+  right: 0;
+  left: auto;
   top: -10px;
-  width: 577px;
-  height: 775px;
+  width: var(--fv-person-w);
+  aspect-ratio: 577 / 775;
+  height: auto;
   overflow: hidden;
   z-index: 0;
 }
 
 .fv__elbow-badge {
   position: absolute;
-  left: calc(50% + 92px);
-  top: 437px;
-  width: 450.24px;
+  right: calc(var(--fv-person-w) * 127 / 577);
+  left: auto;
+  top: calc(-10px + var(--fv-person-w) * 447 / 577);
+  width: calc(var(--fv-person-w) * 450.24 / 577);
   z-index: 2;
   pointer-events: none;
 }
