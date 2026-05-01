@@ -4864,3 +4864,20 @@ body {
     height: auto;
   }
 }
+
+/* Upper tablet (~800–1024px): right-anchor person and elbow badge */
+@media (min-width: 800px) and (max-width: 1024px) {
+  .fv {
+    --fv-tablet-w: clamp(386px, calc(45.5vw + 113px), 579px);
+  }
+  .fv__person {
+    left: auto;
+    right: 0;
+  }
+  .fv__elbow-badge {
+    left: auto;
+    right: calc(var(--fv-tablet-w) * 127 / 577);
+    top: calc(65px + var(--fv-tablet-w) * 447 / 577);
+    width: calc(var(--fv-tablet-w) * 450.24 / 577);
+  }
+}
