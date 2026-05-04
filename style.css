@@ -5146,10 +5146,10 @@ body {
     width: 381.67px;
     left: calc(50% - 49px);
   }
-  /* Elbow badge "卒業後の案件保証〜": 1.2x smaller + 30px up */
+  /* Elbow badge "卒業後の案件保証〜": +20px wider, position kept */
   .fv__elbow-badge {
-    width: 224.32px;
-    height: 142.35px;
+    width: 244.32px;
+    height: 155.04px;
     left: calc(50% - 183px);
     top: 72px;
   }
