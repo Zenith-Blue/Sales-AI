@@ -5175,5 +5175,14 @@ body {
   .fv__badges-frame {
     width: 83.33%;
   }
+
+  /* Headlines "未経験から自由に稼げる営業力を…": -15px font + 20px up */
+  .fv__headlines--sp { padding-top: 120px; }
+  .fv__text-lg { font-size: 12.797px; }
+  .fv__text-sm { font-size: 8.164px; }
+  .fv__headlines--sp .fv__text-gradient { font-size: 12.797px; }
+  .fv__headlines--sp .fv__headline { height: auto; min-height: 30px; }
+  .fv__headlines--sp .fv__headline:nth-child(2) { height: auto; min-height: 31px; }
+  .fv__headlines--sp .fv__headline:nth-child(3) { height: auto; min-height: 31px; }
 }
 
