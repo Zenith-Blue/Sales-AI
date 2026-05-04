@@ -5141,9 +5141,9 @@ body {
 
 /* ≤430px: scale down FV elements 1/1.2 (≈83.33%) and shift woman 30px left */
 @media (max-width: 430px) {
-  /* Person image: 1.2x smaller + 10px to left (was -30px, +20px right) */
+  /* Person image: +10px wider */
   .fv__person {
-    width: 321.67px;
+    width: 331.67px;
     left: calc(50% - 49px);
   }
   /* Elbow badge "卒業後の案件保証〜": 1.2x smaller + 30px up */
@@ -5177,7 +5177,7 @@ body {
     margin-top: -5px;
   }
   .fv__badges-frame {
-    width: 83.33%;
+    width: calc(83.33% + 20px);
   }
   /* CTA: 5px down */
   .fv__cta-wrap {
