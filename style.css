@@ -5184,8 +5184,8 @@ body {
     margin-top: 0;
   }
 
-  /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 35px up */
-  .fv__headlines--sp { padding-top: 105px; }
+  /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 30px up */
+  .fv__headlines--sp { padding-top: 110px; }
   .fv__text-lg { font-size: 28px; }
   .fv__text-sm { font-size: 23px; }
   .fv__headlines--sp .fv__text-gradient { font-size: 28px; }
