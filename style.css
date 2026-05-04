@@ -5177,7 +5177,7 @@ body {
     margin-top: -5px;
   }
   .fv__badges-frame {
-    width: calc(83.33% + 20px);
+    width: 100%;
   }
   /* CTA: 5px down */
   .fv__cta-wrap {
