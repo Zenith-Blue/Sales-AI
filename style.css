@@ -5171,9 +5171,9 @@ body {
     letter-spacing: -0.47px;
     line-height: 17.44px;
   }
-  /* Badges (最短2ヶ月で…) banner: 1.2x smaller + 20px up */
+  /* Badges (最短2ヶ月で…) banner: 1.2x smaller + 50px up total */
   .fv__badges {
-    margin-top: -30px;
+    margin-top: -60px;
   }
   .fv__badges-frame {
     width: 83.33%;
