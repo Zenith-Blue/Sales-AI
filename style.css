@@ -5139,3 +5139,41 @@ body {
   }
 }
 
+/* ≤430px: scale down FV elements 1/1.2 (≈83.33%) and shift woman 30px left */
+@media (max-width: 430px) {
+  /* Person image: 1.2x smaller + 30px to left */
+  .fv__person {
+    width: 321.67px;
+    left: calc(50% - 69px);
+  }
+  /* Elbow badge: 1.2x smaller */
+  .fv__elbow-badge {
+    width: 224.32px;
+    height: 142.35px;
+    left: calc(50% - 183px);
+  }
+  /* Worry box and contents: 1.2x smaller */
+  .fv__worries {
+    width: 310px;
+    height: 85px;
+    padding: 0.83px 0 9.17px 5.83px;
+  }
+  .fv__worry-item {
+    gap: 4.17px;
+    margin-bottom: -5.88px;
+  }
+  .fv__check {
+    width: 31.16px;
+    height: 31.16px;
+  }
+  .fv__worry-text {
+    font-size: 13.22px;
+    letter-spacing: -0.47px;
+    line-height: 17.44px;
+  }
+  /* Badges (最短2ヶ月で…) banner: 1.2x smaller */
+  .fv__badges-frame {
+    width: 83.33%;
+  }
+}
+
