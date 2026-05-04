@@ -5151,7 +5151,7 @@ body {
     width: 224.32px;
     height: 142.35px;
     left: calc(50% - 183px);
-    top: 62px;
+    top: 67px;
   }
   /* Worry box and contents: 1.2x smaller */
   .fv__worries {
@@ -5181,8 +5181,8 @@ body {
     margin-top: 0;
   }
 
-  /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 20px up */
-  .fv__headlines--sp { padding-top: 120px; }
+  /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 30px up */
+  .fv__headlines--sp { padding-top: 110px; }
   .fv__text-lg { font-size: 28px; }
   .fv__text-sm { font-size: 23px; }
   .fv__headlines--sp .fv__text-gradient { font-size: 28px; }
