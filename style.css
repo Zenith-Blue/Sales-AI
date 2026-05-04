@@ -5180,9 +5180,13 @@ body {
   .fv__badges-frame {
     width: 100%;
   }
-  /* CTA: 5px down */
+  /* CTA: 5px down + 20px wider */
   .fv__cta-wrap {
     margin-top: 0;
+  }
+  .fv__cta-link {
+    width: 426px;
+    max-width: 104%;
   }
 
   /* Headlines "未経験から自由に稼げる営業力を…": lg=28px, sm proportional, 10px up */
