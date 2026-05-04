@@ -5171,9 +5171,16 @@ body {
     letter-spacing: -0.47px;
     line-height: 17.44px;
   }
-  /* Badges (最短2ヶ月で…) banner: 1.2x smaller */
+  /* Badges (最短2ヶ月で…) banner: 1.2x smaller + 20px up */
+  .fv__badges {
+    margin-top: -30px;
+  }
   .fv__badges-frame {
     width: 83.33%;
+  }
+  /* CTA: 5px down */
+  .fv__cta-wrap {
+    margin-top: 0;
   }
 
   /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 20px up */
