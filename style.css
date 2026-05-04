@@ -5186,9 +5186,9 @@ body {
 
   /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 25px up */
   .fv__headlines--sp { padding-top: 115px; }
-  .fv__text-lg { font-size: 43px; }
-  .fv__text-sm { font-size: 38px; }
-  .fv__headlines--sp .fv__text-gradient { font-size: 43px; }
+  .fv__text-lg { font-size: 33px; }
+  .fv__text-sm { font-size: 28px; }
+  .fv__headlines--sp .fv__text-gradient { font-size: 33px; }
   .fv__headlines--sp .fv__headline { height: auto; min-height: 40px; }
   .fv__headlines--sp .fv__headline:nth-child(2) { height: auto; min-height: 41px; }
   .fv__headlines--sp .fv__headline:nth-child(3) { height: auto; min-height: 41px; }
