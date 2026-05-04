@@ -5141,10 +5141,10 @@ body {
 
 /* ≤430px: scale down FV elements 1/1.2 (≈83.33%) and shift woman 30px left */
 @media (max-width: 430px) {
-  /* Person image: 1.2x smaller + 30px to left */
+  /* Person image: 1.2x smaller + 10px to left (was -30px, +20px right) */
   .fv__person {
     width: 321.67px;
-    left: calc(50% - 69px);
+    left: calc(50% - 49px);
   }
   /* Elbow badge: 1.2x smaller */
   .fv__elbow-badge {
