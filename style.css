@@ -5184,11 +5184,11 @@ body {
     margin-top: 0;
   }
 
-  /* Headlines "未経験から自由に稼げる営業力を…": lg=25px, sm proportional, 20px up */
-  .fv__headlines--sp { padding-top: 120px; }
-  .fv__text-lg { font-size: 33px; }
-  .fv__text-sm { font-size: 28px; }
-  .fv__headlines--sp .fv__text-gradient { font-size: 33px; }
+  /* Headlines "未経験から自由に稼げる営業力を…": lg=28px, sm proportional, 10px up */
+  .fv__headlines--sp { padding-top: 130px; }
+  .fv__text-lg { font-size: 28px; }
+  .fv__text-sm { font-size: 23px; }
+  .fv__headlines--sp .fv__text-gradient { font-size: 28px; }
   .fv__headlines--sp .fv__headline { height: auto; min-height: 40px; }
   .fv__headlines--sp .fv__headline:nth-child(2) { height: auto; min-height: 41px; }
   .fv__headlines--sp .fv__headline:nth-child(3) { height: auto; min-height: 41px; }
