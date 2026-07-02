@@ -1,0 +1,28 @@
+/* 法務ページ共通スタイル(LP本体のトーンに合わせたダーク基調) */
+:root{ --bg:#0E0E14; --soft:#1A1A24; --text:#FFFFFF; --muted:#A7A7B4; --accent:#FFC93C; }
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);line-height:1.9;
+  font-family:'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif;
+  -webkit-text-size-adjust:100%}
+.legal{max-width:680px;margin:0 auto;padding:40px 20px 64px}
+.legal h1{font-size:24px;font-weight:900;margin-bottom:8px;border-bottom:2px solid var(--accent);
+  padding-bottom:12px}
+.legal h2{font-size:17px;font-weight:800;color:var(--accent);margin:28px 0 8px}
+.legal p{font-size:15px;margin:10px 0}
+.legal ul{margin:8px 0 8px 1.2em;font-size:15px}
+.legal li{margin:4px 0}
+.legal__note{background:var(--soft);border-left:3px solid var(--accent);padding:10px 14px;
+  font-size:13px;color:var(--muted);border-radius:6px;margin:14px 0 24px}
+.legal__table{width:100%;border-collapse:collapse;margin:8px 0}
+.legal__table th,.legal__table td{border:1px solid rgba(255,255,255,.12);padding:12px;
+  font-size:14px;text-align:left;vertical-align:top}
+.legal__table th{background:var(--soft);width:34%;font-weight:700;white-space:nowrap}
+.ph{color:#ff8a8a;font-size:12px;font-weight:700;white-space:nowrap}
+.legal__date{color:var(--muted);font-size:13px;margin-top:24px}
+.legal__back{margin-top:32px}
+.legal__back a{color:var(--accent);font-weight:700;text-decoration:none}
+.legal__back a:hover{text-decoration:underline}
+@media(max-width:480px){
+  .legal__table th{width:40%}
+  .legal__table th,.legal__table td{padding:9px;font-size:13px}
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>稼ぎ方タイプ診断|あなたのタイプはなに!?</title>
+<meta name="description" content="簡単な質問に答えるだけで、あなたに合った稼ぎ方のタイプが8タイプからわかる無料診断。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HERO (page 1) ================= -->
+<section id="view-hero">
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-panels">
+        <div class="panel"><img src="images/solo/type01.png" alt="カリスマ発信型"><span class="vlabel">カリスマ発信型</span></div>
+        <div class="panel"><img src="images/solo/type04.png" alt="コツコツ資産型"><span class="vlabel">コツコツ資産型</span></div>
+        <div class="panel"><img src="images/solo/type06.png" alt="信頼の伴走型"><span class="vlabel">信頼の伴走型</span></div>
+        <div class="panel"><img src="images/solo/type07.png" alt="AI活用ハッカー型"><span class="vlabel">AI活用ハッカー型</span></div>
+      </div>
+      <div class="hero-copy">
+        <span class="hero-eyebrow">あなたのタイプはなに!?</span>
+        <h1 class="hero-title">稼ぎ方<br>タイプ<span class="small">診断</span></h1>
+      </div>
+    </div>
+
+    <div class="cards-strip" aria-label="診断タイプ一覧" id="cardsStrip"></div>
+
+    <div class="start-area">
+      <p class="start-lead">あなたの性格・特徴が簡単な質問に答えてわかる!</p>
+      <button class="btn-start" onclick="startQuiz()">
+        <small>今すぐ無料で</small>
+        <strong>診断START!</strong>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUIZ (page 2) ================= -->
+<section class="quiz" id="view-quiz">
+  <div class="wrap">
+    <div class="quiz-hero">
+      <div class="mini-panels">
+        <img src="images/solo/type02.png" alt="">
+        <img src="images/solo/type03.png" alt="">
+        <img src="images/solo/type05.png" alt="">
+        <img src="images/solo/type08.png" alt="">
+      </div>
+      <div class="overlay">
+        <span class="qh-eyebrow">あなたのタイプはなに!?</span>
+        <span class="qh-title">稼ぎ方タイプ<span class="small">診断</span></span>
+      </div>
+    </div>
+
+    <div class="steps" aria-label="進行状況">
+      <span class="step-dot on" id="dot1"><span class="slabel">Step 1</span></span>
+      <span class="step-line"></span>
+      <span class="step-dot" id="dot2"><span class="slabel">Step 2</span></span>
+    </div>
+
+    <div class="q-list" id="qList"></div>
+
+    <div class="q-next">
+      <button class="btn-next" id="btnNext" disabled onclick="nextStep()">次へ進む</button>
+      <p class="q-progress" id="qProgress"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESULT (page 3 / LINE誘導) ================= -->
+<section class="result" id="view-result">
+  <div class="wrap">
+    <div class="r-head">
+      <span class="r-complete">COMPLETE</span>
+      <p class="r-title">診断が完了しました!</p>
+      <p class="r-lead">あなたは…</p>
+      <div class="mystery">
+        <img id="rImg" src="" alt="診断結果(LINEでお届け)">
+        <div class="veil"><span class="qmark">?</span><span class="qlabel">タイプ?</span></div>
+      </div>
+    </div>
+    <div class="r-cta">
+      <a class="btn-line" id="lineBtn" href="https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=FdwQPw" target="_blank" rel="noopener">
+        <span class="line-badge">LINE</span>LINEで診断結果を受け取る
+      </a>
+      <p class="r-note">友だち追加すると、あなた専用の結果カードがすぐに届きます。</p>
+      <p class="r-bonus">タイプ別の&ldquo;稼ぎ方のはじめ方ガイド&rdquo;も一緒にお届け。</p>
+      <button class="btn-retry" onclick="resetQuiz()">もう一度診断する</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="links">
+    <a href="legal/company.html">会社概要</a><span>/</span>
+    <a href="legal/tokushoho.html">特定商取引法に基づく表記</a><span>/</span>
+    <a href="legal/privacy.html">プライバシーポリシー</a>
+  </div>
+  <p class="copy">&copy; FORSPECT</p>
+</footer>
+
+<script>
+/* ====== タイプ定義(全8タイプ) ====== */
+const TYPES = {
+  charisma:{no:"TYPE 01", name:"カリスマ発信型", img:"images/type01.png", color:"var(--t1)",
+    tags:["発信力","存在感","リーダー気質"],
+    desc:"自分の言葉と存在感で人を惹きつけるタイプです。表に立って発信することが、そのまま集客と販売につながります。あなた自身が一番の商品です。",
+    strength:"注目を集め、人を動かす力。発信を続けるほどファンが増え、売り込まなくても選ばれる状態をつくれます。",
+    work:"自分を看板にした商品・サービスの販売、講師業、SNSを起点にした集客ビジネス。",
+    caution:"何でも自分でやろうとして手が回らなくなりがち。編集や事務は早めに人や道具に任せると、発信に集中できます。"},
+  community:{no:"TYPE 02", name:"共感コミュニティ型", img:"images/type02.png", color:"var(--t2)",
+    tags:["共感力","つながり","ファンづくり"],
+    desc:"人の気持ちをくみ取り、共感でつながりを広げるタイプです。売る・売られるの関係ではなく、「この人と一緒にいたい」と思われることが収入の土台になります。",
+    strength:"相手の気持ちに寄り添う言葉選びと、輪をつくる力。一度ついたファンが離れにくいのが最大の武器です。",
+    work:"会員制コミュニティの運営、ファン向けの継続サービス、少人数制の講座やサロン。",
+    caution:"距離が近いぶん、頼られすぎて疲れてしまうことも。対応する時間と範囲をあらかじめ決めておきましょう。"},
+  trend:{no:"TYPE 03", name:"トレンドクリエイター型", img:"images/type03.png", color:"var(--t3)",
+    tags:["流行感度","表現力","企画力"],
+    desc:"流行をいち早くつかみ、自分らしい形にして発信できるタイプです。「面白い」「新しい」を形にする企画力が、そのまま稼ぐ力になります。",
+    strength:"流行への感度と、人を惹きつける表現力。話題の波に乗るのがうまく、短期間で注目を集められます。",
+    work:"短い動画や画像コンテンツの制作、商品やサービスの企画、話題性を生かした販売。",
+    caution:"飽きやすく、成果に波が出やすいのが弱点。当たった企画は「型」として残し、繰り返し使える形にしましょう。"},
+  asset:{no:"TYPE 04", name:"コツコツ資産型", img:"images/type04.png", color:"var(--t4)",
+    tags:["継続力","積み上げ","堅実"],
+    desc:"目先の結果より、積み上げを大切にできるタイプです。今日の作業が半年後・一年後の収入になる「資産づくり」の働き方が向いています。",
+    strength:"地道に続ける力と、品質を保つ丁寧さ。一度つくったものが長く収入を生み続ける仕組みと相性抜群です。",
+    work:"記事や動画など蓄積型のコンテンツづくり、教材の販売、長期で育てる事業運営。",
+    caution:"成果が出るまでの期間に不安になりがち。「3か月は数字を見ない」など、判断の時期を先に決めておくと続けられます。"},
+  speed:{no:"TYPE 05", name:"スピード営業型", img:"images/type05.png", color:"var(--t5)",
+    tags:["行動力","対人力","即決力"],
+    desc:"考えるより先に動ける行動派です。人と会い、話し、その場で決める。この速さこそが最大の武器で、最短で収入をつくれるタイプです。",
+    strength:"初対面でも打ち解ける対人力と、即行動・即改善のスピード。結果が出るまでが誰よりも速いタイプです。",
+    work:"営業代行、個別相談からの販売、紹介をつないで案件を獲得するスタイル。",
+    caution:"動き続けないと収入が止まる働き方になりがち。当たった営業の流れは手順書にして、仕組みに変えていきましょう。"},
+  companion:{no:"TYPE 06", name:"信頼の伴走型", img:"images/type06.png", color:"var(--t6)",
+    tags:["誠実","サポート力","長期関係"],
+    desc:"目立つことより、一人ひとりと深く向き合うことに価値を置くタイプです。「あなたに任せたい」という信頼が、安定した収入の源になります。",
+    strength:"相手の成長や成果を自分のことのように喜べる誠実さ。長期契約・継続依頼につながりやすいタイプです。",
+    work:"個別指導やコーチング、顧問・コンサルティング、継続サポート型のサービス。",
+    caution:"頑張りすぎて安売りしがちな点に注意。提供する内容と期間を決めて、価格に自信を持つことが大切です。"},
+  ai:{no:"TYPE 07", name:"AI活用ハッカー型", img:"images/type07.png", color:"var(--t7)",
+    tags:["効率化","道具好き","仕組み化"],
+    desc:"新しい道具をすぐ試し、面倒な作業を仕組みで解決できるタイプです。AIや自動化を使いこなす力は、それ自体が売れる商品になります。",
+    strength:"人が10時間かかる作業を1時間に変える発想と技術。「時間を生み出す力」を提供できるのが強みです。",
+    work:"AIを使った業務の代行、自動化の仕組みづくりの請負、効率化の指導やコンサルティング。",
+    caution:"道具を試すこと自体が目的になりがち。「誰のどんな手間を減らすのか」から逆算して道具を選びましょう。"},
+  data:{no:"TYPE 08", name:"データ戦略型", img:"images/type08.png", color:"var(--t8)",
+    tags:["分析力","戦略思考","数字に強い"],
+    desc:"感覚ではなく、数字と根拠で判断できるタイプです。「なぜ売れたのか」を説明できる力は希少で、再現性のある稼ぎ方をつくれます。",
+    strength:"数字から勝ちパターンを見つける分析力。一度見つけた型を繰り返し、安定して成果を伸ばせます。",
+    work:"広告の運用代行、売上データの分析と改善提案、事業の戦略設計の支援。",
+    caution:"分析に時間をかけすぎて動き出しが遅れがち。「6割の確信で一度試す」を合言葉にすると成果が早まります。"}
+};
+
+/* ====== 質問(7問×2ステップ)。はい=1.0 / どちらでもない=0.5 / いいえ=0 ====== */
+const QUESTIONS = [
+  // ===== Step 1 =====
+  {t:"人前に立って注目を集めるのは得意な方だ",        s:{charisma:2, speed:1}},
+  {t:"自分の発信に共感が集まると、何よりうれしい",    s:{community:2, charisma:1}},
+  {t:"流行には人より早く気づく方だ",                  s:{trend:2}},
+  {t:"ひとつのことをコツコツ続けるのは得意だ",        s:{asset:2}},
+  {t:"考えるより先に、まず動くタイプだ",              s:{speed:2, charisma:1}},
+  {t:"新しい道具やアプリはすぐ試したくなる",          s:{ai:2, trend:1}},
+  {t:"物事は数字や根拠で判断したい",                  s:{data:2}},
+  // ===== Step 2 =====
+  {t:"初対面の人ともすぐに打ち解けられる",            s:{community:2, speed:1}},
+  {t:"目立つより、ひとりの相手と深く長く付き合いたい",s:{companion:2}},
+  {t:"誰かの成長を支えることにやりがいを感じる",      s:{companion:2, community:1}},
+  {t:"面倒な作業は仕組み化して自動で回したい",        s:{ai:2, data:1}},
+  {t:"結果を急ぐより、積み上げて資産にしたい",        s:{asset:2, data:1}},
+  {t:"自分の作品や表現で人を驚かせたい",              s:{trend:2, charisma:1}},
+  {t:"計画を立てて、戦略どおりに進めるのが好きだ",    s:{data:2, asset:1}}
+];
+
+const PER_STEP = 7;
+let currentStep = 0;
+const answers = new Array(QUESTIONS.length).fill(null);
+const $ = id => document.getElementById(id);
+
+/* トップのタイプカード一覧を描画 */
+(function renderCards(){
+  const strip = $("cardsStrip");
+  Object.values(TYPES).forEach(T => {
+    const card = document.createElement("div");
+    card.className = "tcard";
+    card.innerHTML = `
+      <div class="tcard-img"><img src="${T.img}" alt="${T.name}" loading="lazy"><span class="tcard-no">${T.no}</span></div>
+      <div class="tcard-head" style="background:${T.color}">${T.name}</div>
+      <div class="tcard-body">${T.tags.map(t=>"#"+t).join(" ")}</div>`;
+    strip.appendChild(card);
+  });
+})();
+
+function startQuiz(){
+  $("view-hero").style.display = "none";
+  $("view-quiz").classList.add("active");
+  currentStep = 0;
+  renderStep();
+  window.scrollTo({top:0});
+}
+
+function renderStep(){
+  $("dot1").classList.toggle("on", currentStep === 0);
+  $("dot2").classList.toggle("on", currentStep === 1);
+  const list = $("qList");
+  list.innerHTML = "";
+  const start = currentStep * PER_STEP;
+  QUESTIONS.slice(start, start + PER_STEP).forEach((q, i) => {
+    const idx = start + i;
+    const item = document.createElement("div");
+    item.className = "q-item";
+    item.innerHTML = `
+      <p class="q-text"><span class="q-mark">Q</span><span>${q.t}</span></p>
+      <div class="choices" role="radiogroup" aria-label="${q.t}">
+        <button class="choice" data-v="1"   data-q="${idx}">はい</button>
+        <button class="choice" data-v="0.5" data-q="${idx}">どちらでもない</button>
+        <button class="choice" data-v="0"   data-q="${idx}">いいえ</button>
+      </div>`;
+    list.appendChild(item);
+  });
+  list.querySelectorAll(".choice").forEach(btn => {
+    const qi = +btn.dataset.q;
+    if (answers[qi] !== null && +btn.dataset.v === answers[qi]) btn.classList.add("selected");
+    btn.addEventListener("click", () => {
+      answers[qi] = +btn.dataset.v;
+      btn.parentElement.querySelectorAll(".choice").forEach(b => b.classList.remove("selected"));
+      btn.classList.add("selected");
+      updateNext();
+    });
+  });
+  $("btnNext").textContent = currentStep === 0 ? "次へ進む" : "診断結果を見る";
+  updateNext();
+}
+
+function updateNext(){
+  const start = currentStep * PER_STEP;
+  const done = answers.slice(start, start + PER_STEP).filter(a => a !== null).length;
+  $("btnNext").disabled = done < PER_STEP;
+  $("qProgress").textContent = `Step ${currentStep + 1} / 2 ・ ${done} / ${PER_STEP} 問 回答済み`;
+}
+
+function nextStep(){
+  if (currentStep === 0){
+    currentStep = 1;
+    renderStep();
+    window.scrollTo({top:0,behavior:"smooth"});
+  } else {
+    showResult();
+  }
+}
+
+/* LINEリンク設定:診断タイプごとのエルメ「QRコードアクション」URL(流入経路分析つき)。
+   結果(top)は必ず下記8キーのいずれかになるため、通常はLINE_URLS側が使われる。
+   LINE_URLは万一キーが無かった場合の予備(発信リーダー型にフォールバック)。 */
+const LINE_URL = "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=FdwQPw";
+const LINE_URLS = {
+  charisma:  "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=FdwQPw", // カリスマ発信型 → エルメ「発信リーダー」
+  community: "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=Cz0EIp", // 共感コミュニティ型 → エルメ「共感コミュニティ」
+  trend:     "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=c33zCd", // トレンドクリエイター型 → エルメ「企画クリエイター」
+  asset:     "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=87MR1s", // コツコツ資産型 → エルメ「資産構築」
+  speed:     "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=Mk94Sh", // スピード営業型 → エルメ「行動セールス」
+  companion: "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=6AVM15", // 信頼の伴走型 → エルメ「併走サポート」
+  ai:        "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=A7asux", // AI活用ハッカー型 → エルメ「AI仕組み化」
+  data:      "https://s.lmes.jp/landing-qr/2009691201-1f5q2n8f?uLand=0OC8xn", // データ戦略型 → エルメ「戦略分析」
+};
+
+function showResult(){
+  /* タイプごとの満点が異なるため、得点÷満点で正規化して公平に判定 */
+  const raw = {}, max = {};
+  Object.keys(TYPES).forEach(k => { raw[k] = 0; max[k] = 0; });
+  QUESTIONS.forEach((q, i) => {
+    const w = answers[i] ?? 0;
+    Object.entries(q.s).forEach(([type, pt]) => {
+      raw[type] += pt * w;
+      max[type] += pt;
+    });
+  });
+  const top = Object.keys(TYPES)
+    .map(k => [k, max[k] ? raw[k] / max[k] : 0])
+    .sort((a, b) => b[1] - a[1])[0][0];
+  const T = TYPES[top];
+
+  /* 判定タイプの画像をぼかして背景に。タイプ名は明かさずLINEへ誘導 */
+  $("rImg").src = T.img;
+  $("lineBtn").href = LINE_URLS[top] || LINE_URL;
+  try { sessionStorage.setItem("shindan_type", T.no + " " + T.name); } catch(e) {}
+
+  $("view-quiz").classList.remove("active");
+  $("view-result").classList.add("active");
+  window.scrollTo({top:0});
+}
+
+function resetQuiz(){
+  answers.fill(null);
+  currentStep = 0;
+  $("view-result").classList.remove("active");
+  $("view-hero").style.display = "block";
+  window.scrollTo({top:0});
+}
+</script>
+</body>
+</html>

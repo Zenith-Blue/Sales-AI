@@ -9,6 +9,14 @@
 - ホスティング: さくらのレンタルサーバ (`www2533.sakura.ne.jp`)
 - サーバーパス: `/home/businessgate/www/salesai/`
 
+### 追加LP（サブディレクトリ公開）
+
+| URL | 内容 | ソース |
+|---|---|---|
+| https://businessgate.co.jp/salesai/lp1/ | 稼ぎ方タイプ診断 LP（FORSPECT / LINE誘導） | `lp1/`（納品ZIP由来。制作元READMEと画像再生成スクリプトは `docs/lp1/` に保管） |
+
+顧客制作のLPを追加公開する場合は、このリポジトリに `lp2/` 等のフォルダとして追加して main にマージするだけでよい（サーバーへの直接アップロードは `rsync --delete` により次回デプロイで消えるため禁止）。
+
 > 同サーバーの `/home/businessgate/www/` 直下には別サイト（ビジネスゲート社の HP）が稼働中。
 > デプロイは `/salesai/` 配下のみに限定し、既存サイトには触れない設計。
 
